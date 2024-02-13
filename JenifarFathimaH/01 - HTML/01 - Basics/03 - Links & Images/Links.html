@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Links</title>
     <nav >
-        <a class="navbar" href="#" target="_self">Home</a>
-        <a class="navbar"href="#" target="_self">About</a>
-        <a class="navbar" href="#" target="_self">Contact</a>
+        <a class="navbar" href="#home" target="_self">Home</a>
+        <a class="navbar"href="#about" target="_self">About</a>
+        <a class="navbar" href="#contact" target="_self">Contact</a>
     </nav>
 </head>
 <style>
@@ -25,14 +25,14 @@
         border-radius:10px;
     }
         .btn:active {
-            font-size:16px;
+            font-size:14px;
             border: thin;
             color: white;
             background-color: black;
             border-radius: 10px;
         }
         .btn:hover {
-            font-size: 16px;
+            font-size: 14px;
             border: thin;
             color: white;
             background-color: black;
@@ -62,9 +62,26 @@
     }
 </style>
 <body class="bgset">
-    <h1>I'm Jenifar Fathima </h1>
-    <p>Software Developer</p>
-    <button class="btn" href="https://github.com/Jenifar-fathima">Get in Touch</button>
-    <a href="mailto:jenifarfathima2103@gmail.com">Send me a mail</a>
+    <section id="home">
+        <h1>I'm Jenifar Fathima </h1>
+        <p>Software Developer</p>
+        <a class="btn" href="mailto:jenifarfathima2103@gmail.com">Get in Touch</a>
+    </section>
+    
+    <section id="about">
+        <h2>About me</h2>
+        <p>I’m a final-year Computer Science and Engineering student<br /> at Nadar Saraswathi College of Engineering and Technology,<br />
+        passionate about web designing and software development. <br />Eager to apply my skills and knowledge to enhance my capabilities<br />
+        in the dynamic tech industry.</p>
+    </section>
 </body>
+<footer>
+    <section id="contact">
+        <address>
+            Vadakarai, Periyakulam, Theni-625 601<br />
+            <b>+91 9585344621</b><br />
+            <a href="https://www.linkedin.com/in/jenifar-fathima-904aa2251/">Linkedin</a>
+        </address>
+    </section>
+</footer>
 </html>
