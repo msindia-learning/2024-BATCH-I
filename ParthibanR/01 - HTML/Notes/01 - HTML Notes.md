@@ -93,3 +93,24 @@ p - Plain Text
 ```html
     Def:- Every web page should have a page title to describe the meaning of the page
 ```
+
+
+### tables
+ ```html
+    <table>
+        <tr>
+            <th> </th>
+             <th> </th>
+        </tr>
+        <tr>
+             <td> </td>     
+              <td> </td>
+         </tr>
+         </table>  
+         
+         th- Table headers
+         td- table datas
+         tr- Table rows
+         table- full table
+
+```
