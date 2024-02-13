@@ -64,3 +64,32 @@ p - Plain Text
                absolute URL: A full web address in the href attribute.
                 Relative url: A link to a page within the same website.
 ```
+
+### lists
+       ```html
+               <!--Order-->
+                      <ol> 
+                         <li> </li>
+                         <li> </li>
+                       </ol>  
+
+                <!--unOrder-->
+                      <ul> 
+                         <li> </li>
+                         <li> </li>
+                       </ul>
+                       
+                <!--Description-->
+                      <dl> 
+                         <dt> </dt>
+                               <dd> </dd>
+                         <dt> </dt>
+                               <dd>  </dd>
+                    </dl>
+                         ```
+
+
+ ### page title
+```html
+    Def:- Every web page should have a page title to describe the meaning of the page
+```
