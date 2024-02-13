@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html Tables</title>
+</head>
+<body>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            background-color:bisque;
+        }
+
+        tr:nth-child(even) {
+            background-color: blue;
+        }
+    </style>
+
+
+
+
+
+    <h1 style="text-align:center"> HTML Tables</h1>
+    <hr>
+    <p style="text-indent:400px;"> HTML tables allow web developers to arrange data into rows and columns. </p>
+    <br>
+    <h3 style="text-decoration:underline">Html Table Cells:</h3>
+    <p style="text-indent:100px">Each table cell is defined by a td open and close tag.</p>
+    <h3 style="text-decoration:underline">Html Table Rows :</h3>
+    <p style="text-indent:100px">Each table row starts with a tr both open and close tag.</p>
+    <h3 style="text-decoration:underline">Html Table Headers:</h3>
+    <p style="text-indent:100px">Sometimes you want your cells to be table header cells. In those cases use the th both open tag and close tag.</p>
+    <br> <br />
+    <h3>TABLE:</h3>
+    <table style="width:100%">
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Address</th>
+            <th>Place</th>
+        </tr>
+
+        <tr>
+            <td>1.</td>
+            <td>AAA</td>
+            <td>Full stack</td>
+            <td>AAAAAAAAAA</td>
+            <td>Chennai</td>
+        </tr>
+
+
+        <tr>
+            <td>2.</td>
+            <td>BBB</td>
+            <td>Web dev</td>
+            <td>BBBBBBBBBB</td>
+            <td>Madurai</td>
+        </tr>
+
+
+        <tr>
+            <td>3.</td>
+            <td>CCC</td>
+            <td>Reactjs dev</td>
+            <td>CCCCCCCCCC</td>
+            <td>Palani</td>
+        </tr>
+
+
+        <tr>
+            <td>4.</td>
+            <td>DDD</td>
+            <td>angularjs dev</td>
+            <td>DDDDDDDDDD</td>
+            <td>Theni</td>
+        </tr>
+
+
+
+        <tr>
+            <td>5.</td>
+            <td>EEE</td>
+            <td>js dev</td>
+            <td>EEEEEEEEEE</td>
+            <td>Karur</td>
+        </tr>
+
+
+
+        <tr>
+            <td>6.</td>
+            <td>FFF</td>
+            <td>dotnet dev</td>
+            <td>FFFFFFFFF</td>
+            <td>Bodi</td>
+        </tr>
+
+
+
+        <tr>
+            <td>7.</td>
+            <td>GGG</td>
+            <td>Sql dev</td>
+            <td>GGGGGGGGGG</td>
+            <td>Andipatti</td>
+        </tr>
+
+
+
+        <tr>
+            <td>8.</td>
+            <td>HHH</td>
+            <td>php dev</td>
+            <td>HHHHHHHHHH</td>
+            <td>Ooty</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <h3>COLSPAN:</h3>
+    <table style="width:100%">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+    <br>
+    <br />
+    <h3>ROWSPAN:</h3>
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>555-8745</td>
+        </tr>
+    </table>
+
+
