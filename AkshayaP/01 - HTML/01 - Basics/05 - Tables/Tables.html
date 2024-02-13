@@ -6,7 +6,8 @@
         table {
             font-family: Arial,sans-serif;
             border-collapse:collapse;
-            width:100%
+            width:100%;
+            border-spacing:30px;
         }
         td,th{
             border:1px solid #dddddd;
@@ -15,13 +16,19 @@
             text-align:center;
             padding:8px;
         }
-        tr:nth-child(even){
+        tr:hover {background-color: #dddddd;
+        }
+        tr:nth-child(even) {
             background-color: #96D4D4;
         }
     </style>
 </head>
 <body>
     <table style="width:100%">
+        <colgroup>
+            <cal span="2" style="background-color:dddddd">
+        </colgroup>
+        <caption>Computer Science Subject Details</caption>
         <tr>
             <th style="width:35%">Serial-no</th>
             <th style="width:35%">Subjectcode</th>
@@ -39,6 +46,7 @@
 
 
         </tr>
+        <tr>
             <td>2</td>
             <td>CS2628</td>
             <td>JAVA PROGRAMMING</td>
