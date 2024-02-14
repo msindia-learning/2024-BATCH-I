@@ -5,83 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Links</title>
-    <nav >
+    <style>
+        a {
+            color: blanchedalmond;
+            font-size: 12px;
+        }
+
+        .btn {
+            margin: 10px;
+            padding: 10px;
+            border: thin;
+            color: black;
+            background-color: cornsilk;
+            border-radius: 10px;
+        }
+
+            .btn:active {
+                font-size: 14px;
+                border: thin;
+                color: white;
+                background-color: black;
+                border-radius: 10px;
+            }
+
+            .btn:hover {
+                font-size: 14px;
+                border: thin;
+                color: white;
+                background-color: black;
+                border-radius: 10px;
+            }
+
+        .navbar {
+            padding-left: 10px;
+            margin: 10px;
+            color: bisque;
+        }
+
+            .navbar:hover {
+                color: white;
+                font-size: 20px;
+            }
+
+            .navbar:active {
+                color: white;
+                font-size: 10px;
+            }
+
+        .bgset {
+            background-image: url(https://www.shutterstock.com/image-photo/blank-black-corporate-stationery-on-600nw-1051434977.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body class="bgset">
+    <nav>
         <a class="navbar" href="#home" target="_self">Home</a>
-        <a class="navbar"href="#about" target="_self">About</a>
+        <a class="navbar" href="#about" target="_self">About</a>
         <a class="navbar" href="#contact" target="_self">Contact</a>
     </nav>
-</head>
-<style>
-    a{
-        color:blanchedalmond;
-        font-size:12px;
-    }
-    .btn{
-        margin:10px;
-        padding:10px;
-        border:thin;
-        color:black;
-        background-color:cornsilk;
-        border-radius:10px;
-    }
-        .btn:active {
-            font-size:14px;
-            border: thin;
-            color: white;
-            background-color: black;
-            border-radius: 10px;
-        }
-        .btn:hover {
-            font-size: 14px;
-            border: thin;
-            color: white;
-            background-color: black;
-            border-radius: 10px;
-        }
-    .navbar{
-        padding-left:10px;
-        margin:10px;
-        color:bisque;
-    }
-    .navbar:hover{
-        color:white;
-        font-size:20px;
-    }
-    .navbar:active {
-        color:white;
-        font-size: 10px;
-    }
-    .bgset {
-        background-image: url(https://www.shutterstock.com/image-photo/blank-black-corporate-stationery-on-600nw-1051434977.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: aliceblue;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
-        font-size: x-large;
-    }
-</style>
-<body class="bgset">
     <section id="home">
         <h1>I'm Jenifar Fathima </h1>
         <p>Software Developer</p>
-        <a class="btn" href="mailto:jenifarfathima2103@gmail.com">Get in Touch</a>
+        <a class="btn" href="mailto:jenifarfathima2103@gmail.com">Get in Touch</a><!--This is the button without using button tag-->
+        <a href="https://github.com/Jenifar-fathima" target="_blank">
+            <button class="btn">Visit my Github page</button>
+        </a><!--This structure is not the proper html-->
     </section>
-    
+
     <section id="about">
         <h2>About me</h2>
-        <p>I’m a final-year Computer Science and Engineering student<br /> at Nadar Saraswathi College of Engineering and Technology,<br />
-        passionate about web designing and software development. <br />Eager to apply my skills and knowledge to enhance my capabilities<br />
-        in the dynamic tech industry.</p>
+        <p>
+            I’m a final-year Computer Science and Engineering student<br /> at Nadar Saraswathi College of Engineering and Technology,<br />
+            passionate about web designing and software development. <br />Eager to apply my skills and knowledge to enhance my capabilities<br />
+            in the dynamic tech industry.
+        </p>
     </section>
+    <footer>
+        <section id="contact">
+            <address>
+                Vadakarai, Periyakulam, Theni-625 601<br />
+                <b>+91 9585344621</b><br />
+                <a href="https://www.linkedin.com/in/jenifar-fathima-904aa2251/">Linkedin</a>
+            </address>
+        </section>
+    </footer>
 </body>
-<footer>
-    <section id="contact">
-        <address>
-            Vadakarai, Periyakulam, Theni-625 601<br />
-            <b>+91 9585344621</b><br />
-            <a href="https://www.linkedin.com/in/jenifar-fathima-904aa2251/">Linkedin</a>
-        </address>
-    </section>
-</footer>
 </html>
