@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML Form Elements</title>
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <h1>WELCOME TO HOMEPAGE</h1>
+        </div>
+    </section>
+
+    <section id="subject">
+    </section>
+
+    <section id="home">
+    </section>
+    <div style="background-image: linear-gradient(to right, purple, black);text-align:center;color:aliceblue;">
+        <h1>Basic Form</h1>
+    </div>
+    <div class="container">
+        <form action="../action.html" autocomplete="off" novalidate target="_blank" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <fieldset>
+                <legend>Name Required</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" /><br />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="fname" /><br />
+            </fieldset>
+            <p>Do you like coffee or tea?</p>
+            <input type="radio" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Coffee</label><br />
+            <input type="radio" id="tea" name="like" value="Tea" />
+            <label for="tea">Tea</label>
+            <p>Do you prefer wfh or remote</p>
+            <input type="checkbox" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Work From Home</label><br />
+            <input type="checkbox" id="tea" name="like" value="Tea" />
+            <label for="tea">Remote</label><br />
+            <textarea name="description" rows="10" cols="35">
+                Tell about yourself
+            </textarea><br />
+            <label for="place">Choose the place:</label>
+            <select id="place" name="place" size="2">
+                <option value="mumbai">Mumbai</option>
+                <option value="chennai" selected>Chennai</option>
+                <option value="delhi">Delhi</option>
+                <option value="kolkata">Kolkata</option>
+            </select><br />
+            <label for="food">Choose the food:</label>
+            <select id="food" name="food" multiple>
+                <option value="chapathi">Chapathi</option>
+                <option value="dosa" selected>Dosa</option>
+                <option value="papad">Papad</option>
+                <option value="dhal">Dhal</option>
+            </select><br /><br />
+            <p>Select Role:</p>
+            <input list="role" />
+            <datalist id="role">
+                <option value="Software Developer">
+                <option value="APP DEVELOPER">
+                <option value="UI/UX DESIGNER">
+            </datalist><br />
+            <p>Select the salary package</p>
+            <input type="range" id="a" name="a" value="10000">10000 +
+            <input type="number" id="b" name="b" value="10000">
+            =
+            <output name="x" for="a b"></output><br /><br />
+            <button type="submit" onclick="alert('You have successfully completed')">Submit</button>
+        </form>
+
+
+    </div>
+</body>
+</html>
