@@ -1,12 +1,34 @@
 <!--CANVAS -->
-<canvas id="mycanvas" width="500" height="500" style="border:1px solid #ff0000"></canvas>
+<!--
 
+
+<canvas id="mycanvas1" width="500" height="500" style="border:1px solid #ff0000"></canvas>
 
 <script>
-    var c = document.getElementById("myCanvas");
+    var c = document.getElementById("mycanvas");
     var ctx = c.getContext("2d");
     ctx.moveTo(0, 0);
-    ctx.lineTo(500, 500);
+    ctx.lineTo(100, 200);
     ctx.stroke();
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World", 10, 50);
+
+
+    ctx.fillText("Hello World", 10, 50);
+</script>
+-->
+
+
+<canvas id="mycanvas" width="500" height="50" style="border:1px solid #ff0000"></canvas>
+
+<script>
+    var c = document.getElementById("mycanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(100, 200);
+    ctx.stroke();
+    ctx.font = "30px Arial";
+    ctx.strokeText("Hello World", 10, 50);
 
 </script>
+
