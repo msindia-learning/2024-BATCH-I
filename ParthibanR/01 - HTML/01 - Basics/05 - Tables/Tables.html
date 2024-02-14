@@ -36,6 +36,7 @@
     <br> <br />
     <h3>TABLE:</h3>
     <table style="width:100%">
+        <thead>
         <tr>
             <th>S.no</th>
             <th>Name</th>
@@ -43,7 +44,9 @@
             <th>Address</th>
             <th>Place</th>
         </tr>
+            </thead>
 
+        <tbody>
         <tr>
             <td>1.</td>
             <td>AAA</td>
@@ -118,17 +121,22 @@
             <td>HHHHHHHHHH</td>
             <td>Ooty</td>
         </tr>
+            </tbody>
     </table>
 
     <br>
     <br>
     <h3>COLSPAN:</h3>
     <table style="width:100%">
+        <thead>
         <tr>
             <th colspan="2">Name</th>
             <th>Age</th>
         </tr>
-        <tr>
+            </thead>
+
+      <tbody>
+            <tr>
             <td>Jill</td>
             <td>Smith</td>
             <td>43</td>
@@ -138,15 +146,21 @@
             <td>Jackson</td>
             <td>57</td>
         </tr>
+      </tbody>
+
     </table>
     <br>
     <br />
     <h3>ROWSPAN:</h3>
     <table style="width:100%">
+    <thead>
         <tr>
             <th>Name</th>
             <td>Jill</td>
         </tr>
+    </thead>
+
+    <tbody>
         <tr>
             <th rowspan="2">Phone</th>
             <td>555-1234</td>
@@ -154,6 +168,7 @@
         <tr>
             <td>555-8745</td>
         </tr>
+    </tbody>
     </table>
 </body>
 </html>
