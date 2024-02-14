@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Elements</title>
+</head>
+<body>
+
+    <h1 style="text-align:center"> HTML ELEMENTS</h1>
+    <hr>
+    <h3 style="text-decoration:underline">INPUT:</h3>
+    <p style="text-indent:180px">
+        One of the most used form elements is the input element.
+        The input element can be displayed in several ways, depending on the type attribute.
+    </p>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+
+    <h3 style="text-decoration:underline">LABEL:</h3>
+    <p style="text-indent:180px">
+        The label element defines a label for several form elements.The label element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+
+        The label element also help users who have difficulty clicking on very small regions such as radio buttons or checkboxes - because when the user clicks the text within the label element, it toggles the radio button/checkbox.
+    </p>
+    <label for="fname">First name:</label>
+    <h3 style="text-decoration:underline">SELECT:</h3>
+    <p style="text-indent:180px">
+        he option element defines an option that can be selected.
+
+        By default, the first item in the drop-down list is selected.
+
+        To define a pre-selected option, add the selected attribute to the option
+    </p>
+    <label for="cars">Choose a Languages:</label>
+    <select id="cars" name="cars">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+        <option value="DB">DB</option>
+    </select>
+
+    <h3 style="text-decoration:underline">SIZE:</h3>
+    <p style="text-indent:180px">
+        Use the size attribute to specify the number of visible values.
+    </p>
+    <label for="cars">Choose a Languages:</label>
+    <select id="cars" name="cars" size="3">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+        <option value="DB">DB</option>
+    </select>
+
+    <h3 style="text-decoration:underline">MULTIPLE:</h3>
+    <p style="text-indent:180px">
+        se the multiple attribute to allow the user to select more than one value.
+    </p>
+    <label for="cars">Choose a Languages:</label>
+    <select id="cars" name="cars" size="3" multiple>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">JS</option>
+        <option value="DB">DB</option>
+    </select>
+
+
+    <h3 style="text-decoration:underline">TEXT AREA:</h3>
+    <p style="text-indent:180px">
+        The textarea element defines a multi-line input field a text area.
+    </p>
+    <textarea name="message" rows="10" cols="30">
+Welcome to HTML
+</textarea>
+    <h3 style="text-decoration:underline">BUTTONS:</h3>
+    <p style="text-indent:180px">
+        The button element defines a clickable button.
+    </p>
+    <button>Click</button>
+
+
+    <h3 style="text-decoration:underline">FIELDSET&LEGEND:</h3>
+    <p style="text-indent:180px">
+        The fieldset element is used to group related data in a form.
+        The legend element defines a caption for the fieldset element.
+    </p>
+    <fieldset>
+        <legend>Web developer:</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+
+    <h3 style="text-decoration:underline">DATALIST:</h3>
+    <p style="text-indent:180px">
+        The datalist element specifies a list of pre-defined options for an input element.
+        Users will see a drop-down list of the pre-defined options as they input data.
+        The list attribute of the input element, must refer to the id attribute of the datalist element.
+    </p>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JS">
+        <option value="DB">
+        <option value="REACT">
+    </datalist>
+
+</body>
+</html>
