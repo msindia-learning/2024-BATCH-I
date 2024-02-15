@@ -1,0 +1,62 @@
+<!DOCTYPE htl>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width " />
+    <title>HTML Input Types</title>
+    
+</head>
+<body>
+    <h1> Basic Form Details</h1>
+    <div>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required /><br />
+            <label for="fname">Last Name</label>
+            <input type="text" name="lname" id="lname"  required/><br />
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd" required /><br />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required /><br />
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob"  required/><br />
+            <label for="dtime">Select the date and time for the checkup</label>
+            <input type="datetime" name="dtime" id="dtime" /><br />
+            <label for="dtlocal">Pick the time</label>
+            <input type="datetime-local" name="dtlocal" id="dtloacl" max="2000-02-21" /><br />
+            <label for="clr">Fav color</label>
+            <input type="color" name="clr" id="clr" /><br />
+            <label for="fle">Select the file</label>
+            <input type="file" name="fle" id="fle" /><br />
+            <label for="mth">Fav month</label>
+            <input type="month" name="mth" id="mth" /><br />
+            <label for="srch">Search</label>
+            <input type="search" name="srch" id="srch" /><br />
+            <label for="rng">Select the range:</label>
+            <input type="range" name="rng" id="rng" /><br />
+            <label for="tele">Mobile no.:</label>
+            <input type="tel" name="email" id="email" placeholder="+91 98757 65432" pattern="+91 [0-9]{10}"  required/><br />
+            <p>Do you like coffee or tea?</p>
+            <input type="radio" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Coffee</label><br />
+            <input type="radio" id="tea" name="like" value="Tea" />
+            <label for="tea">Tea</label>
+            <p>Do you prefer wfh or remote</p>
+            <input type="checkbox" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Work From Home</label><br />
+            <input type="checkbox" id="tea" name="like" value="Tea" />
+            <label for="tea">Remote</label><br />
+            <label for="tme">Select the time:</label>
+            <input type="time" name="tme" id="tme" /><br />
+            <label for="ul">Type the url</label>
+            <input type="url" name="ul" id="ul" /><br />
+            <label for="num">Pic the fav number</label>
+            <input type="number" name="num" id="num" /><br />
+            <label for="wk">Select the week</label>
+            <input type="week" name="wk" id="wk" /><br />
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+
+        </form>
+    </div>
+</body>
+</html>
