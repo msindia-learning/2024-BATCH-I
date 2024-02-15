@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table, th, td {
+            border: 2px solid white;
+            border-collapse: collapse;
+            margin: 10px;
+            padding: 10px;
+            text-align: left;
+            border-color: darkgray;
+            color: white;
+            height: 50px;
+        }
+
+        th {
+            background-color: darkslategrey;
+        }
+
+        td {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>LET US SEE THE EXAMPLE OF HTML TABLES</h2>
+    
+    <table style="width: 100%;">
+        <caption>List of students who joined as intern in M&S Software India Private Limited.</caption>
+        <thead>Name</thead>
+        <thead style="text-align:center; " colspan="2">Contact Info</thead>
+
+        <tr>
+            <td>Jenifar Fathima H</td>
+            <td>1234567890</td>
+            <td>jefa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kabitha C</td>
+            <td>0987654321</td>
+            <td>kabi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Akshaya P</td>
+            <td>0192837635</td>
+            <td>akshaya@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Prabha K</td>
+            <td>0981237465</td>
+            <td>Prabha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Parthiban</td>
+            <td>1092387456</td>
+            <td>parthiban@gmail.com</td>
+        </tr>
+
+    </table>
+    
+    <table style="width:100%">
+        <caption>Let us see about the row span in tables</caption>
+        <tr>
+            <th rowspan="5">HTML</th>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+        </tr>
+        <tr>
+            <th rowspan="3">HTML</th>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+
+        </tr>
+        <tr>
+            <th rowspan="4">HTML</th>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+            <tr><td>BASICS</td></tr>
+        </tr>
+    </table>
+</body>
+</html>
