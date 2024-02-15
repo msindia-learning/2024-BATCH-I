@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InputTypes</title>
+</head>
+<body>
+    <h1>TextField</h1>
+    <p>The text field is used to type a text .we will define textbox to denote <strong>type="text"</strong></p>
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" id="text" name="fname"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="text" name="lname"><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <input type="button" value="submit">
+        <input type="reset" value="reset">
+
+
+    </form>
+    <form action="">
+        <input type="radio" id="python" name="fav_language" value="python">
+        <label for="python">python</label>
+        <input type="radio" id="java" name="fav_language" value="java">
+        <label for="java">python</label>
+        <input type="radio" id="c" name="fav_language" value="c">
+        <label for="c">python</label>
+    </form>
+    <form action="">
+        <input type="checkbox" id="HTML" name="fav_language" value="HTML">
+        <label for="python">HTML</label>
+        <input type="checkbox" id="CSS" name="fav_language" value="CSS">
+        <label for="java">CSS</label>
+        <input type="checkbox" id="JAVASCRIPT" name="fav_language" value="JAVASCRIPT">
+        <label for="JAVASCRIPT">JAVASCRIPT</label>
+    </form>
+    <h2>Button</h2>
+    <input type="button" onclick="alert('Information added')">
+    <form action="">
+        <label for="favcolor">select your favourite color:</label>
+        <input type="color" id="color" name="color" value="DDDDDD">
+        <input type="submit" value="submit">
+    </form>
+    <form action="">
+        <label for="birthday">select your Birthday Date:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="submit">
+    </form>
+    <form action="">
+        <label for="datemin">Enter a date after 20-02-2010</label>
+        <input type="date" id="datemin" min="2010-02-20"><br>
+        <label for="datemax">Enter a date after 20-02-2020</label>
+        <input type="date" id="datemin" min="2000-02-20"><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="">
+        <label for="birthdaytime">select your Birthday (Date and Time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <!--input type="submit" value="submit"-->
+    </form>
+    <form>
+        <label for="email">Enter your Email: </label>
+        <input type="email" id="email" name="email">
+
+
+    </form>
+    <form>
+        <input type="image" src="favicon.png" alt="submit" width="48" height="48">
+
+    </form>
+    <form>
+        <label for="myfile">Select your file:</label>
+        <input type="file" id="myfile" name="myfile"><br>
+    </form>
+    <form action="">
+        <label for="bdaymonth">select your Birthday month:</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+       
+    </form>
+    <form>
+        <label for="search">search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+    </form>
+    
+
+</body>
+</html>
