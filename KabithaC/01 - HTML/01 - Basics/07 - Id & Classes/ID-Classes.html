@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <title>
+              class
+       </title>
+         <style>
+             #shop{
+                 background-color:orchid;
+                 text-align:center;
+                 border:3px solid black;
+                 font-family:'Times New Roman';
+
+
+             }
+             .apple{
+                 background-color:darkcyan; 
+                 display:inline-block;
+                 margin:5px;
+                 padding:20px;
+                 border:2px solid black;
+                 text-align:center;
+             }
+             .sumsung {
+                 background-color: darkmagenta;
+                 display: inline-block;
+                 margin: 5px;
+                 padding: 20px;
+                 border: 2px solid black;
+                 text-align: center;
+                 color:white;
+                 font-family:Calibri;
+             }
+             .vivo {
+                 background-color: navy;
+                 display: inline-block;
+                 margin: 5px;
+                 padding: 20px;
+                 border: 2px solid black;
+                 text-align: left;
+                 color: white;
+                 font-family: Calibri;
+             }
+             #user {
+                 background-color:lightblue;
+                 margin: 5px;
+                 padding: 20px;
+                 text-align:center;
+             }
+         </style>
+  </head>
+  <body>
+      <a href="#user">
+          <button onclick="call()"> go to reveiw</button>
+          <script>
+              function call()
+              {
+                  var x = document.getElementsByClassName("#user");
+                  for(var i = 0; i < x.length; i++)
+                  {
+                      x[i].style.display = "none";
+                  }
+              }
+          </script>
+      </a>
+      <div id="shop">
+          <h1>
+              Infinity mobiles
+          </h1>
+      </div>
+      <div class="apple">
+          <h1>
+              Apple
+          </h1>
+          <p>
+              The iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system. The first-generation iPhone was announced by then–Apple CEO Steve Jobs on January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates.
+
+          </p>
+      </div>
+      <div class="sumsung">
+          <h1>
+              Sumsung
+          </h1>
+          <p>
+              Samsung Galaxy Z Flip4 is a great smartphone. It offers you a unique user experience and great features such as <span> compact design, durability, Corning® Gorilla® Glass Victus®+, water-resistant,</span> Nightography, pro-grade multi-camera, FlexCam, long-lasting battery life and much more.
+
+          </p>
+      </div>
+      <div class="oppo vivo">
+          <h1>
+              Android
+          </h1>
+          <p>
+              OPPO is a Chinese brand founded in 2004, while VIVO is also a Chinese brand founded in 2009. Both are owned by the same parent company BBK Electronics. - Market positioning: OPPO positions itself as a camera-focused brand, while VIVO aims for a more fashionable and stylish image
+
+          </p>
+      </div>
+      <div id="user">
+          <h1> Review about sumsung</h1>
+          <p>phone which fits perfect in hand with one of the best display, however everything becomes useless when you can't even hold the phone. While Gaming Video calling charging and sometimes randomly, the phone heats to much that you can barely hold it in your hand. you feel the unnecessary burning sensation in your denim pocket. This is such a shame that a phone with the highest specs becomes an oven within half an hour of video calling. Shame on Samsung. Exynos should not even exist. </p> 
+
+      </div>
+      <button onclick="phones()"> elements</button>
+      <script>
+          function phones()
+          {
+              var x = document.getElementsByClassName("sumsung");
+              for(var i = 0; i < x.length; i++)
+              {
+                  x[i].style.display = "none";
+              }
+          }
+      </script>
+
+  </body>
+</html >
