@@ -3,6 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>HTML Form Elements</title>
+    <style>
+        .container {
+            background-image: linear-gradient(to right, purple, black);
+            
+            color: aliceblue;
+        }
+        input,label{
+            text-align:left;
+        }
+        
+    </style>
 </head>
 <body>
     <section id="home">
@@ -20,7 +31,7 @@
         <h1>Basic Form</h1>
     </div>
     <div class="container">
-        <form action="../action.html" autocomplete="off" novalidate target="_blank" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <form action="./action.html" autocomplete="off" novalidate target="_blank" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
             <fieldset>
                 <legend>Name Required</legend>
                 <label for="fname">First name:</label>
@@ -38,6 +49,7 @@
             <label for="coffee">Work From Home</label><br />
             <input type="checkbox" id="tea" name="like" value="Tea" />
             <label for="tea">Remote</label><br />
+            <p>Tell About yourself</p>
             <textarea name="description" rows="10" cols="35">
                 Tell about yourself
             </textarea><br />
@@ -63,7 +75,7 @@
                 <option value="UI/UX DESIGNER">
             </datalist><br />
             <p>Select the salary package</p>
-            <input type="range" id="a" name="a" value="10000">10000 +
+            <input type="range" id="a" name="a" value="10">+
             <input type="number" id="b" name="b" value="10000">
             =
             <output name="x" for="a b"></output><br /><br />
