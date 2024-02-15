@@ -1,12 +1,17 @@
 body {
-	background-color:white;
-	background-image:url()
+	/*background-color: white;*/
+	background: #ffffff  url("imagetree.png");
+	background-repeat:no-repeat;
+	background-position: right top;
+	background-attachment: scroll;
 }
 h1 {
 	text-decoration-color: black;
 	text-align: center;
 }
-p{
-	font-family:sans-serif;
-	font-size:20px;
+
+p {
+	font-family: sans-serif;
+	font-size: 20px;
 }
+
