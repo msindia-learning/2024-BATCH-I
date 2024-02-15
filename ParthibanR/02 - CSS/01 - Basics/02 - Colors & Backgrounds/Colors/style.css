@@ -1,0 +1,22 @@
+                  /*Html colors:
+                         1.hexa decmial
+                         2.color
+                         3.rgb (or) rgba
+                         4.hsl (or) hsla
+                  */
+h1 {
+    background-color:#b6ff00;
+    text-align:center;
+}
+
+p {
+    background-color: Tomato;
+    text-indent:190px;
+    border:2px solid black;
+}
+h3 {
+    background-color: rgb(128, 128, 128);
+}
+#div{
+    color:hsl(153 100% 50%);
+}
