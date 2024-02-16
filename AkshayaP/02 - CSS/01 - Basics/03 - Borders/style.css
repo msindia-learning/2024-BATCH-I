@@ -8,4 +8,8 @@ h1{
 p{
 	border-style:dotted;
 	font-family:veranda;
+	border-width:20px 5px;
+	border-color:black;
+	border-style:dotted solid;
+	border-radius:5px;
 }

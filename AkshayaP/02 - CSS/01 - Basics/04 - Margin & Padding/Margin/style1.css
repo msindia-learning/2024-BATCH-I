@@ -1,0 +1,15 @@
+body{
+	background-color:pink
+}
+h1{
+	color:white;
+	text-align:center;
+}
+div {
+	border-style: dotted;
+	/*margin:100px 50px 70px 60px;*/
+	margin: 0 50px 0 0;
+}
+p.ex{
+	margin-left:20px;
+}
