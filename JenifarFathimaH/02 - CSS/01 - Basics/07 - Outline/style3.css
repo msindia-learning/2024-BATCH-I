@@ -1,0 +1,15 @@
+div {
+    width: 50% auto;
+    padding: 10px;
+    border: 3px double darkgreen;
+    margin: 20px;
+    text-align: justify;
+    background-image: radial-gradient(gold,green);
+    border-radius: 15px;
+}
+
+body{
+    background-image: linear-gradient(to left,wheat, orange);
+}
+
+
