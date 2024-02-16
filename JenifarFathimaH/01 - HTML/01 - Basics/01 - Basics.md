@@ -37,7 +37,7 @@
               <!--image in other website or server-->
  ```
 
-###IMAGEMAPPING
+##IMAGEMAPPING
 ```html
  <map>
  <img src="url" alt="alternatetext" usemap="#workmap">
@@ -46,7 +46,7 @@
  </map>
 ```
 
-###LINKS
+##LINKS
 ```html
  <a href=""> =>to define a link.
  <a href="" target=""> => to define a target.
@@ -66,7 +66,7 @@
     <a href="#c4"> =>jump to that location with in a same page.
  ```
 
- ###LISTS
+ ##LISTS
  ```html
   <!--Unordered list-->
       <ul>
@@ -108,12 +108,12 @@
 
  ```
 
- ###TITLE
+ ##TITLE
  ```html
       <title>Title Name</title>
  ```
 
- ###TABLE
+ ##TABLE
  ```html
     <table>
         <tr>             <!--Table row-->
@@ -137,7 +137,7 @@
         <caption></caption>
  ```
  
-###BLOCK
+##BLOCK
 ```html
 <address> defines the contact information in italics,
 <article> - to represent the important content on the webpage
@@ -169,7 +169,7 @@
 <video> - for displaying video using relative path of the video with attributes like controls in the web page
 ```
 
-###INLINE
+##INLINE
 ```html
 <a> for hyperlinks,
 <abbr> FOR ABBREVIATION
@@ -202,34 +202,34 @@
 ```
 
 
-###DIV
+##DIV
 ```html
 <div> - default block element , line break before and after, group selector;
 ```
 
-###ID & CLASSES
+##ID & CLASSES
 
 id - attribute specifies unique id for the HTML, cant use for multible blocks, case sensitive, name should be started with '#' in styling(css)
 class - attribute specifies the class, can use the style for multiple blocks by specifying the name, name should be started with '.' in styling(css)
 
 
-###IFRAME
+##IFRAME
 ```html
 <iframe> - used to display the web page within the webpage with attributes like width, height and other attribute styles 
 ```
 
-###FILEPATH
+##FILEPATH
 ```html
 to describe the location of the file; 
 used in <img>,<audio>,<video>;
 file path is specified using the attribute 'src'
 ```
-###HEAD
+##HEAD
 ```html
 <head> - contains <title> for displaying webpage title; contains <style>,<script>;<meta> for additional information
 ```
 
-###LAYOUT
+##LAYOUT
 ```html
 <header> - Defines a header for a document or a section
 <nav> - Defines a set of navigation links
