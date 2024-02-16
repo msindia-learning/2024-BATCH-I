@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>
+             form elements
+      </title>
+  </head>
+   <style>
+       body{
+           background-color:black;
+           color:white;
+           
+       }
+   </style>
+   <body>
+       <form>
+           <label for="sub">Subjects: </label>
+           <input type="text" id="sub" name="sub" />
+       </form>
+       <br />
+
+       <form>
+           <h2> select</h2>
+           <label for="sub"> Choose a subject</label>
+           <select id="sub" name="sub">
+               <option value="tamil">Tamil</option>
+               <option value="english">English</option>
+               <option value="maths">Maths</option>
+               <option value="Science">Science</option>
+               <option value="social science">Science</option>
+           </select>
+           <input type="button" value="submit">
+       </form>
+       <br />
+
+       <form>
+           <h2> sizes</h2>
+           <label for="place"> Choose a cities</label>
+           <select id="place" name="sub" size="3">
+               <option value="Theni">Theni</option>
+               <option value="Chennai">Chennai</option>
+               <option value="Madurai">Madurai</option>
+               <option value="Trichy">Trichy</option>
+               <option value="Coimbatore">Coimbatore</option>
+               <option value="Erode">Erode</option>
+           </select>
+           <input type="button" value="submit">
+       </form>
+
+       <form>
+           <h2> multiple</h2>
+           <label for="place"> Choose a cities</label>
+           <select id="place" name="sub" size="3" multiple>
+               <option value="Theni">Theni</option>
+               <option value="Chennai">Chennai</option>
+               <option value="Madurai">Madurai</option>
+               <option value="Trichy">Trichy</option>
+               <option value="Coimbatore">Coimbatore</option>
+               <option value="Erode">Erode</option>
+           </select>
+           <input type="button" value="submit">
+       </form>
+       <br />
+
+       <form>
+           <h2>
+               text
+           </h2>
+           <textarea ="message" rows:11 cols="10"> Hi friends</textarea>
+           <input type="submit" />
+       </form>
+       <br />
+       <h2> pop up message</h2>
+       <button type="button" onclick="alert ('hii everyone')"> Submit</button>
+
+       <br />
+
+       <form>
+           <fieldset>
+               <legend>
+                   login page
+               </legend>
+               <label for="fname"> First Name: </label> <br>
+               <input type="text" id="fname" name="fname" value=" "><br />
+               <label for="lname"> Lastname: </label> <br />
+               <input type="text" id="lname" name="lname" value=" "><br />
+               <label for="email">Gmail: </label> <br />
+               <input type="text" id="email" name="email" value=" " /><br />
+               <input type="submit" value="submit" />
+           </fieldset>
+       </form>
+
+       <form>
+           <input list="cities" name="city" />
+           <datalist id="cities">
+               <option value="Theni">
+               <option value="Chennai">
+               <option value="Madurai">
+               <option value="Trichy">
+               <option value="Coimbatore">
+               <option value="Erode">
+           </datalist>
+           <input type="button" value="submit">
+       </form>
+       <br />
+   </body>
+</html>
