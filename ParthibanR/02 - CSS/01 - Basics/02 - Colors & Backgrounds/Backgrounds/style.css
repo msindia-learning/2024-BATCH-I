@@ -31,13 +31,13 @@ body {
 }
     */
 
-/*                                                   Background-Position:
-body{
-    background-position:bottom;
-    background-repeat:no-repeat;
-    background-image:url("img.jfif");
+/*                                                     Background-Position:
+body {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("img.jfif");
 }
-    */
+*/   
 
 /*                                                    Background-Attachment:
 body {
