@@ -1,0 +1,52 @@
+body {
+   
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.one {
+    padding: 20px;
+    color: black;
+    text-align: center; 
+}
+.two {
+    padding: 20px;
+    color: black;
+    text-align: center; 
+    opacity:0.4;
+}
+
+h1 {
+    background-color: rgb(255, 0, 0);/*rgb*/
+}
+
+h2 {
+    background-color: #ff6a00;/*hex value*/
+}
+
+h3 {
+    background-color: rgb(255, 216, 0);
+}
+
+h4 {
+    background-color: rgb(65, 255, 0);
+}
+
+h5 {
+    background-color: hsl(135, 54%, 40%);/*hsl*/
+}
+
+h6 {
+    background-color: rgb(17, 1, 225);
+    color:white;
+}
+h1,h2,h3,h4,h5,h6{
+    padding:19px;
+}
+
+* {
+    font-family:Cooper;
+    margin: 0 auto;
+}

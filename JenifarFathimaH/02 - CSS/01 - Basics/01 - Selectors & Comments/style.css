@@ -1,0 +1,51 @@
+/*External css*/
+#a {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to left,black,purple);
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+}
+nav {
+    background-image: linear-gradient(to left,black,purple);
+    padding:20px;
+    
+}
+#b {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to right,yellow,pink);
+    font-family: cursive;
+    font-size: 40px;
+}
+#c {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to left,skyblue,purple);
+    font-family: cursive;
+    font-size: 40px;
+}
+body{
+    text-align:center;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+a {
+    padding-left: 30px;
+    opacity: 50%;
+}
+    a:hover {
+        color: aliceblue;
+        font-size: 18px;
+        opacity: 100%;
+    }
+    a.page1{
+        color:bisque;
+        font-size:20px;
+    }

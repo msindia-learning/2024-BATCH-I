@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML Form Attribute</title>
+    <style>
+        .container {
+            padding: 10px;
+            background-image: linear-gradient(to right, purple, black);
+            color:aliceblue;
+        }
+        label {
+            display: inline-block;
+            width: 200px;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        input {
+            padding: 5px;
+            width: auto;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-image: linear-gradient(to right, purple, black);text-align:center;color:aliceblue;">
+        <h1>Basic Form</h1>
+    </div>
+    <div class="container">
+        <form action="./action.html" autocomplete="off" novalidate target="_blank">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" /><br />
+            <label for="email">Email-id:</label>
+            <input type="text" id="email" name="email" /><br />
+            <label for="num">Phone number</label>
+            <input type="text" id="num" name="num" /><br />
+            <label for="addr">Address:</label>
+            <input type="text" id="addr" name="addr" /><br />
+            <p>Do you like coffee or tea?</p>
+            <input type="radio" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Coffee</label><br />
+            <input type="radio" id="tea" name="like" value="Tea" />
+            <label for="tea">Tea</label>
+            <p>Do you prefer wfh or remote</p>
+            <input type="checkbox" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Work From Home</label><br />
+            <input type="checkbox" id="tea" name="like" value="Tea" />
+            <label for="tea">Remote</label><br />
+            <input style="align-items:center;background:white;color:black;" type="submit" value="Submit" />
+        </form>
+        
+
+    </div>
+</body>
+</html>
