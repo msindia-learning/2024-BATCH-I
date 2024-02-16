@@ -1,0 +1,53 @@
+
+/*                                                      1.Universal Selectors:
+Universal Selector
+* {
+    text-align: center;
+    color: green;
+    background-color: black;
+}
+*/
+ 
+/*                                                        2.Elements Selector:
+h1{
+    color:blue;
+    background-color:bisque;
+}
+ */
+
+/*                                                         3.Class Selector:
+.rcb{
+    text-decoration:underline;
+    color:aquamarine;
+    background-color:burlywood;
+}
+.csk{
+    color:black;
+    background-color:cadetblue;
+    text-indent:190px;
+}
+*/
+
+/*                                                          4.Id Selector:
+#ipl {
+    text-decoration: underline;
+    color: aqua;
+    baackground-color: black;
+}
+#cric{
+    text-indent:190px;
+    color:hotpink;
+}
+    */
+
+/*                                                         5.Group Selector:
+h3,p{
+     text-indent:190px;
+     text-decoration:underline;
+     color:deeppink;
+}
+*/
+
+
+
+
