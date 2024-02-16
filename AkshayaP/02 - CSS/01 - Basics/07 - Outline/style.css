@@ -1,0 +1,31 @@
+body{
+	background-color:white;
+
+}
+h1{
+	color:black;
+	text-align:center;
+	padding
+}
+p {
+	outline-color: red;
+	outline-offset: 5px;
+}
+p.point1
+{
+		outline-style: dotted;
+		outline-width:1px;
+		
+}
+	p.point2 {
+		outline-style: dashed;
+		outline-width: 3px;
+	}
+	p.point3 {
+		outline-style: double;
+		outline-width: 5px;
+	}
+	p.point4 {
+		outline-style: ridge;
+		outline-width: 20px;
+	}
