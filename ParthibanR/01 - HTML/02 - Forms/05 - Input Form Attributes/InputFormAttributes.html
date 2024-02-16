@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inputform Attribute:</title>
+</head>
+<body>
+
+    <h1 style="text-align:center">INPUT FORM ATTRIBUTE</h1>
+    <hr>
+    <h3 style="text-decoration:underline">FORM ATTRIBUTE:</h3>
+    <p style="text-indent:180px">
+        <b>
+            The input form attribute specifies the form the input element belongs to.
+            The value of this attribute must be equal to the id attribute of the form element it belongs to.
+        </b>
+    </p>
+    <form action="/action_page.php" id="form1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" form="form1">
+
+    <h3 style="text-decoration:underline">FORMACTION ATTRIBUTE:</h3>
+    <p style="text-indent:180px">
+        <b>
+            The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+        </b>
+    </p>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+    </form>
+
+    <h3 style="text-decoration:underline">NOVALIDATE ATTRIBUTE:</h3>
+    <p style="text-indent:180px">
+        <b>
+            When present, novalidate specifies that all of the form-data should not be validated when submitted.
+        </b>
+    </p>
+    <form action="/action_page.php" novalidate>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+            <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+        </form>
+          
+        <form action="/action_page_binary.asp" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Submit">
+            <input type="submit" formenctype="multipart/form-data"
+                   value="Submit as Multipart/form-data">
+        </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML Form Attribute</title>
+</head>
+<body>
+    <div>
+        <h1>Basic Form</h1>
+    </div>
+    <div class="container">
+        <form action="./action.html" autocomplete="off" novalidate >
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" /><br />
+            <label for="email">Email-id:</label>
+            <input type="text" id="email" name="email" /><br />
+            <label for="num">Phone number</label>
+            <input type="text" id="num" name="num" /><br />
+            <label for="addr">Address:</label>
+            <input type="text" id="addr" name="addr" /><br />
+            <p>Do you like coffee or tea?</p>
+            <input type="radio" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Coffee</label><br />
+            <input type="radio" id="tea" name="like" value="Tea" />
+            <label for="tea">Tea</label>
+            <p>Do you prefer wfh or remote</p>
+            <input type="checkbox" id="coffee" name="like" value="Coffee" />
+            <label for="coffee">Work From Home</label><br />
+            <input type="checkbox" id="tea" name="like" value="Tea" />
+            <label for="tea">Remote</label><br />
+            <input type="submit" value="Submit" formtarget="_blank" formnovalidate="formnovalidate"/>
+        </form>
+
+
+    </div>
+</body>
+</html>

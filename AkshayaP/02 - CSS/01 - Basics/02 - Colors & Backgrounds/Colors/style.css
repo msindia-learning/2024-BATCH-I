@@ -1,0 +1,25 @@
+body{
+	background-color:dodgerblue;
+
+}
+h1{
+	color:black;
+	text-align:center;
+}
+p{
+	font-family:veranda;
+	font-size:20px;
+	background-color:tomato;
+}
+h1 {
+	background-color: hsl(0, 100%, 50%);
+}
+h2 {
+	background-color: hsl(240, 100%, 50%);
+}
+h3 {
+	background-color: hsl(147, 50%, 47%);
+}
+h4 {
+	background-color: hsl(300, 76%, 72%);
+}
