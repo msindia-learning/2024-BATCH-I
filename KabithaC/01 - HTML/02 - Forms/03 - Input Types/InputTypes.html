@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        REGISTER PAGE
+    </title>
+    <style>
+        body {
+            width: 50% auto;
+            height: 50px;
+            margin: 95px 450px;
+            background-image:url("bg.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            color:white;
+        }
+
+        h1 {
+            border: solid;
+            text-align: center;
+        }
+
+        container {
+            text-align: center;
+            border
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>
+                REGISTRATION PAGE
+            </h1>
+            <br />
+            <container>
+                <fieldset>
+
+                    <input type="radio" id="per" name="per" value="Personal" />
+                    <label for="per">Personal</label>
+
+                    <input type="radio" id="com" name="com" value="Company" />
+                    <label for="com">Company</label>
+                    <br />
+
+                    <br />
+
+                    <label for="emailid">Email Id</label><br />
+                    <input type="text" id="emailid" name="emailid" /> <br />
+                    <br />
+                    <label for="name">Name</label><br />
+                    <input type="text" id="name" name="name" />  <br />
+                    <br />
+                    <label for="pwd">Password</label><br />
+                    <input type="text" id="pwd" name="pwd" /><br />
+                    <br />
+
+
+                    <input type="radio" id="male" name="Male" value="Male" />
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="female" value="Female" />
+                    <label for="female">Female</label>
+                    <br />
+
+                </fieldset>
+            </container>
+            <p>
+                <input type="Submit" />
+                <input type="Reset" />
+            </p>
+
+        </fieldset>
+    </form>
+    <br />
+    <form>
+        <h2>
+            fav color
+        </h2>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="green">
+        <input type="submit" value="Submit">
+    </form>
+    <br />
+
+    <form>
+        <h2>Date </h2>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <h2> display a image</h2>
+        <label for="lname">Quantity: </label>
+        <input type="text" id="lname" name="lname"><br><br             
+    </form>
+    <form>
+        <label for="resume"> choose a file</label>
+        <input type="file" id="resume" name="resume" />
+        <input type="submit" />
+        <input type="reset" />
+
+    </form>
+
+</body>                  
+</html>
