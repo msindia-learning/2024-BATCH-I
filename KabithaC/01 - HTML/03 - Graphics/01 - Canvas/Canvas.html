@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        square
+    </title>
+</head>
+<body>
+    <h2>
+        rectangle
+    </h2>
+    <canvas id="new" width="400" height="200" style="border:3px solid green;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("new");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(400, 200);
+        ctx.stroke();
+    </script>
+
+    <h2>
+        circle
+    </h2>
+    <canvas id="task" width="300" height="200" style="border:3px solid yellow;">
+    </canvas>
+    <script>
+        var c = document.getElementById("task");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(154, 70, 50, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+
+    <h2>
+        rectangle
+    </h2>
+    <canvas id="name" width="500" height="250" style="border:3px solid green;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("name");
+        var ctx = c.getContext("2d");
+        ctx.font = "40px Timesnewroman"
+        ctx.strokeText("Welcome to our college", 10, 50);
+    </script>
+
+    <h2> linear gradient</h2>
+    <canvas id="re" width="300" height="200" style="border:1px solid #d3d3d3;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("re");
+        var ctx = c.getContext("2d");
+
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+        ctx.fillStyle = grd;
+        ctx.fillRect(20, 20, 250, 80);
+    </script>
+    <h2>
+        image 
+    </h2>
+    <img id="bg" src="bg.jpg" alt="lap" width="220" height="277">
+
+   
+    <canvas id="img" width="250" height="270"
+            style="border:5px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+
+    <p><button onclick="img()">Try it</button></p>
+
+    <script>
+        function img()
+        {
+            var c = document.getElementById("img");
+            var ctx = c.getContext("2d");
+            var img = document.getElementById("bg");
+            ctx.drawImage(img, 10, 10);
+        }
+    </script>
+
+
+
+
+</body>
+</html>
+
