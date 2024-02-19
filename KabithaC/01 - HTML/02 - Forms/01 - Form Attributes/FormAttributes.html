@@ -37,6 +37,64 @@
         <input type="checkbox" id="coffee" name="coffee" value=" "><br />
         <label for="tea"> Tea: </label> <br />
         <input type="checkbox" id="tea" name="tea" value=" "><br />
-        </form>
+    </form>
+    <br />
+    <h2>
+        get method
+    </h2>
+    <form action="/web" target="_blank" method="get">
+        <label for="search">Search</label><br />
+        <input type="text" id="search" name="search" /><br />
+        
+        <input type="submit" value="Submit">
+    </form>
+    <br />
+    <h2>
+        post method
+    </h2>
+    <form action="/task" target="_blank" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="pwd">Password:</label><br>
+        <input type="text" id="pwd" name="pwd" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br />
+    <h2>
+        autocomplete-off
+    </h2>
+    <form autocomplete="off">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+    <br />
+    <h2>
+        autocomplete-on
+    </h2>
+    <form autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+    <br />
+
+       <h2>novalidate</h2>
+       <form action="submit-form.html">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+
+
+
+
+
+
+
 </body>
 </html>
