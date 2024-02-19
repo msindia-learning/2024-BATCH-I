@@ -1,242 +1,168 @@
-#HTML
+# HTML Notes
 
-##HEADINGS
-```html
- <h1></h1>-used to create a heading(1-6)
- <h1 style="font-size: "> - used to style a heading.
+### Headings
+h1 - used for higher headings
 
-```
-##PARAGRAPH
 ```html
- <p></p>-to declare a paragraph.
- <br>=>used to break the line.The next line starts with the fresh one.
- <pre>=>it will accept the spaces.
-```
-##QUOTATIONS
-```html
- <blockquote>=> used to quote the particular block.
- <q> => use to quote a specified words or sentence within a paragraph.
- <abbr> => use to define the abbreviation.
- <address> => used to specified a address.
- <cite> => define the creative work and usually renders in italic.(eg:books,poem,movie and etc...)
- <em> => emphasized.
- <i> => italic.
- <bdo> => Bi-directional override.(used to reverse the text)
+<h1>This is H1 tag</h1>
 ```
 
-##COMMENTS
+
+### Paragraph
+p - used for plain text or paragraph 
+
 ```html
- <!--this is comment--> => use to add the comments.
+<p>This is Paragraph tag Element
 ```
 
-##IMAGES
+### Comments
 ```html
- <img src="url" alt="alternatetext"> => used display the images & alternate text for the images if not supported.
- <img src="url" alt="alternatetext" style="styling-attributes"> 
-              <!--image in same folder-->
-              <!--image in other website or server-->
- ```
-
-###IMAGEMAPPING
-```html
- <map>
- <img src="url" alt="alternatetext" usemap="#workmap">
- <map name="workmap">
- <area shape="" coords="" alt="" href="">
- </map>
+ <!--for understanding purpose-->
 ```
 
-###LINKS
+### Quotations
 ```html
- <a href=""> =>to define a link.
- <a href="" target=""> => to define a target.
-          <!--_blank => it will displays in new page.-->
-          <!--_top => it will displays in top of the window.-->
-          <!--_parent => it will displays in parent frame.-->
-          <!--_self => it will displays in same window.-->
- <!--Absolute URL-->
-    <a href="website-link"> =>address to locate a resource on the internet.
-<!--Relative URL-->
-    <a href=""> => URL specifies the location of a resource relative to the current document.(/images/one.jpg)
-<!--link to an EMAIL address-->
-    <a href="mailto:someone@gmail.com">
-<!--link titles-->
-    <a href="website-link" title>
-<!--Bookmark-->
-    <a href="#c4"> =>jump to that location with in a same page.
- ```
+<!--Blockquote quotations-->
+<blockquote>CSS - Cascading style sheet is used for designing or coloring for elements and attributes</blockquote>
+         
 
- ###LISTS
- ```html
-  <!--Unordered list-->
-      <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-  <!--Ordered list-->
-      </ol>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ol>
+   <!--quotations-->       
+        <q>This is quote</q>
+              for specfic words.
 
-  <!--description list-->
-      <dl>
-        <dt></dt>
-            <dd></dd>
-        <dt></dt>
-            <dd></dd>
-        <dt></dt>
-            <dd></dd>
-      </dl>
-  <!--list styles-->
-      <ul style="list-style-type:values;">
-          <!--values(disc,circle,square,none)-->
+    <!--Abbervations-->
+            <abbr title="Htper Text Markup Lanuages">Html</abbr>   
+              for showing full abreviation
+            
+    <!--Address-->        
+                <address>contact info</address> 
+                         to specfic address and italic font
+
+     <!--cite-->
+                 <cite>title of a creative work </cite>   
+                                    
+                 
+      <!--BDO-->
+                 <bdo>(reverse their letter) bi-directional override</bdo>  
+                            reverse the words
+```
+
+### images
+```html
+<img src="#" alt="this is replaced word for image">
              
-  <!--Nested lists-->
-       <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-           </ul>
-      </ul>
+                
+                <!--Animated images-->  gif -> Extension for animation images
+                <!--image Link-->when we click the image -> its forward to another tab or website
+                <!--Image Floating-->used for to show images as right to left or else left to right
 
- ```
+```
 
- ###TITLE
+### links
+    ```html
+         <!--TARGET-->
+              
+               <!-- _blanks           ------- Open content in new tab  -->
+        
+               <!--Button  Link            --------submit the info and forward to another page-->
+              
+             1.absolute URL: A full web address in the href attribute.          
+             2. Relative url: A link to a page within the same website.           
+```
+
+### lists
+       ```html
+               <!--Orderlist-->
+                      <ol> 
+                         <li>Coffe</li>
+                         <li>Tea<li>
+                       </ol>  
+
+                <!--Unordered List-->
+                      <ul> 
+                         <li>Coffee</li>
+                         <li>Yea</li>
+                       </ul>
+                       
+                <!--Description-->
+                      <dl> -->description list
+                         <dt> </dt> ---defines a name
+                               <dd> </dd> ---description of the name
+                         <dt> </dt>
+                               <dd>  </dd>
+                    </dl>
+                         ```
+
+
+ ### page title
+```html
+   <title></title>---> Title for website or page 
+```
+
+
+### tables
  ```html
-      <title>Title Name</title>
- ```
-
- ###TABLE
- ```html
-    <table>
-        <tr>             <!--Table row-->
-          <th></th>      <!--Table header-->
-          <th></th>
-          <th></th>
+    <table> --- To specify as a table
+    <thead>
+        <tr> ---table rows
+            <th> </th>---table header
+             <th> </th>
         </tr>
+    </thead>
+
+    <tbody>
         <tr>
-           <td></td>      <!--Table data-->
-           <td></td>
-           <td></td>
-        </tr>
-    </table>
-    <!--sizing tables-->
-       <table style="style-attribute">
-    <!--colspan(header for multiple columns)-->
-        <th colspan="size"></th>
-    <!--rowspan(header for multiple rows)-->
-        <th rowspan="size"></th>
-    <!-- Table caption(some description of the table)-->
-        <caption></caption>
- ```
- 
-#BLOCK
-```html
-<address> defines the contact information in italics,
-<article> - to represent the important content on the webpage
-<aside> -side content about the main page
-<blockquote>- data section from another resource
-<canvas> - draw graphics and 2D shapes using javascript 
-<dd>-data description
-<dl>- data list
-<dt>- data description term
-<fieldset> - create box around the form                                                                                             
-<figcaption> - caption for the <figure> element
-<figure> - mark up the image in the page with caption using <figcaption>
-<footer> - display the contact information
-<form> - to create form with elements like <label>, <input>, <option>, <select> with attributes like action, id, name, for, methods, etc,. 
-<h1>-<h6>heading tag in descending order
-<header>- contains navigation links, icons and headings
-<hr>- horizondal rule
-<li>-for list
-<main>  - to display unique content of the document, cant repeat more than one time;
-<nav> - navigation bar inside head tag
-<noscript> alternative of script tag for unsuppoerted browsers
-<ol>-ordered list
-<p>- for paragraph
-<pre> - for preformatted text, used in poems
-<section> - to define section in the document
-<table> to define table with child tags such as <tr>,<td>,<thead>,<th>
-<tfoot> footer of the table
-<ul>- unordered list
-<video> - for displaying video using relative path of the video with attributes like controls in the web page
+             <td> </td>  --table data
+              <td> </td>
+         </tr>
+    </tbody>
+         </table>  
+         
+       
+```
+###Block & Inline elements:
+```
+          Block elements:took full lines of width in page. ex-->div , p
+
+          Inline elements: only take content width .ex---> a, input element(radio, checkbox, textarea)
 ```
 
-#INLINE
-```html
-<a> for hyperlinks,
-<abbr> FOR ABBREVIATION
-<bdo> for birectional property of text from left to right(ltr) and right to left(rtl)
-<br> for break
-<button> represent button with clickable action
-<cite> define the title of the creative work like author, date, etc,. 
-<code> define text as computer code
-<dfn> definition element with title attribute
-<em> emphasized text
-<i> italic text
-<img> used to display image with attributes like src, style , etc,.
-<input> get input from the user
-<kbd> define keyboard in text
-<label> used to label the name for the form elements
-<map> used to point the image with coords attribute
-<output> to diplay the result
-<q> small quotation
-<samp> to define sample output of the computer program
-<script> internal space for javascript within html 
-<select> for dropdown list
-<small> for small text
-<span> inline element to specify the text with style attributes
-<strong> for important text
-<sub> for subscript text
-<sup> for superscript text
-<textarea> text area with row and column attribute
-<time> to represent specific time
-<var> to represent variable in mathematical expression
-```
+### Div & Block
+````html
+         DIV:  ---> block element  , used for content separation .
+                   
+````
+
+### id & Class
+````html
+          id: unique id for an HTML element. cannot have more than one element with the same id .
+          class: to sepcify one or more class names for an element, used for css , js
+           
+````
+#### iframes
+````html
+       : An HTML iframe is used to display a web page within a web page. ex--> Advertisement in web
+       <iframe> </iframe>
+       ````
 
 
-#DIV
-```html
-<div> - default block element , line break before and after, group selector;
-```
-
-#ID & CLASSES
-
-id - attribute specifies unique id for the HTML, cant use for multible blocks, case sensitive, name should be started with '#' in styling(css)
-class - attribute specifies the class, can use the style for multiple blocks by specifying the name, name should be started with '.' in styling(css)
 
 
-#IFRAME
-```html
-<iframe> - used to display the web page within the webpage with attributes like width, height and other attribute styles 
-```
+#### Head&Layouts
+````
+    Heads: 
+               container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
 
-#FILEPATH
-```html
-to describe the location of the file; 
-used in <img>,<audio>,<video>;
-file path is specified using the attribute 'src'
-```
-#HEAD
-```html
-<head> - contains <title> for displaying webpage title; contains <style>,<script>;<meta> for additional information
-```
+    meta data:
+               describe  webpage info. doen't display anything in webpage
 
-#LAYOUT
-```html
-<header> - Defines a header for a document or a section
-<nav> - Defines a set of navigation links
-<section> - Defines a section in a document
-<article> - Defines an independent, self-contained content
-<aside> - Defines content aside from the content (like a sidebar)
-<footer> - Defines a footer for a document or a section
-<details> - Defines additional details that the user can open and close on demand
-<summary> - Defines a heading for the <details> element
-```
+
+   
+    layouts:
+          head
+          div
+          section
+          article
+          footer
+
+````
