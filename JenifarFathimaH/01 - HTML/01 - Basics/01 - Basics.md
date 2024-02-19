@@ -90,7 +90,7 @@ Various elements like
 `<meta>`FOR ADDITIONAL INFORMATION.
 
 ### LAYOUT
-- Elements like 
+-Elements like 
 `<header>` introductory content, such as headings, logos, navigation menus, or search bars,
 `<nav>` FOR NAVIGATION ,
 `<section>`group of elements within document like header, main, footer with sematic meaning
