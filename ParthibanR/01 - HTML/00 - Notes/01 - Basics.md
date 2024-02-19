@@ -1,92 +1,93 @@
 # HTML Notes
 
 ### Headings
-h1 - Large Header
+h1 - used for higher headings
 
 ```html
-<h1>This is Heading 1</h1>
+<h1>This is H1 tag</h1>
 ```
 
 
 ### Paragraph
-p - Plain Text
+p - used for plain text or paragraph 
 
 ```html
-<p>This is Paragraph</p>
+<p>This is Paragraph tag Element
 ```
 
 ### Comments
 ```html
- <!--Hide content-->
+ <!--for understanding purpose-->
 ```
 
 ### Quotations
 ```html
 <!--Blockquote quotations-->
-<blockquote>WWF has worked to help people and nature</blockquote>
-          author said "" some important speech sa highlite panne katurathuku blockquotes use pannurom. 
+<blockquote>CSS - Cascading style sheet is used for designing or coloring for elements and attributes</blockquote>
+         
 
    <!--quotations-->       
-        <q> hi hello</q>
-                 quotations marked to be specfic words.
+        <q>This is quote</q>
+              for specfic words.
 
     <!--Abbervations-->
             <abbr title="Htper Text Markup Lanuages">Html</abbr>   
-                 ipo html irrukuna athuoda full meaning express panne kata abbr use pannurom.
+              for showing full abreviation
             
     <!--Address-->        
-                <address>contact information for the author/owner of a document or an article</address> 
-                         address mattum specific panne italic font ta change pannum. athum line break must important.
+                <address>contact info</address> 
+                         to specfic address and italic font
 
      <!--cite-->
                  <cite>title of a creative work </cite>   
-                                  rendercautomatically in italic . (blockquote la irrukura important words sa italic style kamekerathuku use agum.)  
+                                    
                  
       <!--BDO-->
                  <bdo>(reverse their letter) bi-directional override</bdo>  
-                             letters la apdiya reverse panne katum.
+                            reverse the words
 ```
 
 ### images
 ```html
-<img src="#" alt="photo">
-                <!--image in different folder--> image kunu thaniya oru folder create panne image athula save pannum => floder name/imgname.extension.
-                <!--image in other website or server--> src la other website link pota atha image display la show agum.
-                <!--Animated images--> animation images show panne kata use agum.gif
-                <!--image As a Link-->image touch panna athu vera oru page or website...etc eathachum pora mathre set pannegalam.
-                <!--Image Floating-->images right side or left sides la images show panne katurathuku use pannegalam.
+<img src="#" alt="this is replaced word for image">
+             
+                
+                <!--Animated images-->  gif -> Extension for animation images
+                <!--image Link-->when we click the image -> its forward to another tab or website
+                <!--Image Floating-->used for to show images as right to left or else left to right
 
 ```
 
 ### links
     ```html
-               <!--Html Links-->                                 a tag use panne oru page la iruthu inoru page ku move agalam.
-               <!--Target Attribute _blanks-->                    a target=-blank oru tab la iruthu inoru tab la poi namaloda content ta pakalam.
-               <!--Images as link& Email address& button-->        a tag use panne image or email touch panna content display panna use agum.
-               <!--Button as a Link-->                             a tag use panne button touch panna web page open panna use pannalam.
-               <!--Html Marks--> used to jumped.                   specific  id use panne jump pannurathuku use pannegalam.
-               absolute URL: A full web address in the href attribute.            no chanced in url 
-                Relative url: A link to a page within the same website.            chanhes to url and go to our suggestion pages.
+         <!--TARGET-->
+              
+               <!-- _blanks           ------- Open content in new tab  -->
+        
+               <!--Button  Link            --------submit the info and forward to another page-->
+              
+             1.absolute URL: A full web address in the href attribute.          
+             2. Relative url: A link to a page within the same website.           
 ```
 
 ### lists
        ```html
-               <!--Order-->
+               <!--Orderlist-->
                       <ol> 
-                         <li> </li>
-                         <li> </li>
+                         <li>Coffe</li>
+                         <li>Tea<li>
                        </ol>  
 
-                <!--unOrder-->
+                <!--Unordered List-->
                       <ul> 
-                         <li> </li>
-                         <li> </li>
+                         <li>Coffee</li>
+                         <li>Yea</li>
                        </ul>
                        
                 <!--Description-->
-                      <dl> 
-                         <dt> </dt>
-                               <dd> </dd>
+                      <dl> -->description list
+                         <dt> </dt> ---defines a name
+                               <dd> </dd> ---description of the name
                          <dt> </dt>
                                <dd>  </dd>
                     </dl>
@@ -95,81 +96,68 @@ p - Plain Text
 
  ### page title
 ```html
-    Def:- Every web page should have a page title to describe the meaning of the page. intha vachu tha user idetify panne paga namma correct tana pages kulla tha vanthurukom nu.
+   <title></title>---> Title for website or page 
 ```
 
 
 ### tables
  ```html
-    <table>
+    <table> --- To specify as a table
     <thead>
-        <tr>
-            <th> </th>
+        <tr> ---table rows
+            <th> </th>---table header
              <th> </th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
-             <td> </td>     
+             <td> </td>  --table data
               <td> </td>
          </tr>
     </tbody>
          </table>  
          
-         th- Table headers
-         td- table datas
-         tr- Table rows
-         table- full table
-
+       
 ```
 ###Block & Inline elements:
 ```
-          Block elements: oru website oda full width observe pannekum.always start in newline.browser automactially some space kututhurum. <p> <div> some examples.
+          Block elements:took full lines of width in page. ex-->div , p
 
-          Inline elements: doesn't strat in new line. take neccessary place only. <span> <img> some examples.
+          Inline elements: only take content width .ex---> a, input element(radio, checkbox, textarea)
 ```
 
 ### Div & Block
 ````html
-         DIV: 
-             dived into seprated content.
-             The <div> element is by default a block element, meaning that it takes all available width, and comes with line breaks before and after. 
-
-         BLOCK:A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.    
+         DIV:  ---> block element  , used for content separation .
+                   
 ````
 
 ### id & Class
 ````html
-             ID:The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
-
-             CLASS:The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+          id: unique id for an HTML element. cannot have more than one element with the same id .
+          class: to sepcify one or more class names for an element, used for css , js
+           
 ````
-#### iframs
+#### iframes
 ````html
-       Iframs: An HTML iframe is used to display a web page within a web page.  <iframe> </iframe>
+       : An HTML iframe is used to display a web page within a web page. ex--> Advertisement in web
+       <iframe> </iframe>
        ````
 
 
-### files
-````
-    Absoulte: no changs in url
-    Relative: some changes to reach their destination path.
-            A relative file path points to a file relative to the current page
-````
+
 
 #### Head&Layouts
 ````
     Heads: 
-              The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+               container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
 
     meta data:
-               describe about webpage info.but doen't display anything.
+               describe  webpage info. doen't display anything in webpage
 
-    viewport:
-               website view their user points of our webpages.   he viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
-    Script:
-               script include in header section. Used to client side javascript ku use agum.
+
+   
     layouts:
           head
           div

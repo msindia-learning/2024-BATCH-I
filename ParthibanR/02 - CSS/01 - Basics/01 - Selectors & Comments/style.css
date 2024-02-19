@@ -1,21 +1,21 @@
 
-/*                                                      1.Universal Selectors:
+/* 1.Universal Selectors:*/
 Universal Selector
 * {
     text-align: center;
     color: green;
     background-color: black;
 }
-*/
- 
-/*                                                        2.Elements Selector:
+
+
+/*2.Elements Selector:*/
 h1{
     color:blue;
     background-color:bisque;
 }
- */
 
-/*                                                         3.Class Selector:
+
+/* 3.Class Selector:*/
 .rcb{
     text-decoration:underline;
     color:aquamarine;
@@ -26,9 +26,9 @@ h1{
     background-color:cadetblue;
     text-indent:190px;
 }
-*/
 
-/*                                                          4.Id Selector:
+
+ /*4.Id Selector:*/
 #ipl {
     text-decoration: underline;
     color: aqua;
@@ -38,15 +38,15 @@ h1{
     text-indent:190px;
     color:hotpink;
 }
-    */
 
-/*                                                         5.Group Selector:
+
+/*5.Group Selector:*/ 
 h3,p{
      text-indent:190px;
      text-decoration:underline;
      color:deeppink;
 }
-*/
+
 
 
 

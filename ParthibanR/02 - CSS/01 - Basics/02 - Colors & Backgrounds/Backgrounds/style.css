@@ -14,14 +14,14 @@ h3{
     text-decoration:underline;
 }
 
-/*                                                    Background-images:
+/* Background-images:*/
 body{
     background-image:url("image.jfif");
 }
-    */
 
 
-/*                                                     Background-Repeat:
+
+/* Background-Repeat:*/
 body {
     background-image: url("image.jfif");
     background-repeat: repeat;
@@ -29,17 +29,17 @@ body {
     background-repeat: repeat-y;
     background-repeat: no-repeat;                                                                                                             
 }
-    */
 
-/*                                                     Background-Position:
+
+/*  Background-Position:*/
 body {
     background-position: bottom;
     background-repeat: no-repeat;
     background-image: url("img.jfif");
 }
-*/   
 
-/*                                                    Background-Attachment:
+
+/*Background-Attachment:*/
 body {
     background-image: url("img.jfif");
     background-repeat: no-repeat;
@@ -47,10 +47,11 @@ body {
     margin-right: 200px;
     background-attachment: fixed;
 }
-    */
 
-/*                                                    Background-shorthand
+
+
+                                                  
 body{
     background:black url("img.jfif") repeat right bottom;
 }
-*/
+
