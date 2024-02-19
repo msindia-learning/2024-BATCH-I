@@ -1,0 +1,28 @@
+body{
+	background-color:pink;
+	color:skyblue;
+	text-decoration-line:underline;
+	text-decoration-color:white;
+	text-decoration-style:wavy;
+	text-decoration-thickness:2px;
+}
+h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration-line:underline;
+	text-decoration-color: white;
+	text-transform:lowercase;
+	letter-spacing:15px;
+	text-shadow:2px 2px;
+
+}
+p {
+	text-indent:20px;
+	background-color: black;
+	color: white;
+	text-align: justify;
+	text-decoration-line: underline;
+	text-decoration-color: white;
+	line-height:1.8;
+}
