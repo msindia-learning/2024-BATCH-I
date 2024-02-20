@@ -161,7 +161,7 @@
               The value of this attribute must be equal to the id attribute of the <form> element it belongs to.
 
          2.formaction Attribute
-              The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+              The input formaction attribute specifies the URL of the file that will process the input when the form is submitted..
 
          3.formenctype Attribute
               The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with method="post").
