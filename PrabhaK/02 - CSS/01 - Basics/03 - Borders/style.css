@@ -1,0 +1,100 @@
+
+.container1 {
+	border: solid;
+	border-color: slateblue;
+	border-image: url(border.png) 25 stretch;
+}
+.container2{
+	border-left:dotted;
+	border-color:mediumvioletred;
+}
+.container3{
+	border-top:solid;
+	border-color:chartreuse;
+}
+
+.container4{
+	border-right:solid;
+	border-color:hotpink;
+
+}
+.container5 {
+	border-bottom: solid;
+	border-top: solid;
+	border-color: fuchsia;
+	background-color: palevioletred;
+	border-image: url(border.png) 25 stretch;
+}
+
+
+
+/*Rounded borders and width , radius*/
+.container6{
+	border-radius:5px;
+	border:solid;
+	border-width:3px;
+}
+.container7{
+	border:solid;
+	border-radius:8px;
+}
+.container8{
+	border:solid;
+	border-radius:18px;
+}
+.container9{
+	border:solid;
+	border-radius:25px;
+
+}
+.container10{
+	border:solid;
+	border-radius:70px;
+	border-width:10px;
+}
+
+.container11 {
+	border: 5px solid violet;
+	border-bottom-left-radius: 25px;
+	border-image: url(border.png) 20% round;
+	border-image-repeat: round;
+}
+.container12 {
+	border-block-style: dashed dotted;
+}
+.container13{
+	border:double;
+}
+.container14{
+	border-bottom:solid;
+	border-width:5px;
+}
+.container15{
+	border-block-end:solid 5px red;
+	border-block-end-style:dotted;
+	border-bottom-left-radius:5px;
+}
+
+/*Table borders*/
+table ,td, th{
+	border:1px solid black;
+
+}
+#table1 {
+	border-collapse: separate;
+	border-image: url(border.png) 25 stretch;
+	border-image-outset:10px;
+	
+}
+#table2 {
+	border-collapse: collapse;
+	border-image: url(border.png) 20% round;
+	border-image-repeat:repeat;
+}
+
+.container16 {
+	border: 20px solid;
+	border-image-source: url(border.png);
+	border-image-slice:30;
+
+}
