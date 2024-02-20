@@ -8,7 +8,8 @@ h1 {
 }
 
 div {
-	height: 20px;
+	height: 50px;
 	max-width: 900px;
+	max-width: 600px;
 	background-color: pink;
 }
