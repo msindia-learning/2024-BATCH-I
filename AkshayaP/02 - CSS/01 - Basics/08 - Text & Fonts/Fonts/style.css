@@ -1,0 +1,27 @@
+h1{
+	text-align:center;
+	
+}
+
+.int {
+	background-color: aqua;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5vw;
+	font-family: "integer",serif;
+}
+.float{
+	text-align:center;
+	background-color:pink;
+	font-family:Arial,sans-serif;
+	font-style:oblique;
+	font-weight:normal;
+	font-size:20px;
+}
+.string{
+	font-family:sans-serif;
+	font-style:italic;
+	font-variant:small-caps;
+	font-size:14px;
+}

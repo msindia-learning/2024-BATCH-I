@@ -95,7 +95,16 @@
   letter-spacing=> used to specify the space between the lines.
   line-height=>height between the two lines.
   word-spacing=> space between the words.
-
+  font-weight=>normal,bold
+  font variant=> small caps,normal.
+  font-style:normal,italic,oblique(oblique is very similar to italic but less supported)
+  font-size=> 1em=16px.(for browsers),responsive font size(vw=>"viewport width"unit) & resize the browser window.
+  font-effect-fire=> font effect should appear in special effect.
+  fontshorthand=>font-style
+                 font-variant
+                 font-weight
+                 font-size/line-height
+                 font-family
   ```
   ## 
   
