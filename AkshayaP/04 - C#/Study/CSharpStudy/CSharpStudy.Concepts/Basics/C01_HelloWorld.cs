@@ -2,8 +2,8 @@
 
 public static class C01_HelloWorld
 {
-    public static string SayHello()
+    public static string SayHello(string strQuery)
     {
-        return "Hello, World!";
+        return $"Hello, {strQuery}!";
     }
 }

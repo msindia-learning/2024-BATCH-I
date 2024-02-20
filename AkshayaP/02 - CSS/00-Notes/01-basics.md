@@ -65,9 +65,14 @@
   ```
   margin(top,right,bottom,left)
   /*auto=>used to horizontally center the value within its container*/
-  inherit=>ex:p.ex1{}
+  inherit=> inherit from its parent class.ex:p.ex1{}
   ```
-  ## BOX MODEL
+  ## OUTLINE
   ```
-
+  /*outside of the border*/
+  1.outline-style
+  2.outline-color
+  3.outline-width
+  4.outline-width
+  5.outline
   ```
