@@ -67,3 +67,7 @@
   /*auto=>used to horizontally center the value within its container*/
   inherit=>ex:p.ex1{}
   ```
+  ## BOX MODEL
+  ```
+
+  ```
