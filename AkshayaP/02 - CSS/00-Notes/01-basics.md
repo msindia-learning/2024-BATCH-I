@@ -77,4 +77,25 @@
   5.outline
   6.offset=>space between the edge and border.
   ```
+  ## TEXT & FONTS
+  ```
+  text-align=> used to set tthe horizontal alignment of the text.(left,right,center,justify)
+  /*justify => every line has equal eidth,height,right,left (like magazines)*/
+  text-align-last=>center,right,left
+  direction & unicode direction=> used to change the direction of the text.
+  direction=>rt1,bidi-override
+  vertical align=> baseline-image with default alignment
+                   text-top=>image with text top alignment
+                   text-bottom=>image with bottom alignment
+                   sub=>image with sub alignmnet
+                   sup=> image with super alignment
+  text-decoration-line=>overline,line through,underline,overline underline
+  text-transform=>uppercase,lowercase.
+  text-indent=>intend between the first line of the text.(next of the heading line it will start with some space then start.)
+  letter-spacing=> used to specify the space between the lines.
+  line-height=>height between the two lines.
+  word-spacing=> space between the words.
+
+  ```
+  ## 
   
