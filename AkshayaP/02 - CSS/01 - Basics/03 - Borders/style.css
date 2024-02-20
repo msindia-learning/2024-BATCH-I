@@ -6,10 +6,18 @@ h1{
 	text-align:center;
 }
 p{
-	border-style:dotted;
+	border-style:double;
 	font-family:veranda;
-	border-width:20px 5px;
+	border-width:12px 5px;
 	border-color:black;
-	border-style:dotted solid;
-	border-radius:5px;
+    border-radius:5px; /*rounded borders*/
+}
+p1.holy{
+	border-color:green;
+	border-top-style:dotted;   /*border stylings*/
+	border-right-style:solid;
+	border-bottom-style:dotted;
+	border-left-style:solid;
+	border-width:12px 5px;
+	
 }

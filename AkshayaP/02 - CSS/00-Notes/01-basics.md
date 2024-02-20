@@ -55,4 +55,9 @@
    Margin=>space around the edges around an outside elements.(outside of the border)
    padding=>space between the element content and its border.
    border=> area around the padding of an element.-->
-   
+  ```
+  1.border-style(dotted,double & etc...)(border-top or left or right or bottom-style)
+  2.border-color
+  3.border-width
+  4.border-shorthand
+  ```
