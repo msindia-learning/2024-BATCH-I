@@ -1,0 +1,88 @@
+.dotted{
+    border-style:dashed;
+    border-color:maroon;
+}
+
+.dashed {
+    border-style:dotted;
+    border-color: blue;
+}
+
+.solid {
+    border-style:solid;
+    border-color:purple;
+}
+        
+.double {
+    border-style: double;
+    border-color:darkgreen;
+}
+
+.groove {
+    border-style: groove;
+    border-color: darkblue;
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: yellow;
+}
+
+.inset {
+    border-style: inset;
+    border-color: black;
+}
+
+.outset {
+    border-style: outset;
+    border-color: black;
+}
+
+.none {
+    border: none;
+}
+
+.hidden {
+    border-style: hidden;
+    border-color:orangered;
+}
+
+.mixed {
+    border-style: double dotted solid dashed;
+    border-color: deepskyblue;
+}
+
+*{
+    text-align:center;
+    margin:5px;
+    padding:5px;
+    border-width:2px;
+}
+.chennaia{
+    border-top-style:inset;
+    border-left-style:solid;
+    border-right-style:dashed;
+    border-bottom-style:double;
+    border-color:blue;
+}
+.chennaib {
+    border-top-color: darkred;
+    border-left-color: darkslateblue;
+    border-right-color: darkgreen;
+    border-bottom-color:yellow;
+    border-style: double;
+    border-width:4px;
+}
+.chennaic {
+    border-style:dotted solid double inset;
+
+}
+.chennaid {
+    border-left: 5px inset red;
+    border-bottom: 5px inset red;
+    border-radius:3px;
+}
+.chennaie {
+}
+.chennai{
+}

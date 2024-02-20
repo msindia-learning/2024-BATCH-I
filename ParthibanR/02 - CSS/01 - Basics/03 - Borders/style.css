@@ -1,0 +1,38 @@
+h1{
+    text-align:center;
+}
+h3 {
+    text-decoration: underline;
+}
+
+
+p{
+    text-indent:190px;
+    border:3px solid black;
+    border-width:thin;
+}
+#rcb{
+    color:maroon;
+    background-color:burlywood;
+    border-color:chartreuse;
+}
+#csk{
+    border-top:dashed;
+    border-left:dotted;
+    border-right:double;
+    border-bottom:groove;
+}
+#mi {
+    border: dashed dashed double groove;
+    border:3px solid black;
+}
+
+table{
+    border:2px solid black;
+}
+th,tr{
+    border-collapse:collapse;
+    border:2px solid black;
+    color:brown;
+    background-color:bisque;
+}

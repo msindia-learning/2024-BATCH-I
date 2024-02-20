@@ -5,8 +5,15 @@
 }
 h1 {
     background-color: grey;
-    opacity: 0.7;
+    text-align:center;
 }
+p{
+    text-indent:190px;
+}
+h3{
+    text-decoration:underline;
+}
+
 /*                                                    Background-images:
 body{
     background-image:url("image.jfif");
@@ -24,13 +31,13 @@ body {
 }
     */
 
-/*                                                   Background-Position:
-body{
-    background-position:bottom;
-    background-repeat:no-repeat;
-    background-image:url("img.jfif");
+/*                                                     Background-Position:
+body {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url("img.jfif");
 }
-    */
+*/   
 
 /*                                                    Background-Attachment:
 body {

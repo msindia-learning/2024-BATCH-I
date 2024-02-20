@@ -1,0 +1,15 @@
+body {
+	background-color: lightskyblue;
+}
+
+h1 {
+	color: aqua;
+	text-align: center;
+}
+
+div {
+	height: 50px;
+	max-width: 900px;
+	max-width: 600px;
+	background-color: pink;
+}

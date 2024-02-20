@@ -1,3 +1,5 @@
-h2{
-   color:black;
+/*universal selector*/
+* {
+	text-align:center;
+	text-decoration-color:black;
 }

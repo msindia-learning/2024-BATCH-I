@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+}
+h3{
+    text-decoration:underline;
+}
+p{
+    text-indent:190px;
+    border:4px solid black;
+    background-color:aquamarine;
+}                                      /*Indiviual sides*/
+#qwe{
+    border:2px solid grey;
+    background-color:cadetblue;
+    margin-top:100px;
+    margin-right:200px;
+    margin-bottom:100px;
+    margin-left:200px;
+}                                     /*Margin shorthand*/
+#poi{
+    border:2px solid black;
+    margin:150px 75px 150px 75px;
+    background-color:bisque;
+}
+#mnb{
+    border:6px solid black;
+    margin:auto;
+    background-color:beige;
+}
