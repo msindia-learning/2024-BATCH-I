@@ -387,4 +387,16 @@ ul.b {
 
 ```
 
+## CSS Tables
+```css
+
+
+border	border properties
+border-collapse	Specifies whether or not table borders should be collapsed
+border-spacing	Specifies the distance between the borders of adjacent cells
+caption-side	table caption
+empty-cells	Specifies whether or not to display borders and background on empty cells in a table
+table-layout	fixed,auto
+```
+
 
