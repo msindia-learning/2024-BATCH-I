@@ -514,7 +514,118 @@
                                                   font-family
 
 ```
-                                     
+
+### Html icons
+
+```html
+            icons:Icons can easily be added to your HTML page, by using an icon library.
+                        1.fontAwsome icons:
+                                  use the Font Awesome icons, go to fontawesome.com, sign in, and get a code to add in the <head> section of your HTML page:
+
+                                  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+                        2.bootstrap icons:
+                                   To use the Bootstrap glyphicons, add the following line inside the <head> section of your HTML page:
+
+                                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                                   
+                        3.google icons:
+                                   To use the Google icons, add the following line inside the <head> section of your HTML page:
+
+                                    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+           
+```
+
+### Css links
+
+```html
+               links:  
+                         a:link - a normal, unvisited link
+                                     a:link {
+                                            color: red;
+                                            }
+                                
+                         a:visited - a link the user has visited
+                                       a:visited {
+                                            color: red;
+                                            }
+                                
+                         a:hover - a link when the user mouses over it
+                                       a:hover {
+                                            color: red;
+                                            }
+                                
+                         a:active - a link the moment it is clicked
+                                         a:active {
+                                            color: red;
+                                            }
+                                
+
+```
+                  
+### List style
+
+```html
+                1.list-style-type: This property specifies the type of list item marker...like, square,cricle,upper-roman,lower roman,etc..,
+                                 ex:
+                                     ol{
+                                         list-style-type: circle;
+                                        }
+
+               2.list-style-image: This property specifies an image as the list item marker.(jpg,jpeg,webp,gif,etc..,)
+                               ex:
+                                       ol{
+                                            list-style-image:url('img name.extension');
+                                            }
+
+               3.list-style-position: list-item markers bullet points.
+                               ex:
+                                    ul{
+                                          list-style-position:inside or outside;
+                                      }
+
+               4.list-style:(shorthand)   list-style property is a shorthand property. It is used to set all the list properties in one declaration.
+                              ex:
+                                 ol{
+                                    list-style:cricle inside url('');
+                                    }
+
+              5.styleing color:   style lists with colors, to make them look a little more interesting.
+                              ex:
+                                 ol{
+                                     background-color:blue;
+                                     padding:20px;
+                                    }
+                             
+```
+
+### Tables
+
+```html
+                  1.Table Borders: 
+                            table, th, td {
+                                           border: 1px solid;
+                                          } 
+                 2.Full-Width Table:
+                                The table above might seem small in some cases. If you need a table that should span the entire screen full-width, add width: 100% to the table element.
+                                          table{
+                                                width:100%
+                                          }
+                 3.Collapse Table Borders:
+                                The border-collapse property sets whether the table borders should be collapsed into a single border.
+                                        table{
+                                                 border-collapse: collapse;
+                                            }
+                  4.Table Width and Height: 
+                                   The width and height of a table are defined by the width and height properties.
+                  5. Table Padding:
+                                   To control the space between the border and the content in a table, use the padding property on td and th elements.
+                  6.Hoverable Table:
+                                Use the :hover selector on table to highlight table rows on mouse over.
+                  7.Striped Tables:
+                                 use the nth-child() selector and add a background-color to all even or odd table rows.
+                                  tr:nth-child(even) {background-color: #f2f2f2;}
+
+```
                           
 
 
