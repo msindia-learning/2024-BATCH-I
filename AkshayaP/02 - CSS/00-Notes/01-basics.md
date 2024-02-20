@@ -61,3 +61,9 @@
   3.border-width
   4.border-shorthand
   ```
+  ## MARGIN
+  ```
+  margin(top,right,bottom,left)
+  /*auto=>used to horizontally center the value within its container*/
+  inherit=>ex:p.ex1{}
+  ```
