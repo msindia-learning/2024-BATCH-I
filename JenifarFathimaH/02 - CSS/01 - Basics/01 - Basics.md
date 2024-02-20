@@ -346,6 +346,45 @@ p.b {
 ## CSS Icons
 ```html
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> <!--No download required-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--bootstrap icons-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><!--google icons-->
+```
+## CSS Links
+```css
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+```
+
+## CSS lists
+```css
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+
 ```
 
 
