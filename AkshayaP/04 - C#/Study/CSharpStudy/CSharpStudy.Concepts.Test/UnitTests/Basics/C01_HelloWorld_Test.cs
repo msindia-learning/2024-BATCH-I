@@ -10,7 +10,7 @@ public class C01_HelloWorld_Test
         
         Assert.AreEqual("Hello, World!", strResult);
     }
-
+                                                                                                                                                                                                                                                                                                                         
     [TestMethod]
     public void Test_SayHello_Check_Pikachu()
     {

@@ -75,4 +75,6 @@
   3.outline-width
   4.outline-width
   5.outline
+  6.offset=>space between the edge and border.
   ```
+  
