@@ -154,4 +154,11 @@
    position=> scroll page(static,relative,fixed,absolute,sticky)
   */
   ```
-
+  ## Z-INDEX
+  ```
+  /*
+  it defines the which element infront & behind  of others.
+  (- ve value)=> behind the text.
+  (+ ve value)=>infront of text.
+  */
+  ```
