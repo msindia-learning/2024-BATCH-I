@@ -133,7 +133,20 @@
   ```
   ## TABLES
   ```
-  /*overflow=>scrolling the page
+  /*overflow=>scrolling the page*/
   
+  
+  ```
+  ## DISPLAY
+  ```
+  /*used as inline and block level
+  display:none or inline,block-level*/
+
+  ```
+  ## MAX-WIDTH
+  ```
+  /*max-width:500px;
   */
   ```
+  ##
+
