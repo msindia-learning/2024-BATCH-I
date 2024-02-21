@@ -1,19 +1,19 @@
 .visible {
-	background-color: coral;
+	background-color: hotpink;
 	width: 200px;
 	height: 65px;
 	border: 1px solid;
 	overflow: visible;
 }
 .hidden {
-	background-color: coral;
+	background-color: yellowgreen;
 	width: 200px;
 	height: 65px;
 	border: 1px solid;
 	overflow: hidden;
 }
 .scroll {
-	background-color: coral;
+	background-color:powderblue;
 	width: 200px;
 	height: 65px;
 	border: 1px solid;
@@ -21,7 +21,7 @@
 }
 
 .auto {
-	background-color: coral;
+	background-color:orange;
 	width: 200px;
 	height: 65px;
 	border: 1px solid;
