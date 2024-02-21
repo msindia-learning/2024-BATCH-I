@@ -1,0 +1,25 @@
+div.one{
+    width: 50% auto;
+    padding: 10px;
+    border: 3px double wheat;
+    margin: 20px;
+    text-align: justify;
+    background-image: radial-gradient(gold,green);
+    border-radius: 15px;
+    outline-style: dashed;
+    outline-color: darkgreen;
+    outline-width: 4px;
+    outline-offset: 5px;
+}
+
+div.two {
+    width: 50% auto;
+    padding: 10px;
+    border: 3px double wheat;
+    margin: 20px;
+    text-align: justify;
+    background-image: radial-gradient(pink,purple);
+    border-radius: 15px;
+    outline: 4px groove blue;
+}
+
