@@ -1,0 +1,29 @@
+.visible {
+	background-color: coral;
+	width: 200px;
+	height: 65px;
+	border: 1px solid;
+	overflow: visible;
+}
+.hidden {
+	background-color: coral;
+	width: 200px;
+	height: 65px;
+	border: 1px solid;
+	overflow: hidden;
+}
+.scroll {
+	background-color: coral;
+	width: 200px;
+	height: 65px;
+	border: 1px solid;
+	overflow: scroll;
+}
+
+.auto {
+	background-color: coral;
+	width: 200px;
+	height: 65px;
+	border: 1px solid;
+	overflow: auto;
+}
