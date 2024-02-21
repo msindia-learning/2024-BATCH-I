@@ -128,6 +128,12 @@
   /*
   list-style-type(circle,square,upper-roman,lower-alpha,none(no styles added))
   list-style-image=>style with gif images
-  list-style-position=>position of the bullets*/
+  list-style-position=>position of the bullets
+  text align=>horizontal-align,vertical-align*/
   ```
+  ## TABLES
+  ```
+  /*overflow=>scrolling the page
   
+  */
+  ```
