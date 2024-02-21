@@ -1,0 +1,45 @@
+h1{
+    text-align:center;
+} 
+
+                  /*Color and background color*/
+p{
+    text-indent:190px;
+    color:darkblue;
+    background-color:bisque;
+    text-transform:capitalize;
+}
+
+                 /*Text Alignments*/
+.abc{
+    text-align:center;
+    text-align:justify;
+    background-color:aqua;
+    color:blue;
+    text-align-last:right;
+    text-transform:uppercase;
+   
+}
+h3 {
+    text-decoration:underline;
+}
+                      /*text tranfromation & text shadow*/
+#poi {
+    background-color: black;
+    color: beige;
+    text-indent: 190px;
+    letter-spacing: 2px;
+    line-height: 23px;
+    word-spacing: 10px;
+    text-shadow: 2px 1px white;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+                     /*Font family*/
+
+.abc {
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size:20px;
+}

@@ -1,0 +1,37 @@
+h1{
+    text-align:center;
+}
+h3{
+    text-decoration:underline;
+}
+ul.a {
+    list-style-image: url ('img.jfif');
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul.b {
+    list-style-type: square;
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ol.d {
+    list-style-position: inside;
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+
+
