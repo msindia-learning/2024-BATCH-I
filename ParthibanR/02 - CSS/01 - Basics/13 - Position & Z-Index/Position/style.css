@@ -1,0 +1,50 @@
+h1 {
+    color:darkcyan;
+    background-color: pink;
+    text-align: center;
+}
+h3{
+    text-decoration:underline;
+    font-weight:500;
+    font-family:'Cascadia Mono';
+}
+ol li{
+    text-align:center;
+    font-weight:bold;
+    font-family:'Footlight MT';
+    list-style-position:inside;
+    color:crimson;
+}
+
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid blue;
+}
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: navajowhite;
+    border: 2px solid pink;
+}
