@@ -742,6 +742,37 @@ max-width:
                          
 
 ```
+
+### css alignment:
+
+```html
+          css alignment:
+                1.text alignment:
+                         text-align: center or left or right
+
+                         img align : center- (display:block) right or left.
+
+```
+
+### Css combinator
+
+```html
+               combinator:
+                      A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+               Descendant Selector(spaces):
+                              The descendant selector matches all elements that are descendants of a specified element.
+
+               Child Selector (>):
+                              The child selector selects all elements that are the children of a specified element.
+
+            Adjacent Sibling Selector (+)
+                              The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+            General Sibling Selector (~)
+                              The general sibling selector selects all elements that are next siblings of a specified element.
+
+```
                           
 
 
