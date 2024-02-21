@@ -120,8 +120,14 @@
   ```
   ## STYLING ICONS
   ```
-  /*<i><span> used to link the images or links in css.
+  /*<i>-icons,<span>->link. 
   */
   ```
-  ## 
+  ## LISTS
+  ```
+  /*
+  list-style-type(circle,square,upper-roman,lower-alpha,none(no styles added))
+  list-style-image=>style with gif images
+  list-style-position=>position of the bullets*/
+  ```
   
