@@ -1,0 +1,15 @@
+.margin1{
+	border:3px solid red;
+	margin:100px 100px 100px 100px;
+	background-color:aqua;
+}
+.margin2 {
+	border: 3px solid red;
+	margin: 50px 100px 10px ;
+	background-color: aqua;
+}
+.margin3 {
+	border: 3px solid red;
+	margin: 50px 50px;
+	background-color: aqua;
+}

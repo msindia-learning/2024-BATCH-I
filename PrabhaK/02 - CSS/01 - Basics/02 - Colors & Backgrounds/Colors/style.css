@@ -1,0 +1,19 @@
+body{
+	background-color:darkgray;
+}
+.p1{
+	color:dodgerblue;
+	background-color:brown;
+}
+.p1 h2{
+	color:black;
+}
+
+.p2{
+	background-color:chartreuse;
+	color:black;
+}
+.p3{
+	background-color:deeppink;
+	color:black;
+}
