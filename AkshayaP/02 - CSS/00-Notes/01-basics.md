@@ -118,4 +118,10 @@
   text-decoration=>underline,none*/
   /*cursor property=>crosshair,resize,default,e-resize,pointer and etc.(<span style="cursor-property">) */
   ```
+  ## STYLING ICONS
+  ```
+  /*<i><span> used to link the images or links in css.
+  */
+  ```
+  ## 
   
