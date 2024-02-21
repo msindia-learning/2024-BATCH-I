@@ -1,0 +1,27 @@
+
+.base {
+	background-color: lightblue;
+	border-color: green red deeppink maroon;
+	border-style: solid;
+	margin: 50px 100px 75px 100px;
+	color: blue;
+	font-size: 25px;
+}
+
+.auto {
+	background-color: dimgrey;
+	font-family: Arial;
+	font-size: 20px;
+	color: whitesmoke;
+	margin: auto;
+	width: 300px;
+}
+
+.drop {
+	border: 2px solid;
+	margin-left: inherit;
+	border-color: black;
+	color: brown;
+	font-family: cursive;
+	font-size: 20px;
+}
