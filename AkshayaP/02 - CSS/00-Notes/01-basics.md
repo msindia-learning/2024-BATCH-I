@@ -106,5 +106,16 @@
                  font-size/line-height
                  font-family
   ```
-  ## 
+  ## STYLING LINKS
+  ```
+  /*
+  a:link-normal,unvisited link.
+  a:visited-user has visited.
+  a:hover-when user mouse over it.
+  a:active:link the moment it's clicked.
+  */
+  /*
+  text-decoration=>underline,none*/
+  /*cursor property=>crosshair,resize,default,e-resize,pointer and etc.(<span style="cursor-property">) */
+  ```
   
