@@ -626,6 +626,51 @@
                                   tr:nth-child(even) {background-color: #f2f2f2;}
 
 ```
+
+### Diplsy & Max-width
+
+```html
+            display:
+                 The display property is the most important CSS property for controlling layout.
+
+            display properties:
+                        The display property is used to specify how an element is shown on a web page.
+                            
+                            Block-level Elements:
+                                       <div>
+                                       <h1> - <h6>
+                                       <p>
+                                       <form>
+                                       <header>
+                                       <footer>
+                                       <section>
+
+                            Inline elements:
+                                     <span>
+                                      <a>
+                                      <img>
+
+                    properties values:
+                                1.display:none
+                                           Is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.
+                     
+                                2.display:inline
+                                            Changing an inline element to a block element, or vice versa, can be useful for making the page look a specific way, and still follow the web standards.
+
+                                3.display:block
+                                            Is not allowed to have other block elements inside it.
+
+                                4.visibility:hidden
+                                             also hides an element. However, the element will still take up the same space as before. The element will be hidden, but still affect the layout                                          
+
+max-width:
+            mentioned in the previous chapter; a block-level element always takes up the full width available.
+                             max-width: set to maximum width in our webpages.
+                             margin:auto: equal side same spaces content  into center position.
+
+```
+
+
                           
 
 
