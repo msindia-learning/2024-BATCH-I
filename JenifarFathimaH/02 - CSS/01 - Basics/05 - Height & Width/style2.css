@@ -1,0 +1,17 @@
+.one {
+    height:100%;
+    text-align: center;
+    min-width: 25%;
+    background-image: radial-gradient(darkgreen,green,yellow,orange,red,indigo,blue);
+    padding: 100px;
+    margin: 0 25% 0 25%;
+    border-radius:50px;
+}
+.two{
+    background-image:linear-gradient(to right,purple,skyblue,orange);
+    max-height:150px;
+    width:200px;
+    text-align:center;
+    margin: 5% 50% 0 38%;
+    padding:20px;
+}

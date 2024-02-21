@@ -4,12 +4,15 @@ body{
 h1{
 	color:white;
 	text-align:center;
+	
 }
-div {
+div.india{
 	border-style: dotted;
 	/*margin:100px 50px 70px 60px;*/
-	margin: 0 50px 0 0;
+	margin: 20px 50px 20px 20px;
+	width:900px;
+	background-color:lightblue
 }
-p.ex{
-	margin-left:20px;
+#tourism{
+	margin:inherit;
 }

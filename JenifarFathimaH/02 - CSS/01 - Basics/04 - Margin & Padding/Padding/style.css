@@ -1,0 +1,12 @@
+.padding {
+    /*padding: 25px 25px 25px 25px;*/
+    padding: 25px;
+    margin: 85px;
+    box-sizing: border-box;
+    background-image: radial-gradient(yellow, red);
+    border-radius: 30px;
+    text-align: center;
+}
+p{
+    text-align:center;
+}
