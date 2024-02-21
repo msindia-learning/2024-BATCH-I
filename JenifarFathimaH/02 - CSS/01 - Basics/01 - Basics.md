@@ -389,8 +389,6 @@ ul.b {
 
 ## CSS Tables
 ```css
-
-
 border	border properties
 border-collapse	Specifies whether or not table borders should be collapsed
 border-spacing	Specifies the distance between the borders of adjacent cells
