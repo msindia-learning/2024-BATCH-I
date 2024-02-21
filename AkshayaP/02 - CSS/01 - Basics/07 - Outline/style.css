@@ -5,21 +5,24 @@ body{
 h1{
 	color:black;
 	text-align:center;
-	padding
+	padding:40px 30px 50px 20px;
 }
 p {
 	outline-color: red;
-	outline-offset: 5px;
+	outline-offset: 15px;
 }
 p.point1
 {
 		outline-style: dotted;
 		outline-width:1px;
+		outline-color:aqua;
+		background: yellow;
 		
 }
 	p.point2 {
 		outline-style: dashed;
 		outline-width: 3px;
+		outline-color: pink;
 	}
 	p.point3 {
 		outline-style: double;
@@ -27,5 +30,5 @@ p.point1
 	}
 	p.point4 {
 		outline-style: ridge;
-		outline-width: 20px;
+		outline-width: 4px;
 	}
