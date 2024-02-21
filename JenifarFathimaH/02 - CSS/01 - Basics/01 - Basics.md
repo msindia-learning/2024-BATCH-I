@@ -1,4 +1,3 @@
-```markdown
 # CSS
 Used to style web pages.
 
@@ -396,5 +395,13 @@ caption-side	table caption
 empty-cells	Specifies whether or not to display borders and background on empty cells in a table
 table-layout	fixed,auto
 ```
+
+## CSS Layout 
+### The display Property
+`display` used to specify how an element is shown on a web page.
+
+ ### Width and max-width
+ `max-width ` improve the browser's handling of small windows
+
 
 
