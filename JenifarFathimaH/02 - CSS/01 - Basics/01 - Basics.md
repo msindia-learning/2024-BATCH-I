@@ -421,3 +421,10 @@ The `z-index property` specifies the stack order of an element
 `hidden` - The overflow is clipped, and the rest of the content will be invisible
 `scroll` - The overflow is clipped, and a scrollbar is added to see the rest of the content
 `auto` - Similar to scroll, but it adds scrollbars only when necessary
+
+## CSS Combinator
+element element	div p	Selects all <p> elements inside <div> elements
+element>element	div > p	Selects all <p> elements where the parent is a <div> element
+element+element	div + p	Selects the first <p> element that are placed immediately after <div> elements
+element1~element2	p ~ ul	Selects every <ul> element that are preceded by a <p> element
+
