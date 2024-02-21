@@ -403,5 +403,21 @@ table-layout	fixed,auto
  ### Width and max-width
  `max-width ` improve the browser's handling of small windows
 
+ ### Position Property
+ There are five different position values:
 
+`static
+relative
+fixed
+absolute
+sticky`
 
+### The z-index Property 
+The `z-index property` specifies the stack order of an element
+
+## Layout
+
+`visible `- Default. 
+`hidden` - The overflow is clipped, and the rest of the content will be invisible
+`scroll` - The overflow is clipped, and a scrollbar is added to see the rest of the content
+`auto` - Similar to scroll, but it adds scrollbars only when necessary
