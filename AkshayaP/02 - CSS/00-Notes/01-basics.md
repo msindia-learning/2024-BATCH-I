@@ -162,3 +162,9 @@
   (+ ve value)=>infront of text.
   */
   ```
+  ## FLOAT
+  ```
+  /*used to positioning and pointing the content
+  float=>right,left,none,inherit*/
+  clear=>what should happen next the float element.
+  ```
