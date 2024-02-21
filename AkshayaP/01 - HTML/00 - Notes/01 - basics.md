@@ -14,7 +14,7 @@
 ```
 ##QUOTATIONS
 ```html
- <blockquote>=> used to quote the particular block.
+ <blockquote>=> used to quote a section from another block.
  <q> => use to quote a specified words or sentence within a paragraph.
  <abbr> => use to define the abbreviation.
  <address> => used to specified a address.
@@ -68,14 +68,15 @@
 
  ###LISTS
  ```html
-  <!--Unordered list-->
+  <!--Unordered list-->   /*marked with bullets*/
       <ul>
          <li></li>
          <li></li>
          <li></li>
       </ul>
-  <!--Ordered list-->
-      </ol>
+  <!--Ordered list-->    /* marked with numbers (type attributes-* type a->list numbered with lowercase letters,type A-list numbered with uppercase letters,type 1=list numbered with nmbers,
+  type I=>list numbered with uppercase roman letters,type i=>list numbered with lowercase roman numbers)*/
+      <ol>
          <li></li>
          <li></li>
          <li></li>
@@ -136,107 +137,40 @@
     <!-- Table caption(some description of the table)-->
         <caption></caption>
  ```
+ ###BLOCK & INLINE ELEMENTS
+ ```
+  Block elements=> <p><div>
+ <div>=>division or section of the html document.
+ <p>=> defined the paragraph .
+  Inline elements=> <span>=>used to mark up a text inside a line
+ ```
  
-#BLOCK
+
+
+#CANVAS
 ```html
-<address> defines the contact information in italics,
-<article> - to represent the important content on the webpage
-<aside> -side content about the main page
-<blockquote>- data section from another resource
-<canvas> - draw graphics and 2D shapes using javascript 
-<dd>-data description
-<dl>- data list
-<dt>- data description term
-<fieldset> - create box around the form                                                                                             
-<figcaption> - caption for the <figure> element
-<figure> - mark up the image in the page with caption using <figcaption>
-<footer> - display the contact information
-<form> - to create form with elements like <label>, <input>, <option>, <select> with attributes like action, id, name, for, methods, etc,. 
-<h1>-<h6>heading tag in descending order
-<header>- contains navigation links, icons and headings
-<hr>- horizondal rule
-<li>-for list
-<main>  - to display unique content of the document, cant repeat more than one time;
-<nav> - navigation bar inside head tag
-<noscript> alternative of script tag for unsuppoerted browsers
-<ol>-ordered list
-<p>- for paragraph
-<pre> - for preformatted text, used in poems
-<section> - to define section in the document
-<table> to define table with child tags such as <tr>,<td>,<thead>,<th>
-<tfoot> footer of the table
-<ul>- unordered list
-<video> - for displaying video using relative path of the video with attributes like controls in the web page
+<canvas> => used to draw the graphics using the java script(its only a container for graphics).
+ 
 ```
-
-#INLINE
-```html
-<a> for hyperlinks,
-<abbr> FOR ABBREVIATION
-<bdo> for birectional property of text from left to right(ltr) and right to left(rtl)
-<br> for break
-<button> represent button with clickable action
-<cite> define the title of the creative work like author, date, etc,. 
-<code> define text as computer code
-<dfn> definition element with title attribute
-<em> emphasized text
-<i> italic text
-<img> used to display image with attributes like src, style , etc,.
-<input> get input from the user
-<kbd> define keyboard in text
-<label> used to label the name for the form elements
-<map> used to point the image with coords attribute
-<output> to diplay the result
-<q> small quotation
-<samp> to define sample output of the computer program
-<script> internal space for javascript within html 
-<select> for dropdown list
-<small> for small text
-<span> inline element to specify the text with style attributes
-<strong> for important text
-<sub> for subscript text
-<sup> for superscript text
-<textarea> text area with row and column attribute
-<time> to represent specific time
-<var> to represent variable in mathematical expression
+###HTML id & class
 ```
-
-
-#DIV
-```html
-<div> - default block element , line break before and after, group selector;
+class used by multiple html elements & id used as a specifier.
 ```
-
-#ID & CLASSES
-
-id - attribute specifies unique id for the HTML, cant use for multible blocks, case sensitive, name should be started with '#' in styling(css)
-class - attribute specifies the class, can use the style for multiple blocks by specifying the name, name should be started with '.' in styling(css)
-
-
-#IFRAME
-```html
-<iframe> - used to display the web page within the webpage with attributes like width, height and other attribute styles 
+###IFRAME
 ```
-
-#FILEPATH
-```html
-to describe the location of the file; 
-used in <img>,<audio>,<video>;
-file path is specified using the attribute 'src'
+<iframe>=>used to embed a another html document with in a html document.
 ```
-#HEAD
-```html
-<head> - contains <title> for displaying webpage title; contains <style>,<script>;<meta> for additional information
+###LAYOUTS
 ```
-
-#LAYOUT
-```html
-<header> - Defines a header for a document or a section
-<nav> - Defines a set of navigation links
-<section> - Defines a section in a document
-<article> - Defines an independent, self-contained content
-<aside> - Defines content aside from the content (like a sidebar)
-<footer> - Defines a footer for a document or a section
-<details> - Defines additional details that the user can open and close on demand
-<summary> - Defines a heading for the <details> element
+<header>=> defines the header of the page.
+<aside>=> sidebar.
+<nav>=> defines the navigation links.(typically leads to another website into a single page).
+<footer>=> defines the contact information.
+<section>=> defines a section in a document.
+<article>=> defines an independent & self contained part.
+```
+###FILEPATHS
+```
+absolute file paths=>file from website(using links).
+relative file path=>file relative from current page.
 ```

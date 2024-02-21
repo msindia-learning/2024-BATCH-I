@@ -1,0 +1,25 @@
+
+h1{
+	color: black;
+	text-align: center;
+}
+
+p {
+	color: darkblue;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+#task {
+	
+	color: darkmagenta;
+	text-align: center;
+}
+
+.container {
+	color: orangered;
+	text-align:center;
+}
+p2, h3, p4 {
+	color: red;
+}

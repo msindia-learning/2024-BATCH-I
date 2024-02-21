@@ -1,9 +1,9 @@
 body {
-	/*background-color: white;*/
-	background: #ffffff  url("imagetree.png");
-	background-repeat:no-repeat;
+	background-color: #000000;
+	background: #ffffff url("imagetree.png");
+	background-repeat: no-repeat;
 	background-position: right top;
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 h1 {
 	text-decoration-color: black;
