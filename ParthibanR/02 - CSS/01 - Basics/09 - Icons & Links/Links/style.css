@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+    background-color:moccasin;
+    color:black;
+}
+                  /* unvisited link */
+a:link {
+    color: red;
+    text-decoration:underline;
+    border:2px solid black;
+}
+
+                   /* visited link */
+a:visited {
+    color: green;
+    text-decoration:none;
+}
+
+                   /* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration:underline;
+}
+
+                   /* selected link */
+a:active {
+    color: blue;
+    text-decoration:none;
+}

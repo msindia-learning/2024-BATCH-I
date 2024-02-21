@@ -1,0 +1,25 @@
+/*
+	span {
+	border: 3px solid violet;
+	padding: 3px;
+	font-size: 30px;
+}
+	.1 {
+	
+		box-decoration-break: clone;
+	}
+*/
+img {
+	position:center;
+	-webkit-box-reflect: left;
+}
+
+h1{
+	border:5px solid red;
+	padding:10px;
+	box-shadow:5px 10px  blue;
+}
+
+.newspaper{
+	column-count:4;
+}

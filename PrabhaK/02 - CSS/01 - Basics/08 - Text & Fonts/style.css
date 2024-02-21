@@ -1,0 +1,37 @@
+
+div {
+	border: 1px solid gray;
+	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #4CAF50;
+	text-decoration: overline;
+	text-decoration-color: red;
+	/*text-decoration-style:dotted;*/
+	text-decoration-thickness: 10px;
+	text-shadow: 2px 2px 5px blue;
+	font-style: italic
+}
+
+p {
+	letter-spacing: 3px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	line-height:5;
+}
+
+a {
+	text-decoration: none;
+	color: #008CBA;
+}
+h2{
+	text-decoration:underline;
+	letter-spacing:10px;
+}
+h3 {
+	text-decoration-line: overline underline;
+}
+

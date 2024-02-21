@@ -1,0 +1,57 @@
+h1{
+    text-align:center;
+}
+                /*outline css*/
+p
+{
+    text-indent:190px;
+    width:600px;
+    height:200px;
+    outline: 13px solid black;
+    border: 12px solid grey;
+    font-family:'Bradley Hand ITC';
+    background-position:center;
+    text-align:center;
+    padding:75px;
+    margin:20px;
+}
+    
+              /*outline style
+                  1.weight
+                  2.height
+                  3.color
+              */
+
+#zxc{
+    text-align:center;
+    padding:40px;
+    margin:10px;
+    outline-style:dashed;
+    outline:14px solid pink;
+    border-color:crimson;
+    border:2px solid crimson;
+    width:200px;
+    height:190px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline-style:outset;
+    outline-color:antiquewhite;
+}
+                     /*outline-offset*/
+.vbn{
+    outline-offset:10px;
+    outline-color:darkblue;
+    width:200px;
+    height:200px;
+    padding:10px;
+    margin:10px;
+    text-indent:140px;
+}
+
+                 /*Shorthand*/
+#mnb {
+    outline: 6px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}

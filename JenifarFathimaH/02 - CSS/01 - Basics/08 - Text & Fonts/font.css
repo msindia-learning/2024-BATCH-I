@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(to right,orange,white,green);
+    text-align:center;
+   
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+div{
+    padding:0 50px;
+    text-align:justify;
+    text-align-last:center;
+    font-family:cursive;
+    font-size:20px;
+}
