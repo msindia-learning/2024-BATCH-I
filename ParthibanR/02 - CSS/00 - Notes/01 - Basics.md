@@ -670,7 +670,78 @@ max-width:
 
 ```
 
+### position:
 
+```html
+          1.static
+          2.relative
+          3.fixed
+          4.absoulte
+          5.stricky
+
+
+          1.static:
+                HTML elements are positioned static by default.Static positioned elements are not affected by the top, bottom, left, and right properties.
+          
+          2.relative:
+                An element with position: relative; is positioned relative to its normal position.
+
+          3.fixed:
+                Is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+         
+         4.absoulte:
+                An element absolute is positioned relative to the nearest positioned ancestor instead of positioned relative to the viewport, like fixed.
+
+        5.stricky:
+               A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport  then it sticks in place
+```
+
+### Z-index:
+```html
+        z-index:
+              The z-index property specifies the stack order of an element which element should be placed in front of, or behind, the others.
+               
+               z-index:-1
+                            the image has a z-index of -1, it will be placed behind the text.
+
+               z-index:1
+                           the image has a z-index of 1 it will be placed frond of their text.
+```
+
+### overflow
+
+```html
+          overflow:
+                  The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+                                           
+                                           visible - Default. The overflow is not clipped. The content renders outside the element's box
+                                           hidden -  The overflow is clipped, and the rest of the content will be invisible
+                                           scroll -  The overflow is clipped, and a scrollbar is added to see the rest of the content
+                                           auto -    Similar to scroll, but it adds scrollbars only when necessary
+                            
+```
+
+### Float
+```html
+                             left -       The element floats to the left of its container.
+                             right -      The element floats to the right of its container.
+                             none -       The element does not float (will be displayed just where it occurs in the text). This is default.
+                             inherit -    The element inherits the float value of its parent.
+```
+
+### css inline block
+
+```html
+     Display:
+            
+            1.Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+                        display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+            
+            
+            2.Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+                         
+
+```
                           
 
 
