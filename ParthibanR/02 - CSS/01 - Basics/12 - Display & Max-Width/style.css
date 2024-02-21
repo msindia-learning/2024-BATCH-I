@@ -28,7 +28,33 @@ div.cxz{
     
 }
                              /*DISPLAY PROPERTY*/
-.bet{
+.bet li{
     color:cadetblue;
-    
+    display:inline; 
 }
+
+div li a:hover {
+             color:brown;
+          }
+
+ div li a:active {
+               color: blueviolet;
+             }
+
+
+ .dfg{
+     display:block;
+ }
+ span{
+      display:grid;
+ }
+ .hidden{
+     display:none;
+ }
+ h1.hidden{
+     visibility:hidden;
+ }
+
+ .poi{
+     display:grid;
+ }
