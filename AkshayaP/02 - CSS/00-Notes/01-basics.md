@@ -207,3 +207,10 @@
    hover=>on hover the image it will transparent
   */
   ```
+  ## PSEUDO-CLASSES
+  ```
+  /*state a special state of an element
+  selector:pseudo-class {
+  property: value;}
+}*/
+  ```
