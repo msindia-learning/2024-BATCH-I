@@ -212,5 +212,23 @@
   /*state a special state of an element
   selector:pseudo-class {
   property: value;}
-}*/
+  :lang=>define special rule for different language.
+  PSEUDO_ELEMENTS=>selector::pseudo-element{property: value;}
+                  =>::first-Line
+                  =>::first-letter
+                  =>p.class::first-letter
+                  =>h1::before=>add img before the content.
+                  =>h1::after=>add img after the content.
+                  =>::marker=>selects the marker of the list.
+                  =>::selection=>applied to(color,background,cursor(if i select or copy th text means the 
+                  copied side should be hover in yellow color.))
+*/
+  ```
+  ## UNITS
+  ```
+  /*
+  =>width, margin, padding, font-size
+  =>absolute length(cm,mm,in,px*,pt,pc)
+  =>relative length=>em,vh,vw,and etc
+  */
   ```
