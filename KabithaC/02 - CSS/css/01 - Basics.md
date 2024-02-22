@@ -71,4 +71,54 @@
  ''' css
   background-color : used to background color of an element.
   background-image:  set the background image for a page.
+  background-image: repeat; - an image both vertically and vertically.
+       background-repeat: repeat-x; - repeat only horizontal.
+       background-position: ;  starting position of the  bg image.
 '''
+## BORDERS 
+''' css
+  - border to display.
+  - <p style="border:3px dashed"> </p>
+  - dotted - Defines a dotted border
+  -  solid - Defines a solid border
+  - double - Defines a double border
+  - groove - Defines a 3D grooved border. 
+  - ridge - Defines a 3D ridged border. 
+  - inset - Defines a 3D inset border. 
+  - outset - Defines a 3D outset border. 
+  - none - Defines no border
+  - hidden - define the hidden border.
+   Border-width   -specifies the width of the four borders.
+   Border-Individual  specify a different border for each side.
+ '''
+ ## MARGIN
+ '''css 
+    Margin - used to create space around elements, outside the borders.
+      *margin-top = 25px;
+      *margin-right =50px;
+      *margin-bottom =75px;
+      *margin-left = 100px;
+   margin-left: inherit from the parent.
+   auto- used to horizontally center the element within its container.(specify the width and remain space split equally.)
+   '''
+   ## PADDING
+   ''' css
+     Used to create space around an elements content, inside the borders. 
+   '''
+   ## CSS HEIGTH, WIDTH and MAX_WIDTH
+   '''css
+   Height and width - Inside the padding, border, and margin of the element.
+      * auto  - This is default.
+      * length - used to px,cm .
+      * %      - denote in percent value.
+      * initial - initial set the height and width . That value is denoted as default.
+      * inherit - inherits from the parent value.
+   '''
+   ## BOX MODEL
+   '''css
+   Box model is used to design and layout.
+      * content - it contain text and images appear.
+      * padding - space between the content of an element and its border.
+      * border -  to specify the width, style, and color of the border.
+      * margin - Margin is the space outside an element.
+   '''
