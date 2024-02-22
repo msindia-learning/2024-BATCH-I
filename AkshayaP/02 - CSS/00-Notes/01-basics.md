@@ -189,3 +189,14 @@
   align the elements
   */
   ```
+  ## COMBINATORS
+  ```
+  /*
+  1.explain the relationship b/w the selectors.
+  *
+  descent selector(space)
+  child selector(>)
+  adjacent sibling selector(+)
+  general sibling selector(~)
+  */
+  ```
