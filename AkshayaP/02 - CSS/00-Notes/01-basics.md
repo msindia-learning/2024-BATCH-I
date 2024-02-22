@@ -167,4 +167,19 @@
   /*used to positioning and pointing the content
   float=>right,left,none,inherit*/
   clear=>what should happen next the float element.
+  overflow=>add scrollbars when the content iss too big.
+  ```
+  ## display:inline-block
+  ```
+  /*d/f inline & block-inline=>1.inline-block enables allow to set width  height,2.does not add a line break after the element 
+  automatically it will sit to next element.
+  inline-block the top & bottom paddings are respected but inline they are not.
+  */
+  ```
+  ## ICONS
+  ```
+  /*
+  (1.inline=>high preference,tag=>second,id=>3 rd,.=>4th
+  the 2.!important =>all icons should be in same color)
+  */
   ```
