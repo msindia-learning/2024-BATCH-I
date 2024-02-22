@@ -773,6 +773,74 @@ max-width:
                               The general sibling selector selects all elements that are next siblings of a specified element.
 
 ```
+### CSS Pseudo-classes
+
+```html
+         A pseudo-class is used to define a special state of an element.
+
+         1.hover - mouse to move on their particular elements that behaviours changes too.
+
+         2.visited-  if they visited their link that clour should be change some different colours.
+
+         3.active- if they link actived that time link should be changes form that behaviours.
+
+         4.link- a particular link should be touch if their behaviour should be changed them.
+
+         5.pseudo class and html elements
+
+         6.pesudo code div elements.
+
+         7.:first-child:  The :first-child pseudo-class matches a specified element that is the first child of another element.
+
+pseudo elements:
+        ::first-line Pseudo-element
+                    
+                    The ::first-line pseudo-element is used to add a special style to the first line of a text.
+
+         ::first-letter Pseudo-element
+                     
+                      The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
+
+         ::before Pseudo-element
+                
+                 The ::before pseudo-element can be used to insert some content before the content of an element.
+
+          ::after Pseudo-element
+             
+                 The ::after pseudo-element can be used to insert some content after the content of an element.
+
+           ::marker Pseudo-element
+
+                  The ::marker pseudo-element selects the markers of list items.
+
+           ::selection Pseudo-element
+
+                   The ::selection pseudo-element matches the portion of an element that is selected by a user. The following CSS properties can be applied to ::selection: color, background, cursor, and outline
+
+```
+
+### CSS Opacity/Transparency
+
+```html
+          OPACITY/TRANSPERENCY:
+                The opacity property specifies the opacity/transparency of an element.
+
+         Transparent images:
+                 The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent.
+
+         Transparent Hover Effect:
+                 The opacity property is often used together with the :hover selector to change the opacity on mouse-over.
+
+        Transparent Box:
+                 When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency.
+
+        Transparency using RGBA:
+                 An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+                 
+              
+
+
+```
                           
 
 
