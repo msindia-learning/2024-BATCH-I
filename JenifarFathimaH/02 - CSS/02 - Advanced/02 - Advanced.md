@@ -104,3 +104,27 @@ div {
   transition: opacity 1s;
 }
 ```
+
+## Object Fit
+```
+object-fit	Specifies how an <img> or <video> should be resized to fit its container
+object-position	Specifies how an <img> or <video> should be positioned
+```
+
+## CSS Variables
+```
+var()	Inserts the value of a CSS variable
+```
+
+## CSS Box Sizing
+```
+box-sizing	the width and height of an element are calculated: should they include padding and borders, or not
+```
+
+## CSS Media Queries
+```
+@media not|only mediatype and (media feature) and (media feature) {
+  CSS-Code;
+}
+```
+
