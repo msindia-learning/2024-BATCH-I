@@ -200,3 +200,10 @@
   general sibling selector(~)
   */
   ```
+  ## OPACITY
+  ```
+  /*
+   transparency of a image
+   hover=>on hover the image it will transparent
+  */
+  ```
