@@ -9,17 +9,28 @@ h3 {
     font-weight: 500;
     font-family: 'Cascadia Mono';
 }
-/*a[target] {
+
+
+a[target] 
+{
     background-color: yellow;
 }
 
-a[target="_blank"]{
+
+a[target="_blank"]
+{
     background-color:grey;
 }
-a[title~="w3"]{
-    background-color:black;
-}*/
 
-a[title|="w3"]{
+
+a[title~="w3"]
+{
+    background-color:black;
+}
+
+
+
+a[title|="w3"]
+  {
     background-color:blue;
 }
