@@ -1,0 +1,24 @@
+ol{
+	background-color:pink;
+	padding:20px;
+}
+
+ul{
+	background-color:skyblue;
+	padding:20px;
+}
+
+ol li{
+	list-style-type:square;
+	list-style-position:inside;
+	color:blue;
+	margin-left:35px;
+	padding:5px;
+}
+ul li{
+	list-style-type: upper-alpha;
+	list-style-position: outside;
+	color:red;
+	margin-right:20px;
+	padding:5px;
+}

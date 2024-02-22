@@ -1,0 +1,34 @@
+table th,td{
+	border:1px dotted;
+	width:30%;
+	height:20px;
+	border-bottom:10px solid #ddd;
+	overflow-x:visible;
+}
+
+
+
+
+#books{
+	font-family:Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width:100%;
+	text-align:center;
+}
+#books tr #books th{
+	border:1px solid green;
+	padding:8px;
+}
+#books tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+#books tr:hover{
+	background-color:grey;
+}
+#books th{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	background-color:#04aa6d;
+	color:white;
+}

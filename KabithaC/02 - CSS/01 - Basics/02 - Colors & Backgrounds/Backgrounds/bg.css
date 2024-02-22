@@ -1,0 +1,15 @@
+.my{
+		background-color:blue;
+	}
+
+.task {
+	background-color: magenta;
+	font-size:20px;
+}
+
+.pro{
+	background-image:url("plant.jpg");
+    background-repeat:repeat;
+	font-size:23px;
+	color:white;	
+}
