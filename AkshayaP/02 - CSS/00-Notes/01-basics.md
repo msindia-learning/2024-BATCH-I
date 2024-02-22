@@ -246,9 +246,13 @@
   ```
   calc(),min(),max()
   ```
-  ## OBJECTFIT
+  ## OBJECT-FIT & OBJECT-POSITION
   ``` used to resized the img and video should be resized within its container
   /*
   fill,contain,cover,none,scale-down
+  */
+  /*
+  object-position=>position of the height and width.
+  object-position:0%,0%;
   */
   ```

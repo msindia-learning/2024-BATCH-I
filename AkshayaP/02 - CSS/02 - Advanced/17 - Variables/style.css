@@ -1,0 +1,21 @@
+:root {
+	--blue: #1e90ff;
+	--white:#ffffff;
+}
+body {
+	background-color:var(--blue);
+}
+h2 {
+	border-bottom: 2px solid #1e90ff;
+}
+.container {
+	color: var(--blue);
+	background-color: var(--white);
+	padding: 15px;
+}
+button {
+	background-color:var(--white);
+	padding: 5px;
+	border: var(--blue);
+	color: #1e09ff;
+}
