@@ -626,6 +626,221 @@
                                   tr:nth-child(even) {background-color: #f2f2f2;}
 
 ```
+
+### Diplsy & Max-width
+
+```html
+            display:
+                 The display property is the most important CSS property for controlling layout.
+
+            display properties:
+                        The display property is used to specify how an element is shown on a web page.
+                            
+                            Block-level Elements:
+                                       <div>
+                                       <h1> - <h6>
+                                       <p>
+                                       <form>
+                                       <header>
+                                       <footer>
+                                       <section>
+
+                            Inline elements:
+                                     <span>
+                                      <a>
+                                      <img>
+
+                    properties values:
+                                1.display:none
+                                           Is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.
+                     
+                                2.display:inline
+                                            Changing an inline element to a block element, or vice versa, can be useful for making the page look a specific way, and still follow the web standards.
+
+                                3.display:block
+                                            Is not allowed to have other block elements inside it.
+
+                                4.visibility:hidden
+                                             also hides an element. However, the element will still take up the same space as before. The element will be hidden, but still affect the layout                                          
+
+max-width:
+            mentioned in the previous chapter; a block-level element always takes up the full width available.
+                             max-width: set to maximum width in our webpages.
+                             margin:auto: equal side same spaces content  into center position.
+
+```
+
+### position:
+
+```html
+          1.static
+          2.relative
+          3.fixed
+          4.absoulte
+          5.stricky
+
+
+          1.static:
+                HTML elements are positioned static by default.Static positioned elements are not affected by the top, bottom, left, and right properties.
+          
+          2.relative:
+                An element with position: relative; is positioned relative to its normal position.
+
+          3.fixed:
+                Is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+         
+         4.absoulte:
+                An element absolute is positioned relative to the nearest positioned ancestor instead of positioned relative to the viewport, like fixed.
+
+        5.stricky:
+               A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport  then it sticks in place
+```
+
+### Z-index:
+```html
+        z-index:
+              The z-index property specifies the stack order of an element which element should be placed in front of, or behind, the others.
+               
+               z-index:-1
+                            the image has a z-index of -1, it will be placed behind the text.
+
+               z-index:1
+                           the image has a z-index of 1 it will be placed frond of their text.
+```
+
+### overflow
+
+```html
+          overflow:
+                  The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+                                           
+                                           visible - Default. The overflow is not clipped. The content renders outside the element's box
+                                           hidden -  The overflow is clipped, and the rest of the content will be invisible
+                                           scroll -  The overflow is clipped, and a scrollbar is added to see the rest of the content
+                                           auto -    Similar to scroll, but it adds scrollbars only when necessary
+                            
+```
+
+### Float
+```html
+                             left -       The element floats to the left of its container.
+                             right -      The element floats to the right of its container.
+                             none -       The element does not float (will be displayed just where it occurs in the text). This is default.
+                             inherit -    The element inherits the float value of its parent.
+```
+
+### css inline block
+
+```html
+     Display:
+            
+            1.Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+                        display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+            
+            
+            2.Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+                         
+
+```
+
+### css alignment:
+
+```html
+          css alignment:
+                1.text alignment:
+                         text-align: center or left or right
+
+                         img align : center- (display:block) right or left.
+
+```
+
+### Css combinator
+
+```html
+               combinator:
+                      A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+               Descendant Selector(spaces):
+                              The descendant selector matches all elements that are descendants of a specified element.
+
+               Child Selector (>):
+                              The child selector selects all elements that are the children of a specified element.
+
+            Adjacent Sibling Selector (+)
+                              The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+            General Sibling Selector (~)
+                              The general sibling selector selects all elements that are next siblings of a specified element.
+
+```
+### CSS Pseudo-classes
+
+```html
+         A pseudo-class is used to define a special state of an element.
+
+         1.hover - mouse to move on their particular elements that behaviours changes too.
+
+         2.visited-  if they visited their link that clour should be change some different colours.
+
+         3.active- if they link actived that time link should be changes form that behaviours.
+
+         4.link- a particular link should be touch if their behaviour should be changed them.
+
+         5.pseudo class and html elements
+
+         6.pesudo code div elements.
+
+         7.:first-child:  The :first-child pseudo-class matches a specified element that is the first child of another element.
+
+pseudo elements:
+        ::first-line Pseudo-element
+                    
+                    The ::first-line pseudo-element is used to add a special style to the first line of a text.
+
+         ::first-letter Pseudo-element
+                     
+                      The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
+
+         ::before Pseudo-element
+                
+                 The ::before pseudo-element can be used to insert some content before the content of an element.
+
+          ::after Pseudo-element
+             
+                 The ::after pseudo-element can be used to insert some content after the content of an element.
+
+           ::marker Pseudo-element
+
+                  The ::marker pseudo-element selects the markers of list items.
+
+           ::selection Pseudo-element
+
+                   The ::selection pseudo-element matches the portion of an element that is selected by a user. The following CSS properties can be applied to ::selection: color, background, cursor, and outline
+
+```
+
+### CSS Opacity/Transparency
+
+```html
+          OPACITY/TRANSPERENCY:
+                The opacity property specifies the opacity/transparency of an element.
+
+         Transparent images:
+                 The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent.
+
+         Transparent Hover Effect:
+                 The opacity property is often used together with the :hover selector to change the opacity on mouse-over.
+
+        Transparent Box:
+                 When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency.
+
+        Transparency using RGBA:
+                 An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+                 
+              
+
+
+```
                           
 
 

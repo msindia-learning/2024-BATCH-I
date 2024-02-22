@@ -1,0 +1,55 @@
+h1 {
+    color:blanchedalmond;
+    background-color:coral;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+p
+{
+    text-align:center;
+    font-family:'Eras ITC';
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+ a:hover{
+           color:darkgreen;
+}
+
+ a:active{
+         color:hotpink;
+}
+
+/*p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}*/
+
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+::marker{
+    color:blue;
+    font-size:larger;
+    background-color:bisque;
+}
+
+::selection{
+    color:lawngreen;
+    background-color:burlywood;
+}
