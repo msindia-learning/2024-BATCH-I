@@ -1,0 +1,31 @@
+body{
+	background-color:red;
+	background-attachment:fixed;
+}
+h2{
+	text-decoration-color:black;
+	text-align:center;
+}
+a:link{
+	color:deeppink;
+	background-color:bisque;
+	padding-top:5px;
+	margin:30px;
+	border:20px;
+	text-align:right;
+}
+a.link:hover{
+	color:blue;
+}
+a:visited{
+	color:cadetblue;
+	
+}
+a:hover{
+	color:green;
+	
+}
+a:active {
+	color: blue;
+	text-decoration: underline;
+}

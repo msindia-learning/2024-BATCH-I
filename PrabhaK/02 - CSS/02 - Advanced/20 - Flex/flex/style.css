@@ -9,19 +9,16 @@ height:100vh;
 }
 #main{
 	display:flex;
-	flex:2;
 	font-size:30px;
 
 }
 #main > article{
 	flex:1;
-	order:2;
 
 
 }
 #main>nav,#main>aside {
 	flex: 0 0 20vw;
-	
 	
 }
 	#main > nav {
@@ -31,7 +28,6 @@ height:100vh;
 	}
 	#main>aside{
 		background:beige;
-		order:1;
 	}
 header, footer {
 	background: yellowgreen;

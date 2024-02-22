@@ -1,0 +1,15 @@
+#myid {
+    background-color: blue;
+}
+
+.myclass {
+    background-color: gray;
+}
+
+p {
+    background-color: yellow !important;
+    width:calc(100% - 500px);
+    margin:10px auto;
+    text-align:center;
+
+}
