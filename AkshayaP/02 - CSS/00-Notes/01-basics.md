@@ -242,7 +242,13 @@
   ```
   used to override the style.
   ```
-  ### MATH
+  ## MATH
   ```
   calc(),min(),max()
+  ```
+  ## OBJECTFIT
+  ``` used to resized the img and video should be resized within its container
+  /*
+  fill,contain,cover,none,scale-down
+  */
   ```
