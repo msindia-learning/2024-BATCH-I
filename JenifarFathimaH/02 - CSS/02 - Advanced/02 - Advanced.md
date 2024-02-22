@@ -82,3 +82,25 @@ div {
 `writing-mode`	Specifies whether lines of text are laid out horizontally or vertically
 
 `matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())`
+
+## CSS Tooltip
+```css
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+```
