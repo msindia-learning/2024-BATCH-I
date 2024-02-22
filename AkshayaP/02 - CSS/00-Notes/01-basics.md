@@ -183,3 +183,9 @@
   the 2.!important =>all icons should be in same color)
   */
   ```
+  ## ALIGNMENT
+  ```
+  /*
+  align the elements
+  */
+  ```
