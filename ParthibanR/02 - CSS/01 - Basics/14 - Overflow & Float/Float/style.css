@@ -1,0 +1,29 @@
+h1 {
+    color: darkcyan;
+    background-color: pink;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+p{
+  text-indent:190px;
+  font-weight:900;
+  font-family:'Edwardian Script ITC';
+    
+}
+
+/*img{
+    float:right;
+}*/
+
+img{
+    float: left;
+}
+
+img{
+    float:none;
+}

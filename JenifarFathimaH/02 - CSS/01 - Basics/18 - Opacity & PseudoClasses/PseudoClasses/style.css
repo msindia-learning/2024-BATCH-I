@@ -1,0 +1,21 @@
+a{
+    border:2px inset purple;
+    background:mediumpurple;
+    padding:10px;
+    font-size:2em;
+}
+a:hover {
+        border: 2px outset black;
+        background: skyblue;
+        padding: 10px;
+        font-size: 38px;
+        color:purple
+}
+
+    a:active {
+        border: 2px inset black;
+        background: pink;
+        padding: 10px;
+        font-size: 38px;
+        color: purple
+    }

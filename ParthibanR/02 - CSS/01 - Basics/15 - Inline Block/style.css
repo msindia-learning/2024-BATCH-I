@@ -1,0 +1,49 @@
+h1 {
+    color: darkcyan;
+    background-color: pink;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+span.a {
+    display: inline; 
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+.nav{
+    color:yellowgreen;
+    padding:0;
+    margin:10px;
+    list-style-type:none;
+    text-align:right;
+}
+.nav li{
+    display:inline-block;
+    background-color:orange;
+    padding:20px;
+}

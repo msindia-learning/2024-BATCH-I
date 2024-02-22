@@ -1,0 +1,20 @@
+img{
+	float:right;
+	width:170px;
+	height:150px;
+}
+.animals{
+	clear:left;
+	float:left;
+	padding:10px;
+	
+}
+div{
+	border:5px solid;
+	display:table;
+}
+clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}

@@ -1,0 +1,18 @@
+h1.one {
+    display: none;
+    
+}
+h1.two {
+    visibility: hidden;
+    
+}
+div.a {
+    width: 500px;
+    margin: auto;
+    border: 5px solid #3cd3a9;
+}
+div.b {
+    max-width: 500px;
+    margin: auto;
+    border: 5px dotted #73AD21;
+}

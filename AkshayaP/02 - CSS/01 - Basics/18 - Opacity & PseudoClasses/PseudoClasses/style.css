@@ -1,0 +1,17 @@
+a.link{
+	color:red;
+}
+a.visited{
+	color:blue
+}
+a.hover{
+	color:black;
+}
+p{
+	display:none;
+	background-color:aqua;
+	padding:20px;
+}
+div:hover p{
+	display:block;
+}

@@ -1,0 +1,47 @@
+h1 {
+    color:dimgrey;
+    background-color:violet;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+div {
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: visible;
+    text-align:center;
+}
+p{
+    text-indent:190px;
+    font-family:'Felix Titling';
+}
+
+.cvb {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.mnb{
+background-color: grey;
+width: 200px;
+height: 100px;
+border: 1px solid black;
+overflow: scroll;
+}
+
+.poi {
+    background-color: greenyellow;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow:auto;
+}
