@@ -1,0 +1,14 @@
+div.second{
+	background: url(img_forest.jpg);
+	opacity:1.0;
+div.third{
+	margin: 20px;
+	background-color: #ffffff;
+	border: 8px solid black;
+	opacity: 0.6;
+}
+div.third p{
+	font-weight:bold;
+	margin:4%;
+	color:#000000;
+}

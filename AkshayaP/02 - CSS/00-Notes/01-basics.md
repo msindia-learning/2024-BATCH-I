@@ -106,5 +106,129 @@
                  font-size/line-height
                  font-family
   ```
-  ## 
+  ## STYLING LINKS
+  ```
+  /*
+  a:link-normal,unvisited link.
+  a:visited-user has visited.
+  a:hover-when user mouse over it.
+  a:active:link the moment it's clicked.
+  */
+  /*
+  text-decoration=>underline,none*/
+  /*cursor property=>crosshair,resize,default,e-resize,pointer and etc.(<span style="cursor-property">) */
+  ```
+  ## STYLING ICONS
+  ```
+  /*<i>-icons,<span>->link. 
+  */
+  ```
+  ## LISTS
+  ```
+  /*
+  list-style-type(circle,square,upper-roman,lower-alpha,none(no styles added))
+  list-style-image=>style with gif images
+  list-style-position=>position of the bullets
+  text align=>horizontal-align,vertical-align*/
+  ```
+  ## TABLES
+  ```
+  /*overflow=>scrolling the page*/
   
+  
+  ```
+  ## DISPLAY
+  ```
+  /*used as inline and block level
+  display:none or inline,block-level*/
+
+  ```
+  ## MAX-WIDTH
+  ```
+  /*max-width:500px;
+  */
+  ```
+  ## POSITION
+  ```
+  /*
+   position=> scroll page(static,relative,fixed,absolute,sticky)
+  */
+  ```
+  ## Z-INDEX
+  ```
+  /*
+  it defines the which element infront & behind  of others.
+  (- ve value)=> behind the text.
+  (+ ve value)=>infront of text.
+  */
+  ```
+  ## FLOAT
+  ```
+  /*used to positioning and pointing the content
+  float=>right,left,none,inherit*/
+  clear=>what should happen next the float element.
+  overflow=>add scrollbars when the content iss too big.
+  ```
+  ## display:inline-block
+  ```
+  /*d/f inline & block-inline=>1.inline-block enables allow to set width  height,2.does not add a line break after the element 
+  automatically it will sit to next element.
+  inline-block the top & bottom paddings are respected but inline they are not.
+  */
+  ```
+  ## ICONS
+  ```
+  /*
+  (1.inline=>high preference,tag=>second,id=>3 rd,.=>4th
+  the 2.!important =>all icons should be in same color)
+  */
+  ```
+  ## ALIGNMENT
+  ```
+  /*
+  align the elements
+  */
+  ```
+  ## COMBINATORS
+  ```
+  /*
+  1.explain the relationship b/w the selectors.
+  *
+  descent selector(space)
+  child selector(>)
+  adjacent sibling selector(+)
+  general sibling selector(~)
+  */
+  ```
+  ## OPACITY
+  ```
+  /*
+   transparency of a image
+   hover=>on hover the image it will transparent
+  */
+  ```
+  ## PSEUDO-CLASSES
+  ```
+  /*state a special state of an element
+  selector:pseudo-class {
+  property: value;}
+  :lang=>define special rule for different language.
+  PSEUDO_ELEMENTS=>selector::pseudo-element{property: value;}
+                  =>::first-Line
+                  =>::first-letter
+                  =>p.class::first-letter
+                  =>h1::before=>add img before the content.
+                  =>h1::after=>add img after the content.
+                  =>::marker=>selects the marker of the list.
+                  =>::selection=>applied to(color,background,cursor(if i select or copy th text means the 
+                  copied side should be hover in yellow color.))
+*/
+  ```
+  ## UNITS
+  ```
+  /*
+  =>width, margin, padding, font-size
+  =>absolute length(cm,mm,in,px*,pt,pc)
+  =>relative length=>em,vh,vw,and etc
+  */
+  ```
