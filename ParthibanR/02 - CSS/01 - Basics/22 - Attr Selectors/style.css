@@ -1,0 +1,36 @@
+h1 {
+    color: blanchedalmond;
+    background-color: coral;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+
+a[target] 
+{
+    background-color: yellow;
+}
+
+
+a[target="_blank"]
+{
+    background-color:grey;
+}
+
+
+a[title~="w3"]
+{
+    background-color:black;
+}
+
+
+
+a[title|="w3"]
+  {
+    background-color:blue;
+}

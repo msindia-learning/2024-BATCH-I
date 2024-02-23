@@ -1,0 +1,46 @@
+h1 {
+    color: blanchedalmond;
+    background-color: coral;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+/*ul li a{
+    display:block;
+    background-color:antiquewhite;
+    width:70px;
+    text-decoration:none;
+
+    list-style-type:none;
+
+}
+li a:hover{
+      color:blueviolet;
+}
+ul{
+    text-decoration:none;
+}*/
+
+ul li {
+    display:inline;
+    float:right;
+    
+    font-size:20px;
+    border-collapse:collapse;
+    margin:20px;
+    padding:10px;
+}
+
+li a:hover{
+    color:darkmagenta;
+    background-color:darksalmon;
+}
+
+li a{
+    text-decoration:none;
+}

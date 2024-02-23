@@ -1,0 +1,62 @@
+h1 {
+    color: darkcyan;
+    background-color: pink;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/*imgs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:1;
+    
+}
+    */
+
+.container {
+    position: relative;
+}
+
+.html-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+.css-box {
+    position: absolute;
+    z-index: 3; 
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.js-box {
+    position: absolute;
+    z-index: 2; 
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
+
+
+    

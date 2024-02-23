@@ -1,0 +1,21 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	display: inline;
+	visibility: hidden;
+}
+
+span {
+	display: block;
+	background-color: gray;
+	padding: 25px 50px;
+}
+.ex1 {
+	max-width: 400px;
+	margin: auto;
+	border: 3px solid blue;
+	padding: 10px;
+}

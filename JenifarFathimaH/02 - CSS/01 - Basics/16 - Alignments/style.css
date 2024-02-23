@@ -1,0 +1,18 @@
+.one{
+    border:2px solid red;
+    margin:auto;
+    width:50%;
+    text-align:center;
+}
+
+.two {
+    border: 2px solid blue;
+    display:block;
+    background:green,50%;
+}
+
+.three {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}

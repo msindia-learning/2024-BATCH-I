@@ -1,0 +1,42 @@
+                                       /*Important*/
+
+#myid {
+    background-color: blue !important;
+}
+
+.myclass {
+    background-color: gray ;
+}
+
+p {
+    background-color: red ;
+}
+
+                         /*calc()*/
+#div1 {
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
+                        /*max()*/
+#div1 {
+    position: absolute;
+    left: 50px;
+    width: max(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
+
+                    /*min()*/
+#div1 {
+    position: absolute;
+    left: 50px;
+    width: min(80% - 190px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}

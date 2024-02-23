@@ -1,0 +1,25 @@
+div.background {
+    background: url(https://www.w3schools.com/css/img_lights.jpg) no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    img{
+        opacity:0.5;
+    }
+    img:hover{
+        opacity:100%;
+    }
+    
