@@ -1,0 +1,26 @@
+h1 {
+    color: darkcyan;
+    background-color: pink;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cascadia Mono';
+}
+
+div p {
+    background-color: yellow;
+}
+
+div > p{
+    background-color:red;
+}
+
+div+p {
+    background-color: green;
+}
+div~p {
+    background-color: grey;
+}

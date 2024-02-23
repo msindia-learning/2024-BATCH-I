@@ -1,0 +1,27 @@
+p.overflow1{
+    overflow:visible;
+    width:200px;
+    height:100px;
+    background-color:burlywood;
+}
+p.overflow2 {
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+    background-color:darkgrey;
+}
+p.overflow3 {
+    overflow: scroll;
+    width: 200px;
+    height: 100px;
+    background-color:lavenderblush;
+}
+p.overflow4 {
+    overflow: auto;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+}
+div{
+    display:flex;
+}

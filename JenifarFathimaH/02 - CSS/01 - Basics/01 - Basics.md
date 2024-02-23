@@ -1,4 +1,3 @@
-```markdown
 # CSS
 Used to style web pages.
 
@@ -397,4 +396,132 @@ empty-cells	Specifies whether or not to display borders and background on empty 
 table-layout	fixed,auto
 ```
 
+## CSS Layout 
+### The display Property
+`display` used to specify how an element is shown on a web page.
 
+ ### Width and max-width
+ `max-width ` improve the browser's handling of small windows
+
+ ### Position Property
+ There are five different position values:
+
+`static
+relative
+fixed
+absolute
+sticky`
+
+### The z-index Property 
+The `z-index property` specifies the stack order of an element
+
+## Layout
+### Overflow
+`visible `- Default. 
+`hidden` - The overflow is clipped, and the rest of the content will be invisible
+`scroll` - The overflow is clipped, and a scrollbar is added to see the rest of the content
+`auto` - Similar to scroll, but it adds scrollbars only when necessary
+
+### Float
+`left - floats to the left
+right - floats to the right
+none - The element does not float. This is default
+inherit - The element inherits the float value of its parent`
+
+## CSS Inline-Block
+```css
+display: inline;
+display: inline-block;
+display: block;
+```
+
+## CSS Align
+```css
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+```
+## CSS Combinator
+element element	`div p`	Selects all <p> elements inside <div> elements
+element>element	`div > p`	Selects all <p> elements where the parent is a <div> element
+element+element	`div + p`	Selects the first <p> element that are placed immediately after <div> elements
+element1~element2	`p ~ ul`  Selects every <ul> element that are preceded by a <p> element
+
+## CSS Pseudo-classes
+`
+selector:pseudo-class {
+  property: value;
+}
+`
+Example:
+```css
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+```
+
+## CSS Pseudo-elements
+`
+selector::pseudo-element {
+  property: value;
+}
+`
+
+Example:
+```css
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+```
+
+## Opacity
+`
+img {
+  opacity: 0.5;
+}
+`
+## CSS The !important Rule
+```css
+#myid {
+  background-color: blue;
+}
+
+.myclass {
+  background-color: gray;
+}
+
+p {
+  background-color: red !important;/*this property will execyte*/
+}
+```
+
+## CSS Math function
+```css
+`calc()` perform calculations 
+`max()`	Uses the largest value
+`min()`Uses the smallest value
+```

@@ -1,0 +1,27 @@
+img.one {
+    float: left;
+    width: 150px;
+    width ="170" ;height="170";
+    margin-right: 10px;
+    
+}
+img.two {
+    float: right;
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+}
+img.three {
+    float: none;
+    width: 150px;
+    height: 100px;
+}
+.container {
+    width: 80% auto;
+    height: auto;
+    border: 2px double black;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    overflow: auto;
+}

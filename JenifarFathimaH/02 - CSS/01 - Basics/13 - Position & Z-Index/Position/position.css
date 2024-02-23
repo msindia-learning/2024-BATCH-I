@@ -1,0 +1,33 @@
+.container {
+    width: 90% auto;
+    height: 1000px;
+    border: 3px solid #000000;
+}
+.one {
+    position: static;
+    border: 3px solid #73AD21;
+}
+.two {
+    position: relative;
+    border: 3px solid #ffd800;
+}
+.three {
+    position: fixed;
+    border: 3px solid #ff0000;
+    right:10px;
+    top:300px;
+}
+.four {
+    position: absolute;
+    border: 3px solid #5bccd8;
+    top: 300px;
+    left: 10px;
+}
+.five {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}

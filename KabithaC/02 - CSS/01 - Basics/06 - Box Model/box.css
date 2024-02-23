@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+
+p {
+	margin-left: 20px;
+}
+
+div {
+	border: 20px solid yellow;
+	padding: 20px 50px 20px 50px;
+	font-family: sans-serif;
+	color: white;
+	background-color: green;
+	width: 400px;
+	margin-left: 20px;
+}
