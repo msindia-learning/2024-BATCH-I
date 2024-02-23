@@ -1,0 +1,71 @@
+body{
+    background-color:sandybrown;
+    
+    
+}
+
+h1{
+    text-align:center;
+    color:black;
+    background-color:burlywood;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-weight:900;
+}
+
+    nav ul li {
+        margin-left: 30px; 
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333; 
+        }
+
+p{
+    font-family:Cambria;
+    font-weight:bold;
+    letter-spacing:1px;
+    word-spacing:3px;
+    position:relative;
+    color:black;
+    font-display:revert;
+    font-weight:800;
+}
+
+#para{
+    text-indent:190px;
+
+}
+
+.more a:hover{
+    opacity:0.3;
+    color:blue;
+}
+
+img{
+    width:400px;
+    height:300px;
+    border:8px solid black;
+    border-radius:50%;
+    float:right;
+    flex-wrap:wrap;
+    display:flex;
+    text-align:center;
+}
+
+.tree img:hover{
+    opacity:0.4;
+}
+
+.tree{
+    display:block;
+    justify-content:center;
+    
+}
