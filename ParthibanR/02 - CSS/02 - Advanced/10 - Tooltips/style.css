@@ -1,0 +1,61 @@
+h1{
+    text-align:center;
+    color:darksalmon;
+    font-family:cursive;
+}
+
+body{
+    background-color:aquamarine;
+    text-align:center;
+    padding:10px;
+    margin:auto;
+}
+
+.tooltip .tooltiptext{
+    visibility:hidden;
+    text-align:center;
+    position:absolute;
+    border:2px solid black;
+    border-radius:10px;
+    color:black;
+    background-color:bisque;
+    z-index:1;
+    width:80px;
+    margin:auto;
+    padding:19px;
+   
+    bottom:390px;
+    top:390px;
+    left:100px;
+    right:100px;
+
+}
+
+.tooltip:hover .tooltiptext{
+    visibility:visible;
+}
+
+.transition {
+    transition-delay: 2s;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: ease-in-out 2s;
+}
+
+.transition:hover{
+    width:300px;
+}
+
+img {
+    border-radius: 50%;
+   transition-timing-function:ease;
+   border: 7px solid black;
+   outline: 1px solid brown;
+   -webkit-box-reflect:left;
+}
+
+img:hover {
+        opacity: 0.5;
+        transform: scaleX(-1);
+    }
