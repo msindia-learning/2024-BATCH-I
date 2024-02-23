@@ -256,3 +256,11 @@
   object-position:0%,0%;
   */
   ```
+  ## VARIABLE
+  ```
+  /*:root{
+  --blue:1e90ff;
+  --white:#fffff}
+  *local variable will override the global variable
+  media=>used to override the fontsize based on the device.*/
+  ```
