@@ -1,0 +1,34 @@
+.wrapper{
+	overflow:auto;
+
+}
+#main{
+	margin-left:12px;
+}
+#leftsidebar{
+	float:none;
+	width:auto;
+}
+#menu-list{
+	margin:0;
+	padding:0;
+
+}
+.menuitem {
+	background-color: skyblue;
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 2px;
+	margin: 2px;
+	list-style-type:none;
+}
+@media screen and (min-width:480px) {
+	#main {
+		margin-left: 100px;
+	}
+
+	#leftsidebar {
+		float: left;
+		width: 200px;
+	}
+}

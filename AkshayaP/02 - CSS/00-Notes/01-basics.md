@@ -261,6 +261,14 @@
   /*:root{
   --blue:1e90ff;
   --white:#fffff}
-  *local variable will override the global variable
-  media=>used to override the fontsize based on the device.*/
+  *local variable will override the global variable*/
   ```
+  ## MEDIA QUERIES
+  ```
+  /*media=>used to override the fontsize based on the device.
+  media types=>all,screen,print
+  features:"orientation,max-height,max-width and etc...."
+  *syntax=>@media type and(feature){
+  css style}*/
+  ```
+  
