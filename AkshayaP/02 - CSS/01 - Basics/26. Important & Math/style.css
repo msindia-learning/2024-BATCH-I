@@ -1,0 +1,15 @@
+
+#!important{
+	background-color:aqua ;
+}
+.important{
+	background-color:lightgreen ;
+}
+div{
+	position:absolute;
+	width:max(80%-100%);
+	padding:5px;
+	background-color:aqua;
+	border:1px solid black;
+	height:min(100px,100%)
+}

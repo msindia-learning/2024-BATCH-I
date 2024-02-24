@@ -134,7 +134,6 @@ box-sizing	the width and height of an element are calculated: should they includ
   CSS-Code;
 }
 ```
-
 ## CSS FlexBox
 ### justify-content property - aligns items horizontally 
 
