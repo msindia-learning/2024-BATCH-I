@@ -1,0 +1,30 @@
+.static {
+	position: static;
+	border-block: double;
+	border: 3px solid darkslategrey;
+}
+.relative {
+	position: relative;
+	border-block: double;
+	border: 3px solid blue;
+}
+.sticky {
+	position: sticky;
+	border-block: double;
+	border: 3px solid red;
+}
+.center {
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	color: darkblue;
+	top: 60%;
+	width: 100%;
+	font-size: 28px;
+}
+img {
+	width: 100%;
+	height: 300px;
+	opacity: 0.8;
+	display: justify-content;
+}
