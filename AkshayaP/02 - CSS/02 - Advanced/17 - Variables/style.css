@@ -2,6 +2,9 @@
 	--blue: #1e90ff;
 	--white:#ffffff;
 }
+.container{
+	--fontsize:25px;
+}
 body {
 	background-color:var(--blue);
 }
@@ -12,10 +15,20 @@ h2 {
 	color: var(--blue);
 	background-color: var(--white);
 	padding: 15px;
+	font-size:var(--font-size);
 }
 button {
 	background-color:var(--white);
 	padding: 5px;
 	border: var(--blue);
 	color: #1e09ff;
+}
+@media screen and (min-width:150px){
+	.container
+	{
+	--font-size:30px;
+    }
+	:root{
+		--blue:lightblue;
+	}
 }
