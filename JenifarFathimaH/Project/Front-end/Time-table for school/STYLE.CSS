@@ -1,0 +1,25 @@
+
+th {
+    background: black;
+    color:white;
+    font-size:1.5em;
+}
+tr,td{
+    border:3px inset black;
+    background:#97d7c7;
+    color:black;
+}
+tr, td:hover {
+    border: 3px outset black;
+    background: #3b796a;
+    color:white;
+}
+* {
+    width: 90vw;
+    margin: 0 0 0 12px;
+    height: 8.5vh;
+    padding:10px;
+    text-align:center;
+    font-family:monospace;
+    font-size:20px
+}
