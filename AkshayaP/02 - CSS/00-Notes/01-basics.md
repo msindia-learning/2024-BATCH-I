@@ -292,4 +292,17 @@
   flex-flow=> shorthand of flex flow & flex direction.
   flex-grow=> how much time the flex item will grow relative to the othe element.
   ```
-  
+  ## GRID
+  ```
+  /*
+  grid-view: grid based layout system which consist of rows and columns.
+  (diplay=>grid or inline grid).
+  grid-rows=>horizontal alignments of the item.
+  grid-column=>vertical alignments of the item.
+  grid-gap=>gap between the columns and rows.
+  (properties:column-gap,row-gap,gap).
+  columnlines=>lines between columns .
+  rowlines=>lines between rows.
+  grid-area-property=>grid-row-start,grid-column-start,grid-row-end,grid-column-end(/ / /)
+  */
+  ```
