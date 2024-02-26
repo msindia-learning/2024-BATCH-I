@@ -1,0 +1,60 @@
+img {
+	float: right;
+	width: 100px;
+	height: 87px;
+}
+
+.task {
+	border: 2px solid blue;
+}
+
+.task1 {
+	border: 2px solid violet;
+}
+
+.pro1 {
+	background-color: violet;
+	float: left;
+	padding: 20px;
+}
+
+.pro2 {
+	background-color: lawngreen;
+	float: left;
+	padding: 20px;
+}
+
+.pro3 {
+	background-color: rosybrown;
+	float: left;
+	padding: 20px;
+}
+
+.pro4 {
+	background-color: deeppink;
+	float: left;
+	padding: 20px;
+}
+
+.parent {
+	border: 2px solid blueviolet;
+	float: left;
+}
+
+h4 {
+	float: left;
+	padding: 10px;
+	border: 3px solid #73AD21;
+}
+
+.div3 {
+	float: left;
+	padding: 10px;
+	border: 3px solid #73AD21;
+}
+
+.div4 {
+	padding: 10px;
+	border: 3px solid red;
+	clear: left;
+}
