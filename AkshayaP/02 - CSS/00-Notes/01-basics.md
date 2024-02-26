@@ -37,7 +37,7 @@
 ```
 ## COMMENTS
    ```css
-   /* type your comment*/
+   /*type your comment*/
    
    ```
  ## BACKGROUND COLOR
@@ -270,5 +270,26 @@
   features:"orientation,max-height,max-width and etc...."
   *syntax=>@media type and(feature){
   css style}*/
+  ```
+  ## FLEX BOX
+  ```
+  justify=>flex-start(right),flex-end(end),center,space-around,space-evenly,space-between.
+  align-items=>flex-start(top),flex-end(bottom),center,stretch,baseline.
+  flex-direction=>row: Items are placed the same as the text direction.
+                  row-reverse: Items are placed opposite to the text direction.
+                  column: Items are placed top to bottom.
+                  column-reverse: Items are placed bottom to top.
+  order=> used to order the contents(it will from -1...default...negative=>-1(reverse),+1=>correct order).
+  flex-wrap=> nowrap: Every item is fit to a single line.
+       wrap: Items wrap around to additional lines.
+       wrap-reverse: Items wrap around to additional lines in reverse.
+  align-content=>flex-start: Lines are packed at the top of the container.
+                 flex-end: Lines are packed at the bottom of the container.
+                 center: Lines are packed at the vertical center of the container.
+                 space-between: Lines display with equal spacing between them.
+                 space-around: Lines display with equal spacing around them.
+                 stretch: Lines are stretched to fit the container.
+  flex-flow=> shorthand of flex flow & flex direction.
+  flex-grow=> how much time the flex item will grow relative to the othe element.
   ```
   

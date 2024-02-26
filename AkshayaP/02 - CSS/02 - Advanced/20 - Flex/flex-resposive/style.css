@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	background-color: brown;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.navbar ul {
+	background-color: black;
+	display: flex;
+	padding: 20px 14px;
+	margin: auto;
+}
+
+.navbar a {
+	padding: 4px;
+	margin: 20px;
+	color: white;
+}
+
+.aside {
+	background-color: bisque;
+	display: flex;
+	height: 10%;
+}
+
+	.aside h3 {
+		padding: 5px;
+		margin: 0px;
+	}
+
+	.aside h2 {
+		padding: 5px;
+		margin: 0px;
+		font-size: 28px;
+	}
+
+.row {
+	width: 500px;
+	padding: 20px;
+}
+
+.img1 {
+	background-color: bisque;
+	width: 200px;
+	padding: 30;
+	height: 300px;
+	margin-left: 4px;
+}
+
+.main {
+	align-content: flex-end;
+}
+
+	.main h5 {
+		padding: 0px;
+		margin-left: 5px;
+		font-size: 18px;
+		margin-top: 6px;
+	}
+
+	.main h4 {
+		padding: 5px;
+		font-size: 28px;
+		margin-right: 5px;
+		margin-top: 18px;
+	}
+
+.aside h3 {
+	margin-right: 5px;
+}
+
+.img2 {
+	margin-right: 8px;
+}
+
+.img3 {
+	margin-top: 5px;
+	;
+	padding-bottom: 5px;
+}
+
+.services ul {
+	list-style-position: inside;
+}
+
+.aside h2 {
+	margin-top: 0px;
+}
+
+.footer {
+	background: black;
+}
+
+	.footer h6 {
+		text-align: center;
+		padding: 20px;
+		color: white;
+		font-size: 15px;
+	}
+
+	.footer a {
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
