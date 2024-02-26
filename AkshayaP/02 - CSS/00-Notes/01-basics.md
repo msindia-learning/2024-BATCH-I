@@ -232,27 +232,3 @@
   =>relative length=>em,vh,vw,and etc
   */
   ```
-  ## SPECIFICITY
-  ```
-  \*
-  start width=>0 add 100 for ID value,add 10 for class value add 1 for each element selector
-  *\
-  ```
-  ## !IMPORTANT
-  ```
-  used to override the style.
-  ```
-  ## MATH
-  ```
-  calc(),min(),max()
-  ```
-  ## OBJECT-FIT & OBJECT-POSITION
-  ``` used to resized the img and video should be resized within its container
-  /*
-  fill,contain,cover,none,scale-down
-  */
-  /*
-  object-position=>position of the height and width.
-  object-position:0%,0%;
-  */
-  ```
