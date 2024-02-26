@@ -1,0 +1,46 @@
+
+body {
+    background-color: pink;
+}
+
+@media all and (min-width: 200px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+#main {
+    margin-left: 4px;
+}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background: #CDF0F6;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: right;
+        color:grey;
+    }
+
+    #main {
+        margin-left: 206px;
+    }
+}

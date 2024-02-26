@@ -1,0 +1,30 @@
+h1{
+    text-align:center;
+}
+
+:root {
+    --grey:grey;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+h2 {
+    border-bottom: 2px solid var(--grey);
+}
+
+.container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+}
+
+button {
+    --grey: pink;
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--grey);
+    padding: 5px;
+}

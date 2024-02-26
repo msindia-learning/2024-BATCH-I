@@ -1,0 +1,33 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	opacity: 0.5;
+}
+
+	img:hover {
+		opacity: 1.0;
+	}
+
+.bg {
+	border: 3px solid green;
+	margin: 30px;
+	padding: 40px;
+	background: url(rose.jpg) repeat;
+	opacity: 0.8;
+}
+
+.transbox {
+	background-color: lightblue;
+	margin: auto;
+	padding: auto;
+	display: flex;
+	justify-content: center;
+	color: black;
+	opacity: 0.6;
+	font-size: 20px;
+	font-family: cursive;
+	border: 2px solid red;
+}

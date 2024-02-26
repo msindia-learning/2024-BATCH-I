@@ -9,20 +9,17 @@ height:100vh;
 }
 #main{
 	display:flex;
-	flex:1;
 	font-size:30px;
 
 }
 #main > article{
 	flex:1;
-	order:1;
 
 
 }
 #main>nav,#main>aside {
 	flex: 0 0 20vw;
 	
-	text-align:center;
 }
 	#main > nav {
 		background: #D7E8D4;
@@ -31,7 +28,6 @@ height:100vh;
 	}
 	#main>aside{
 		background:beige;
-		order:2;
 	}
 header, footer {
 	background: yellowgreen;
