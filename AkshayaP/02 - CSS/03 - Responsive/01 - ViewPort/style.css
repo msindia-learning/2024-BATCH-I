@@ -23,9 +23,11 @@
 
 .menu ul {
 	list-style-type: none;
+	margin:0;
+	padding:0;
 }
 
-	.menu ul li {
+	.menu  li {
 		padding: 5px;
 		background-color: pink;
 		margin: 2px;
