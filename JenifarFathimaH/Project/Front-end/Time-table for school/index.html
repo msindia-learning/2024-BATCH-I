@@ -3,77 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule page</title>
     <link href="style.css" rel="stylesheet" />
-    <title>Time-table</title>
 </head>
-<body>
-    <div>
+<body class="main">
         <nav>
-            <a href="#home">Back</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#announcement">Announcement</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-        <h1>Time table for students</h1>
-    </div>
-    
-    <table>
-        <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
-        <tr>
-            <td>8:30-9:30</td>
-            <td>Tamil</td>
-            <td>English</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Social</td>
-            <td>GK</td>
+    <section id="home">
+        <div class="heading">
+            <h1>Students Schedule page</h1>
+            <p>"Empowering Minds, Inspiring Futures: Journeying Together through Learning and Examination."</p>
+        </div>
+        
+    </section>
+    <section id="announcement">
+        <h1 style="text-align: center; font: bold 2.5em cursive; color: white; text-shadow: 0 0 7px black;">Announcement</h1>
+        <a href="timetable.html">Time-Table</a>
+        <a href="10th-schedule.html">SSLC Exam Schedule</a>
+        <a href="12th-schedule.html">HSC Exam Schedule</a>
+    </section>
+    <section id="contact">
 
-        </tr>
-        <tr>
-            <td>8:30-9:30</td>
-            <td>Tamil</td>
-            <td>English</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Social</td>
-            <td>GK</td>
-
-        </tr>
-        <tr>
-            <td>8:30-9:30</td>
-            <td>Tamil</td>
-            <td>English</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Social</td>
-            <td>GK</td>
-
-        </tr>
-        <tr>
-            <td>8:30-9:30</td>
-            <td>Tamil</td>
-            <td>English</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Social</td>
-            <td>GK</td>
-
-        </tr>
-        <tr>
-            <td>8:30-9:30</td>
-            <td>Tamil</td>
-            <td>English</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Social</td>
-            <td>GK</td>
-
-        </tr>
-    </table>
+        <form action="#">
+            <h1 style="text-align:center">Contact me</h1>
+            <input type="text" placeholder="Name" id="name" />
+            <input type="email" placeholder="Email" id="email" />
+            <textarea rows="5" cols="5" placeholder="Message"></textarea>
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+        <footer>
+            <p>&copy; 2024 Student Timetable Schedule</p>
+            <p>Contact: <a style="text-decoration:none;color:white;font-family:cursive" href="#">student@exam.com</a></p>
+        </footer>
+    </section>
 </body>
 </html>

@@ -4,22 +4,200 @@ th {
     color:white;
     font-size:1.5em;
 }
-tr,td{
-    border:3px inset black;
-    background:#97d7c7;
-    color:black;
+tr, td {
+    border: 3px inset black;
+    background: #8cd5c4;
+    color: black;
 }
 tr, td:hover {
     border: 3px outset black;
     background: #3b796a;
     color:white;
 }
-* {
-    width: 90vw;
-    margin: 0 0 0 12px;
-    height: 8.5vh;
-    padding:10px;
-    text-align:center;
-    font-family:monospace;
-    font-size:20px
+   
+
+.header nav ul li{
+    list-style:none;
 }
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.twelth {
+    margin:auto;
+    height: 8vh;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    width:80%;
+}
+    .twelth tr, th {
+        
+        height: 8vh;
+        padding: 10px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    .twelth td,th{
+        padding:15px;
+    }
+.schedule {
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin:0 50px 0 50px;
+}
+.schedule th,td{
+    padding:20px 10px;
+}
+.tenth {
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    width:50%;
+}
+.tenth td,th{
+    padding:15px 10px
+}
+/* Main page style*/
+#home {
+    height: 100vh;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.80),#8cd5c4b1,rgba(0, 0, 0, 0.80)),url('./img/1.jpg') no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#home h1{
+    text-align:center;
+    font:bold 4em cursive;
+    color:black;
+    text-shadow:0 0 10px white;
+}
+    #home p {
+        font: oblique 25px Montserrat;
+        color: white;
+        text-shadow: 1px 1px 20px black;
+    }
+
+.main{
+    padding:0;
+    margin:0;
+}
+#announcement {
+    height: 100vh;
+    background: linear-gradient(to right,#8cd5c4b1,rgba(0, 0, 0, 0.80),#8cd5c4b1),url('./img/2.jpg') no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+    #announcement a {
+        background: #8cd5c4;
+        margin: 10px;
+        padding: 20px;
+        font: bold 1.5em cursive;
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px black;
+        color:black;
+        text-decoration:none;
+        width:300px;
+        text-align:center;
+    }
+    #announcement a:hover {
+        background: #3b796a;
+        margin: 10px;
+        padding: 20px;
+        font: bold 1.5em cursive;
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px white;
+        color: white;
+        text-decoration: none;
+    }
+#contact {
+    height:100vh;
+    background: radial-gradient(#8cd5c4b1,rgba(0, 0, 0, 0.80)),url('./img/1.jpg') no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
+#contact footer{
+    text-align:center;
+    color:white;
+
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        width: 100vw;
+        justify-content: center;
+        background: rgb(0,0,0,0.3);
+        margin:0;
+        padding:10px;
+    }
+        nav ul:hover {
+            background: rgb(0,0,0,0.8);
+        }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+        nav ul li a {
+            color: #ffffff96;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+            nav ul li a:hover {
+                color: #8cd5c4;
+                text-decoration: none;
+                text-shadow: 0 0 7px rgb(109, 200, 221);
+            }
+
+#contact form {
+    background: rgb(0, 0, 0, 0.7);
+    margin: auto;
+    padding: 20px;
+    font: bold 1.5em cursive;
+    border-radius: 10px;
+    box-shadow: 0 0 7px black ;
+    color: white;
+    text-decoration: none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:50vw;
+}
+#contact input,textarea{
+    font-family:cursive;
+    margin:7px 0;
+    padding:5px;
+    box-shadow:0 0 5px black;
+    border-radius:5px
+
+}
+.submit{
+    border: 3px inset black;
+    background: #8cd5c4;
+    color: black;
+}
+
+.submit:hover {
+        border: 3px outset black;
+        background: #3b796a;
+        color: white;
+    }
+   
