@@ -37,7 +37,7 @@
 ```
 ## COMMENTS
    ```css
-   /* type your comment*/
+   /*type your comment*/
    
    ```
  ## BACKGROUND COLOR
@@ -106,5 +106,203 @@
                  font-size/line-height
                  font-family
   ```
-  ## 
+  ## STYLING LINKS
+  ```
+  /*
+  a:link-normal,unvisited link.
+  a:visited-user has visited.
+  a:hover-when user mouse over it.
+  a:active:link the moment it's clicked.
+  */
+  /*
+  text-decoration=>underline,none*/
+  /*cursor property=>crosshair,resize,default,e-resize,pointer and etc.(<span style="cursor-property">) */
+  ```
+  ## STYLING ICONS
+  ```
+  /*<i>-icons,<span>->link. 
+  */
+  ```
+  ## LISTS
+  ```
+  /*
+  list-style-type(circle,square,upper-roman,lower-alpha,none(no styles added))
+  list-style-image=>style with gif images
+  list-style-position=>position of the bullets
+  text align=>horizontal-align,vertical-align*/
+  ```
+  ## TABLES
+  ```
+  /*overflow=>scrolling the page*/
   
+  
+  ```
+  ## DISPLAY
+  ```
+  /*used as inline and block level
+  display:none or inline,block-level*/
+
+  ```
+  ## MAX-WIDTH
+  ```
+  /*max-width:500px;
+  */
+  ```
+  ## POSITION
+  ```
+  /*
+   position=> scroll page(static,relative,fixed,absolute,sticky)
+  */
+  ```
+  ## Z-INDEX
+  ```
+  /*
+  it defines the which element infront & behind  of others.
+  (- ve value)=> behind the text.
+  (+ ve value)=>infront of text.
+  */
+  ```
+  ## FLOAT
+  ```
+  /*used to positioning and pointing the content
+  float=>right,left,none,inherit*/
+  clear=>what should happen next the float element.
+  overflow=>add scrollbars when the content iss too big.
+  ```
+  ## display:inline-block
+  ```
+  /*d/f inline & block-inline=>1.inline-block enables allow to set width  height,2.does not add a line break after the element 
+  automatically it will sit to next element.
+  inline-block the top & bottom paddings are respected but inline they are not.
+  */
+  ```
+  ## ICONS
+  ```
+  /*
+  (1.inline=>high preference,tag=>second,id=>3 rd,.=>4th
+  the 2.!important =>all icons should be in same color)
+  */
+  ```
+  ## ALIGNMENT
+  ```
+  /*
+  align the elements
+  */
+  ```
+  ## COMBINATORS
+  ```
+  /*
+  1.explain the relationship b/w the selectors.
+  *
+  descent selector(space)
+  child selector(>)
+  adjacent sibling selector(+)
+  general sibling selector(~)
+  */
+  ```
+  ## OPACITY
+  ```
+  /*
+   transparency of a image
+   hover=>on hover the image it will transparent
+  */
+  ```
+  ## PSEUDO-CLASSES
+  ```
+  /*state a special state of an element
+  selector:pseudo-class {
+  property: value;}
+  :lang=>define special rule for different language.
+  PSEUDO_ELEMENTS=>selector::pseudo-element{property: value;}
+                  =>::first-Line
+                  =>::first-letter
+                  =>p.class::first-letter
+                  =>h1::before=>add img before the content.
+                  =>h1::after=>add img after the content.
+                  =>::marker=>selects the marker of the list.
+                  =>::selection=>applied to(color,background,cursor(if i select or copy th text means the 
+                  copied side should be hover in yellow color.))
+*/
+  ```
+  ## UNITS
+  ```
+  /*
+  =>width, margin, padding, font-size
+  =>absolute length(cm,mm,in,px*,pt,pc)
+  =>relative length=>em,vh,vw,and etc
+  */
+  ```
+  ## SPECIFICITY
+  ```
+  \*
+  start width=>0 add 100 for ID value,add 10 for class value add 1 for each element selector
+  *\
+  ```
+  ## !IMPORTANT
+  ```
+  used to override the style.
+  ```
+  ## MATH
+  ```
+  calc(),min(),max()
+  ```
+  ## OBJECT-FIT & OBJECT-POSITION
+  ``` used to resized the img and video should be resized within its container
+  /*
+  fill,contain,cover,none,scale-down
+  */
+  /*
+  object-position=>position of the height and width.
+  object-position:0%,0%;
+  */
+  ```
+  ## VARIABLE
+  ```
+  /*:root{
+  --blue:1e90ff;
+  --white:#fffff}
+  *local variable will override the global variable*/
+  ```
+  ## MEDIA QUERIES
+  ```
+  /*media=>used to override the fontsize based on the device.
+  media types=>all,screen,print
+  features:"orientation,max-height,max-width and etc...."
+  *syntax=>@media type and(feature){
+  css style}*/
+  ```
+  ## FLEX BOX
+  ```
+  justify=>flex-start(right),flex-end(end),center,space-around,space-evenly,space-between.
+  align-items=>flex-start(top),flex-end(bottom),center,stretch,baseline.
+  flex-direction=>row: Items are placed the same as the text direction.
+                  row-reverse: Items are placed opposite to the text direction.
+                  column: Items are placed top to bottom.
+                  column-reverse: Items are placed bottom to top.
+  order=> used to order the contents(it will from -1...default...negative=>-1(reverse),+1=>correct order).
+  flex-wrap=> nowrap: Every item is fit to a single line.
+       wrap: Items wrap around to additional lines.
+       wrap-reverse: Items wrap around to additional lines in reverse.
+  align-content=>flex-start: Lines are packed at the top of the container.
+                 flex-end: Lines are packed at the bottom of the container.
+                 center: Lines are packed at the vertical center of the container.
+                 space-between: Lines display with equal spacing between them.
+                 space-around: Lines display with equal spacing around them.
+                 stretch: Lines are stretched to fit the container.
+  flex-flow=> shorthand of flex flow & flex direction.
+  flex-grow=> how much time the flex item will grow relative to the othe element.
+  ```
+  ## GRID
+  ```
+  /*
+  grid-view: grid based layout system which consist of rows and columns.
+  (diplay=>grid or inline grid).
+  grid-rows=>horizontal alignments of the item.
+  grid-column=>vertical alignments of the item.
+  grid-gap=>gap between the columns and rows.
+  (properties:column-gap,row-gap,gap).
+  columnlines=>lines between columns .
+  rowlines=>lines between rows.
+  grid-area-property=>grid-row-start,grid-column-start,grid-row-end,grid-column-end(/ / /)
+  */
+  ```

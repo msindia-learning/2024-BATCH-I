@@ -1,0 +1,28 @@
+h1 {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.naruto {
+	background-color: aquamarine;
+}
+ 
+.width {
+	border-style: double;
+	border-width: 15px;
+	border-color: blue;
+}
+.slides {
+	border-top-style: dashed;
+	border-bottom-style: dotted;
+	border-left-style: groove;
+	border-right-style: inset;
+	border-width:5px;
+}
+.left{
+	border-left: 15px solid yellow;
+	background-color:black;
+	color:white;
+
+}

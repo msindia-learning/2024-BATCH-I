@@ -1,0 +1,25 @@
+a.highlight:hover {
+	color: deeppink;
+	font-size: 22px;
+}
+div {
+	background-color: green;
+	color: white;
+	text-align: center;
+	width: 110px;
+}
+
+	div:hover {
+		background-color: blue;
+		padding: 20px;
+	}
+
+.tool p {
+	display: none;
+	background-color: lightcoral;
+	padding: 20px;
+}
+
+.tool:hover p {
+	display: block;
+}

@@ -1,0 +1,26 @@
+.a{
+    display:inline;
+    height:100px;
+    width:100px;
+    border:2px solid red;
+    background-image:radial-gradient(yellow,orange);
+    border-radius:5px;
+}
+
+.b{
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    border: 2px solid red;
+    background-image: radial-gradient(yellow,orange);
+    border-radius: 5px;
+}
+
+.c {
+    display: block;
+    height: 100px;
+    width: auto;
+    border: 2px solid red;
+    background-image: radial-gradient(yellow,orange);
+    border-radius: 5px;
+}

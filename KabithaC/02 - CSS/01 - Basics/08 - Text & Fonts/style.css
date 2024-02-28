@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	border: 3px solid yellow;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow:0 0 3px green, 0 0 5px lime;
+	font-family:fantasy;
+}
+
+p {
+	background-color: forestgreen;
+	color: white;
+	padding: 25px 50px 25px 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-transform:lowercase;
+	font-family:monospace;
+}
+
+.stl {
+	background-color: dodgerblue;
+	padding: 25px 50px 25px 50px;
+	margin: 25px;
+	text-transform:capitalize;
+	font-family:serif;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	text-decoration: overline;
+	text-decoration-color: yellow;
+	font-family:sans-serif;
+	
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	text-decoration: line-through;
+	text-decoration-color: yellow;
+	font-style:oblique;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+	font-size:1.85em;
+}
+
+h5 {
+	color: white;
+	text-align: center;
+	text-decoration: overline underline;
+	text-decoration-color: yellow;
+	font-weight: bold;
+	 font-variant:small-caps;
+}

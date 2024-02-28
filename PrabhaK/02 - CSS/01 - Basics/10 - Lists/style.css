@@ -1,0 +1,27 @@
+
+ul{
+	background-color:aqua;
+}
+
+
+
+ul.a {
+	list-style-type: circle;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+ol.c {
+	list-style-type: upper-roman;
+	list-style-position: outside;
+}
+
+ol.d {
+	list-style-type: upper-alpha;
+	list-style-position:inside;
+
+}
+
+

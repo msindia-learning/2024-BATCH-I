@@ -1,0 +1,23 @@
+.center{
+	margin:auto;
+	border:10px solid blue;
+	padding:10px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+clearfix::after{
+	content:close-quote;
+	clear:both;
+	display:inline;
+	
+}
+img{
+	float:right;
+	width:100px;
+    
+}
+div{
+	border:200px groove;
+	padding:50px;
+}

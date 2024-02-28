@@ -1,0 +1,14 @@
+
+.center {
+	margin: auto;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+
+h1{
+	display:flex;
+	justify-content :center;
+	align-items:center;
+	border: 3px solid red;
+
+}

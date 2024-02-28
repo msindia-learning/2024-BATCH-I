@@ -1,0 +1,33 @@
+p{
+	background-color:pink;
+	padding:10px;
+}
+
+span{
+	background-color:red;
+	padding:10px;
+	color:white;
+}
+p.first{
+	display:visible;
+}
+p.second {
+	display: hidden;
+}
+p.third {
+	display:flex;
+}
+p.fourth {
+	display: grid;
+}
+h6 {
+	font-size: 70px;
+}
+div.star{
+	max-width:500px;
+	margin:auto;
+	border:3px solid green;
+	padding:45px;
+	border-collapse:collapse;
+}
+
