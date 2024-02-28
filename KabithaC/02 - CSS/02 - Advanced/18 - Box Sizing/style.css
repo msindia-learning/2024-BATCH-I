@@ -1,0 +1,20 @@
+.div1 {
+	width: 300px;
+	height: 100px;
+	border: 3px solid violet;
+}
+
+.div2 {
+	width: 300px;
+	height: 100px;
+	border: 3px solid blue;
+}
+
+.div3 {
+	box-sizing: border-box;
+	
+}
+
+h2 {
+	text-align: center;
+}
