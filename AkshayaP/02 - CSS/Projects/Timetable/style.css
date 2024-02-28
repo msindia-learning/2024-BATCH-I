@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    border:0;
+}
+
+
+
+.h1{
+    background-color:#f2f2f2;
+    text-align:center;
+    color:black;
+    padding:20px;
+    border:3px solid black;
+    background-color:pink;
+}
+table{
+    border:5px solid black;
+    border-collapse:collapse;
+    width:100%;
+   
+
+
+}
+th{
+    height:70px;
+    border:5px solid black;
+    background-color: pink;
+}
+td{
+    text-align:center;
+    padding:5px;
+    border:5px solid black;
+    height:40px;
+    background-color:pink;
+}
+#main tr :nth-child(even){
+    background-color:#f2f2f2;
+
+}
+#main tr :hover {
+     background-color:grey;
+}
+
+
+.Back-button{
+    background-color:pink;
+    text-align:center;
+    margin:80px 600px;
+    padding:20px;
+    border-radius:5px;
+    
+    
+}
+.Back-button:hover{
+    background-color: gray;
+}
+.Back-button a{
+    text-decoration:none;
+    color:black;
+}

@@ -1,0 +1,17 @@
+.grid{
+   display:grid;
+   grid-template-columns:auto auto auto auto;
+   gap:10px;
+   background-color:pink;
+   padding:10px;
+}
+.grid>div{
+	background-color:lightskyblue;
+	text-align:center;
+	padding:25px 0;
+	font-size:15px;
+}
+.item4{
+	grid-column:1/5;
+	
+}

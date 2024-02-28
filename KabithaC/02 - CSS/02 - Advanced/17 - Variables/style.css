@@ -1,0 +1,57 @@
+body {
+	background-color: darkviolet;
+}
+
+h2 {
+	border-bottom: 2px solid red;
+}
+
+.container {
+	color: black;
+	background-color: green;
+	padding: 15px;
+}
+
+button {
+	background-color: gray;
+	color: black;
+	border: 1px solid pink;
+	padding: 5px;
+}
+
+:root {
+	--blue: green;
+	--white: yellow;
+}
+
+.container {
+	--fontsize: 25px;
+}
+
+body {
+	background-color: var(--blue);
+}
+
+h2 {
+	border-bottom: 2px solid var(--blue);
+}
+
+.task {
+	color: var(--blue);
+	background-color: var(--white);
+	padding: 15px;
+	font-size: var(--fontsize);
+}
+
+@media screen and (min-width: 350px) {
+	.container {
+		--fontsize: 60px;
+	}
+
+	:root {
+		--blue: lightblue;
+	}
+}
+
+
+
