@@ -1,0 +1,45 @@
+h1{
+    text-align:center;
+    color:teal;
+}
+
+p{
+    text-indent:190px;
+    font-family:'Imprint MT Shadow';
+}
+.grid-container {
+    display: grid;
+    height:400px;
+    /*display: inline-grid;
+    column-gap:20px;
+    row-gap:30px;
+    gap:20px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns:80px 200px auto 30px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-rows: 80px 200px auto 30px;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;*/
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    align-content: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*.grid-item{
+    grid-column-start:1;
+    grid-column-end:2;
+}
+*/
