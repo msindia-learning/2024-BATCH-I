@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        body{
+            display:grid;
+            grid-template-columns:repeat(8,1fr);
+            grid-auto-rows:100px;
+            margin:0;
+            padding:0;
+            gap:1px;
+        }
+        .header {
+            grid-row: 1;
+            grid-column: 1/9;
+            background: radial-gradient(#000000af,#000000),url(./img/4.jpg) no-repeat;
+            background-size: cover;
+        }
+            .header h1{
+                color:white;
+                text-align:center;
+                font-size:3em;
+            }
+        .news {
+            grid-row: 2/7;
+            grid-column: 1/3;
+            background: radial-gradient(#000000af,#000000),url(./img/11.jpg) no-repeat;
+            background-size: cover;
+            color: white;
+            
+            text-align: center;
+        }
+        .main {
+            grid-row: 2/7;
+            grid-column: 3/9;
+            background: radial-gradient(#000000af,#000000),url(./img/11.jpg) no-repeat;
+            background-size: cover;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: 100px;
+            margin: 0;
+            padding: 0;
+            gap: 1px;
+        }
+        .news .annc {
+            display: grid;
+            gap: 1px;
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Image Gallery</h1>
+    </div>
+    <div class="news">
+        <h2>List of Games</h2>
+        <div class="annc">
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+            <p>HOCKEY</p>
+        </div>
+    </div>
+    <div class="main">
+        
+    </div>
+
+</body>
+</html>
