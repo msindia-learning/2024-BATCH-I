@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('food.jpg');
+    
+}
+.header{
+    text-align:center;
+   
+    padding:15px;
+    color:white;
+}
+.nav-bar{
+    padding:25px;
+   
+}
+.nav-bar ul{
+    display:grid;
+    list-style-type:none;
+    justify-content:center;
+    /*grid-auto-flow: column;*/
+    grid-template-columns:2fr 2fr 2fr 2fr ;
+    gap:250px ;
+    color:white;
+    font-size:20px;
+}
+    
+#nav li a {
+    list-style-type:none;
+    text-decoration:none;
+    color:white;
+}
+nav a:hover{
+    background-color: black;
+}
+.container{
+    color:white;
+    display:grid;
+    grid-auto-flow:column;
+    gap:100px;
+    grid-template-columns:auto auto auto;
+    justify-content:space-evenly;
+    align-content:center;
+    
+}
+.offer{
+    grid-column:1/4;
+    column-gap: 250px;
+    text-align:center;
+    list-style-type:none;
+
+}
+.offer ul{list-style-type:none;}
+.combo ul{
+    list-style-type:none;
+    
+}
+.combo{
+    text-align:center;
+}
+.ratings ul{
+    
+    list-style-type:none;
+}
+.ratings{
+    text-align:center;
+}
+.southIndian ul{
+    
+    list-style-type:none;
+}
+.southIndian{
+    text-align:center;
+}
+
+.back{
+    background-color:white;
+    margin:120px 600px;
+    padding:15px;
+    border-radius:10px;
+}
+.back a{
+    text-decoration: none;
+    color:black;
+    
+}
