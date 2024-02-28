@@ -1,0 +1,110 @@
+*{
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display:flex;
+    height:100vh;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    background:linear-gradient(rgba(20, 20, 20, 0.672),rgba(20, 20, 20, 0.672)) , url("image/pexels-august-de-richelieu-4260475.jpg");
+background-size:cover;
+height: 100vh;
+
+
+
+
+
+}
+header {
+  
+    
+  height:20vh;
+}
+header div a{
+   
+  padding:10px 30px 10px 30px;
+   margin:10px 10px;
+    float:right;
+
+
+
+
+background-color: transparent;
+
+text-decoration:none;
+
+font-size:20px;
+color:white;
+
+
+}
+header a:hover{
+    background-color:rgba(38, 0, 254, 0.296) ;
+   border-color: white;
+   border:solid 1px;
+   border-radius: 10px;
+}
+article{
+    height:70vh;
+}
+article h1{
+    display:flex;
+  
+    font-size:60px;
+   color:rgb(246, 246, 246);
+    justify-content: center;;
+}
+article p{
+    display:flex;
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+}
+article .button{
+   
+width:200px;
+  display:block;
+ 
+ text-align:center;
+ font-size:20px;
+ margin:auto;
+    border:solid;
+    text-decoration:none;
+    padding:15px 30px 15px 30px;
+border-color: rgb(255, 255, 255);
+background-color:rgba(38, 0, 254, 0.296) ;
+
+border-radius:20px 0 20px 20px;
+color:white;
+border-width:1px;
+}
+ article  a{
+    font-size:15px;
+    color:rgb(255, 255, 255);
+   display:flex;
+    justify-content: center;
+ }
+.note{
+    
+    color:rgb(255, 23, 2);
+display:flex;
+justify-content: center;
+word-spacing: 4px;
+font-size:20px;
+
+}
+footer{
+    display:flex;
+   height: 10vh;
+   justify-content: center;
+   color:white;
+}
+footer p{
+   
+    text-align:center;
+  
+    font-size:15px;
+    
+}
