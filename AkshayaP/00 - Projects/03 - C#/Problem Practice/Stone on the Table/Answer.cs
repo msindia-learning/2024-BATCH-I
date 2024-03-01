@@ -11,4 +11,5 @@ for(int i = 0; i < strmystring.Length - 1; i++)
     {
         nCount++;
     }
+
 }
