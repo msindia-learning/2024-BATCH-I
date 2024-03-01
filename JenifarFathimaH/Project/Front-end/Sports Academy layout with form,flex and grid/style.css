@@ -79,5 +79,6 @@ nav ul li {
 }
 #footer {
     text-align: center;
-    background: rgb(96, 95, 95, 0.80);
+    
+    margin:0;
 }
