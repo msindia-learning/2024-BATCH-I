@@ -5,29 +5,23 @@ class Program
 	static bool sayhello(string st)
 	{
 		string strhello = "hello";
-		int i = 0;
+		int count = 0;
 
-		foreach(char c in st)
+		for(int i = 0; i < strhello.Length; i++)
 		{
-			if(i < strhello.Length)
+			if(st[i] == strhello[i])
 			{
-				if(c == strhello[i])
-				{
-					i++;
-				}
+				count++;
 			}
-
 		}
-
-		return i == strhello.Length;
+		return count == strhello.Length;
 	}
+
+
 
 	static void Main()
 	{
-
 		string st = Console.ReadLine();
-
-
 		if(sayhello(st))
 		{
 			Console.WriteLine("YES");
