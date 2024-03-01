@@ -25,3 +25,8 @@ console.log(vehicle);
 let $$$ = 10;
 let $Num = 10;
 console.log($$$ + $Num);
+var x = 10; 
+{
+    var x = 5;
+}
+console.log(x);

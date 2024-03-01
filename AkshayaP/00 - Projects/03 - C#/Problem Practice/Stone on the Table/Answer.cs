@@ -1,14 +1,14 @@
 using System;
 
 string n = Console.ReadLine();
-string mystring = Console.ReadLine();
+string strmystring = Console.ReadLine();
 
-int count = 0;
+int nCount = 0;
 
-for(int i = 0; i < mystring.Length - 1; i++)
+for(int i = 0; i < strmystring.Length - 1; i++)
 {
-    if(mystring[i] == mystring[i + 1])
+    if(strmystring[i] == strmystring[i + 1])
     {
-        count++;
+        nCount++;
     }
 }
