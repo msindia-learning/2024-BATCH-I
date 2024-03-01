@@ -24,6 +24,13 @@
    var=>Declare var keyword before allocating variables.
    let,const=> added in 2015 before that var keyword only used by developers.
    Assignment operators=>(=).
+   let name = "volvo", person = "elsa", price = 500;(we will declare thid way also).
+   Redeclare a variable=>only in var type not suitable for let & const type.
+   It will take a white-space and cocatenate the string=>(""=>used to concatenate the values)
+   (ex:let x = "John" + " " + "Doe";)
+   $=>used as a identifier & it does not have any special meanings.
+   "_"=>java script treats underscore as a letter & identifiers consitered this as a variable names.
+   
 ```
 
 
