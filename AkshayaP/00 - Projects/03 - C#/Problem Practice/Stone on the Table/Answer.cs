@@ -1,15 +1,13 @@
-using System;
-
-string n = Console.ReadLine();
-string strmystring = Console.ReadLine();
+int nValue = Console.ReadLine();
+string strMyString = Console.ReadLine();
 
 int nCount = 0;
 
-for(int i = 0; i < strmystring.Length - 1; i++)
+for(int i = 0; i < nValue-1; i++)
 {
-    if(strmystring[i] == strmystring[i + 1])
+    if(strMyString[i] == strMyString[i + 1])
     {
         nCount++;
     }
-
 }
+Console.WriteLine(nCount);

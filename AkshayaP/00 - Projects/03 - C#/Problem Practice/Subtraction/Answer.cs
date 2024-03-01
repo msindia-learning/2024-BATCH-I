@@ -1,10 +1,4 @@
-using System;
-namespace Digit
-{
-    class Subtraction
-    {
-        public static void Main()
-        {
+
             string[] lstArr = Console.ReadLine().Split(' ');
             int n = int.Parse(lstArr[0]);
             int k = int.Parse(lstArr[1]);
@@ -21,6 +15,3 @@ namespace Digit
 
             }
             Console.WriteLine(n);
-        }
-    }
-}

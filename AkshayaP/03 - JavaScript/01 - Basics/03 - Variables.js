@@ -30,3 +30,7 @@ var x = 10;
     var x = 5;
 }
 console.log(x);
+const road = { type: "fiat", model: "500", color: "white" };
+road.color = "blue";
+road.owner = "Elsa";
+console.log(road.color);

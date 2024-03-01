@@ -39,3 +39,14 @@
 //=>single line comments.
 /**/=>multi-line comments.
 ```
+## OPERATORS
+```
+ Arithmetic Operators
+ Assignment Operators
+ Comparison Operators
+ String Operators
+ Logical Operators
+ Bitwise Operators
+ Ternary Operators
+ Type Operators
+```
