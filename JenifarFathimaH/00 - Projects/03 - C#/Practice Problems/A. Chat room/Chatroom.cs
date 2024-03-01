@@ -5,7 +5,7 @@ public class Program
     public static void Main(string[] args)
     {
         string strWord = Console.ReadLine();
-        bool bCanSayHello = bHello(strWord);
+        bool bCanSayHello = IsHello(strWord);
         if (bCanSayHello)
         {
             Console.WriteLine("YES");
@@ -16,7 +16,7 @@ public class Program
         }
     }
 
-    public static bool bHello(string strWord)
+    public static bool IsHello(string strWord)
     {
         int nHIndex = IndexOfCustom(strWord, 'h', 0);
         int nEIndex = IndexOfCustom(strWord, 'e', nHIndex + 1);

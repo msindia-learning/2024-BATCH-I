@@ -4,16 +4,16 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
+        int nRange = int.Parse(Console.ReadLine());
         string strColors = Console.ReadLine();
-        int count = 0;
-        for (int i = 1; i < n; i++)
+        int nCount = 0;
+        for (int i = 1; i < nRange; i++)
         {
             if (strColors[i] == strColors[i - 1])
             {
-                count++;
+                nCount++;
             }
         }
-        Console.WriteLine(count);
+        Console.WriteLine(nCount);
     }
 }
