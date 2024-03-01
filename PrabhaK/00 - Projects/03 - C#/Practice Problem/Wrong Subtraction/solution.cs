@@ -1,14 +1,12 @@
-
 using System;
-
 class Program
 {
 	static void Main()
 	{
 
-		string[] input = Console.ReadLine().Split();
-		int num = int.Parse(input[0]);
-		int iterate = int.Parse(input[1]);
+		string[] lstinput = Console.ReadLine().Split();
+		int num = int.Parse(lstinput[0]);
+		int iterate = int.Parse(lstinput[1]);
 
 
 		for(int i = 0; i < iterate; i++)
@@ -27,4 +25,3 @@ class Program
 
 		Console.WriteLine(num);
 	}
-}

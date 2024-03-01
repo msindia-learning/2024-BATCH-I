@@ -2,16 +2,16 @@ using System;
 
 class Program
 {
-	static bool Hello(string st)
+	static bool sayhello(string st)
 	{
-		string hello = "hello";
+		string strhello = "hello";
 		int i = 0;
 
 		foreach(char c in st)
 		{
-			if(i < hello.Length)
+			if(i < strhello.Length)
 			{
-				if(c == hello[i])
+				if(c == strhello[i])
 				{
 					i++;
 				}
@@ -19,7 +19,7 @@ class Program
 
 		}
 
-		return i == hello.Length;
+		return i == strhello.Length;
 	}
 
 	static void Main()
@@ -28,7 +28,7 @@ class Program
 		string st = Console.ReadLine();
 
 
-		if(Hello(st))
+		if(sayhello(st))
 		{
 			Console.WriteLine("YES");
 		}
