@@ -13,3 +13,8 @@
    window.alert()=>window.alert(message)
    window.print=>method in the browser to print the content of the current window.
 ```
+## STATEMENTS
+```
+  semicolons(;)=add semicolon at end of the each line.
+  whitespace=>add white spaces around the operators;
+```
