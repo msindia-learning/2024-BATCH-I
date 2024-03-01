@@ -18,3 +18,17 @@
   semicolons(;)=add semicolon at end of the each line.
   whitespace=>add white spaces around the operators;
 ```
+
+## VARIABLES
+```
+   var=>Declare var keyword before allocating variables.
+   let,const=> added in 2015 before that var keyword only used by developers.
+   Assignment operators=>(=).
+```
+
+
+## COMMENTS
+```
+//=>single line comments.
+/**/=>multi-line comments.
+```
