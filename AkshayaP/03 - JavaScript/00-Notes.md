@@ -56,3 +56,9 @@
  objects=>(ex:const person = { firstName: "john", lastname: "Toe", age: "45", eyecolor: "red" };
  console.log(person.firstName + "is"+ person.age + "years old");)
 ```
+## FUNCTIONS
+```
+Defn:Block of code designed to perform particulat task.
+function name(parameter1 ,parameter2){
+//code to be executed}
+```
