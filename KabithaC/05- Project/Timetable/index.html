@@ -2,55 +2,118 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=devics-width", initial-scale="1.0" />
+        <meta name="viewport" content="width=devics-width", initial-scale="1.0" />   
         <style>
-            *{
-                padding:0;
-                margin:0px;
-            }
-           img{
-                opacity:0.5;
+              *{
+                  margin:0px;
+                  padding:0px;
+                  box-sizing:border-box;
+              }
 
+            nav ul {           
+                display: flex;
+                margin-left:auto;
+                background-color: #E38533;
+                padding: 21px;
+               
             }
-            nav {
-                position: absolute;
-            }
-            nav ul{
-               list-style:none;
-            }
-            nav ul li{
-                display:flex;
-                text-decoration:none;
-            }
-            #home{
+            nav ul li
+            {   
+                margin-right:auto;
+                list-style-type:none;
+                padding:25px;
                 text-align:center;
-                position:relative;
+              }
+            .main {
+                background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('lap.jpg') no-repeat;
+                background-size: cover;
             }
-            
+            .Heading{
+               margin:40px;
+               border:3px solid darkblue;
+               width:700px;
+               display:flex;
+               height:270px;
+               padding:25px;
+               float:right;
+               background-color:dimgrey;
+               color:black;
+               font-size:20px;
+            }
+            p{
+                color:black;
+            }
+                     
+           #home p {
+                font: oblique 25px Montserrat;
+                color: white;
+                text-shadow: 1px 1px 20px black;
+            }
+
+            .main {
+                padding: 0;
+                margin: 0;
+            }
+            nav img{
+                width:100px;
+                height: auto;
+                position:relative;
+               float:right;
+            }
+
         </style>
     </head>
-    <body>
+    <body class="main">
         <nav>
-            <ul>
-                <li><a href="#home"> Home</a></li>
-                <li><a href="#timetable schedule"> TIMETABLE SCHEDULE</a></li>
-                <li><a href="#board exam schedule">BOARD EXAM SCHEDULE</a></li>
-                <li><a href="#structure">FEES STRUCTURE</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+            <ul>              
+                <li> <a href="#home">HOME</a></li>
+                <li> <a href="#about">ABOUT</a></li>
+                <li> <a href="class.html">CLASS </a></li>
+                <li> <a href="#board">BOARD EXAM</a></li>
+                <li> <a href="#fees"> FEES</a></li>
+                <li> <a href="#contact">CONTACT </a></li>
+                <img src="logo-2.png" />
             </ul>
-
         </nav>
-
-        <section ="bg">
-            <img src="1-INSPIRE.png" width="100%" height="600px" />
-        </section>
-
         <section id="home">
-          <div class="des"> </div>
-            <h1> BRIGHT SCHOOL OF EXCELLANCE</h1>
-            <p><i>"School is the bridge between dreams and reality, where imagination takes flight and aspirations find wings."</i></p>
+            <div class="Heading"</div>
+         
+            <p>Welcome to Bright School of Excellence, where learning meets inspiration. Established with a vision to illuminate young minds, we are a leading educational institution dedicated to fostering academic excellence and holistic development. Our commitment to personalized attention, innovative teaching methods, and a nurturing environment sets us apart. At Bright School of Excellence, we empower students to shine brightly and become tomorrow's leaders. </p>
         </section>
 
+        <section id="about">
+            <h1 style="text-align:center; color:white;"> hello everyone</h1>
+           
+        </section>
 
+        <section id="class">
+            <a href=" 9th-schedule.html">9th-STANDARD SCHEDULE</a>
+            <a href="10-schedule.html">10th-STANDARD SCHEDULE </a>
+            <a href="11th-schedule.html">HSC-STANDARD SCHEDULE</a>
+            <a href="12th-schedule.html">12th-STANDARD SCHEDULE</a>
+        </section>
+
+        <section id="boardexam">
+            <a href="10th board exam.html">SSLC Board Exam </a>
+            <a href=" 11th board exam.html">11th Board Exam </a>
+            <a href="12th board exam.html">12th Board Exam</a>
+        </section>
+
+        <section id="fees">
+            <a href="fees.html"> FEES</a>
+        </section>
+
+        <section id="contact">
+            <address>
+                Bright School of Excellence.
+                121/1, Nehru Street-Nerkundram.
+                Chennai-600107.
+                TamilNadu-India
+            </address>
+            <p>Mail id: info@brightschool.com</p>
+            <footer>
+                <p>&copy; 2024 Bright School of Excellance</p>
+            </footer>
+        </section>
     </body>
 </html>
