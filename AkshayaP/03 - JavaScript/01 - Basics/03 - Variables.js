@@ -34,3 +34,5 @@ const road = { type: "fiat", model: "500", color: "white" };
 road.color = "blue";
 road.owner = "Elsa";
 console.log(road.color);
+
+

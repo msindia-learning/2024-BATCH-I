@@ -62,3 +62,17 @@ Defn:Block of code designed to perform particulat task.
 function name(parameter1 ,parameter2){
 //code to be executed}
 ```
+
+## ARRAY
+```
+const=>declare const keyword to declare the arrays.
+syntax:const array_name = [item1, item2, ...];   
+new keyword=>(syntax:const name=new Array();)
+Array to String=>VariableName.toString();
+Arrays are Objects=> ex:const person=["johm","toe",13]=>it also accepted.
+Array Properties & Methods=>variablename.length,variablename.sort().
+Adding Array Elements=>push().
+Difference between arrays and objects=> array is a numbered index and object is a named index.
+Associative arrays=> array with named indexes are called associative arrays.
+
+```
