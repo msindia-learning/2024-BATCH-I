@@ -50,3 +50,9 @@
  Ternary Operators
  Type Operators
 ```
+## DATATYPES 
+```
+ Datatypes are dynamic.
+ objects=>(ex:const person = { firstName: "john", lastname: "Toe", age: "45", eyecolor: "red" };
+ console.log(person.firstName + "is"+ person.age + "years old");)
+```
