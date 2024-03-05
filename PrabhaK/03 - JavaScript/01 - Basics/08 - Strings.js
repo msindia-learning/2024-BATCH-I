@@ -1,10 +1,10 @@
-let name = "Prabha ";
-let carname = 'volvo654';
-let carname2 = "volvo654";
-let text = `hello this is prabha`;
-console.log(text);
-length = (text.length);
-console.log(length);
+let name = "Prabha "
+let carname = 'volvo654'
+let carname2 = "volvo654"
+let text = `hello this is prabha`
+console.log(text)
+length = (text.length)
+console.log(length)
 
 //Escape Characters//
 let text1 = "We are \"girls\" ";
