@@ -32,4 +32,7 @@
     console.log(x);
 }
 
+let x = 4 + "1" + '5';
+console.log(x);
+
 
