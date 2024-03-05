@@ -23,10 +23,10 @@ console.log(result);
 let text = "Outside: " + typeof carName;
 console.log(text);
 
-function myFunction()
+function mypro()
 {
-    let carName = "Volvo";
+    let carName = "BMW";
     let text = "Inside: " + typeof carName + " " + carName;
     console.log(text);
 }
-myFunction();
+mypro();
