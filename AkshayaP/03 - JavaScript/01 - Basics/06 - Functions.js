@@ -31,3 +31,13 @@ function vehicle()
 }
 vehicle();
 
+function getcube(number)
+{
+    return number * number * number;
+}
+getcube(4);
+
+var add = new Function("num1", "num2", "return num1+num2");
+console.log(add(2, 5));
+
+
