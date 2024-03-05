@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:cursive;
+    gap:2px;
+}
+body{
+    width:100%;
+    height:auto;
+    display:grid;
+    height:100vh;
+   
+}
+.header{
+    background-color: rgba(196, 16, 100, 0.452);
+    
+
+}
+.head{
+    text-align: center;
+}
+.icon{
+    position:relative;
+    left:20px;
+    top:40px;
+}
+.nav{
+    background-color: rgba(196, 16, 100, 0.76);
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, auto); 
+    gap: 4px; 
+    list-style: none;
+    
+}
+.nav ul{
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    gap:10px;
+    align-items: center;
+   
+}
+
+.nav li {
+    padding: 10px;
+    background-color: lightgray;
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    align-items:center;
+    text-align:center;
+    justify-content:flex-end;
+    width:33vh;
+    
+}
+.nav li a{
+    text-decoration:none;
+    color:black;
+}
+.nav li:hover{
+    background-color: grey;
+}
+.main{
+    background-color: rgba(215, 242, 250, 0.336);
+    display:grid;
+    grid-template-columns:repeat(2,auto);
+    height:400px;
+}
+.aside{
+    display:grid;
+    align-items:flex-start;
+    
+}
+.aside ul{
+    display:grid;
+   align-content:center;
+   list-style-type: none;
+   
+}
+.aside ul li{
+    display:grid;
+    grid-template-rows:repeat(6,auto);
+    gap:8px;
+    background-color: rgba(255, 192, 203, 0.39);
+    width:auto;
+    text-align:center;
+}
+.aside ul li a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    background-color: grey;
+}
+.content{
+    
+    background-color: rgba(196, 16, 100, 0.452);
+    display:grid;
+
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3, auto); 
+    column-gap: 4px; 
+    padding:5px;
+}
+.footer{
+    background-color: rgba(196, 16, 100, 0.452)
+    
+}
+.footer h1{
+    text-align:center;
+}
+.footer p{
+    text-align:center;
+}
+.content div{
+    border:2px solid white;
+    text-align:center;
+    padding:8px;
+}
+.aside li:hover{
+    background-color: grey;
+}
+
+
