@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('food.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    z-index:-1;
+    opacity:0.5px;
+   
+}
+.header{
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+}
+.nav-bar{
+    display:flex;
+    justify-content: flex-end;
+}
+.container nav ul{
+    display:flex;
+    list-style-type:none;
+    
+}
+#link li a{
+    text-decoration: none;
+    color:white;
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+    top:20px;
+    left:800px;
+    padding:10px;
+    margin:5px;
+    font-size:18px;
+    flex:1;
+}
+a:hover{
+    background-color: black;
+}
+.aside{
+    display:flex;
+    align-content:flex-start;
+    
+}
+#corner{
+    padding:20px;
+    margin:20px;
+}
+
+#explore li{
+    padding:20px;
+    margin:20px;
+    list-style-type:none;
+}
+#explore li a{
+    text-decoration:none;
+    color:white
+}
+a:hover{
+    background-color: black;
+    padding:10px;
+}
+
+.search{
+    position:absolute;
+    top:150px;
+    left:500px;
+    margin:18px;
+    
+}
+.field{
+    width:200px;
+    height:200px;
+}
+.signup{
+   text-align:center;
+   padding:10px;
+   
+}
+input[type=text]{
+    width:100%;
+    padding:12px 20px;
+    border:2px solid black;
+    border-radius:15px;
+
+}
+input[type=password]{
+    width:100%;
+    padding:12px 20px;
+    border:2px solid black;
+    border-radius:15px;
+}
+
+.button{
+    background-color:white;
+    margin:20px;
+    border-radius:10px;
+    padding:8px;
+    
+
+}
+.button1{
+    background-color:white;
+    margin:20px;
+    border-radius:10px;
+    padding:8px;
+}
+.button:hover{
+      background-color: bisque;
+}
+.button1:hover{
+    background-color: bisque;
+}
+
+      
