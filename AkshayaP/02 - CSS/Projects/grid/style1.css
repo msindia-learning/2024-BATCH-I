@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:cursive;
+    width:100%;
+}
+body{
+    height:80vh;
+}
+.header{
+    background-color: rgba(16, 130, 196, 0.726);
+    
+    padding:20px;
+}
+.nav{
+    background-color: rgba(128, 128, 128, 0.322);
+    flex-wrap:wrap;
+}
+.nav ul{
+    display:flex;
+    justify-content:center;
+}
+.nav ul li{
+    padding:16px;
+    list-style-type: none;;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.container{
+    display:flex;
+    background-color: rgba(16, 130, 196, 0.726);
+    flex:50%;
+    
+    
+}
+.main{
+    display:flex;
+    align-content: center;
+   
+    flex-wrap:wrap;
+}
+.main div{
+    width:50%;
+    min-width:200px;
+}
+
+
+.aside{
+    background-color:rgba(128, 128, 128, 0.322) ;
+    padding:10px;
+    width:200px;
+    
+}
+.aside ul{
+    list-style-type: none;
+    padding:25px;
+    margin:40px;
+}
+aside li :hover{
+    background-attachment: grey;
+}
+.aside ul li{
+    padding-bottom:80px;
+}
+.aside ul li a{
+       text-align:center;
+       text-decoration:none;
+       color:black;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.main div{
+    padding-right:60px
+}
+.main ul{
+    padding-right:50px;
+    
+}
+
+.mens{
+    padding:5px;
+    order:3;
+}
+.mens ul{
+    list-style-type: none;
+    padding:10px;
+    background-color: rgba(16, 130, 196, 0.726);
+}
+.mens ul li{
+    padding:10px;
+}
+.women{
+    padding:5px;
+    order:2;
+}
+.women ul{
+    list-style-type: none;
+    padding:10px;
+    background-color: rgba(16, 130, 196, 0.726);
+}
+.women ul li{
+    padding:10px;
+}
+.kids{
+    padding:5px;
+    order:4;
+}
+.kids ul{
+    list-style-type: none;
+    padding:10px;
+    background-color: rgba(16, 130, 196, 0.726);
+}
+.kids ul li{
+    padding:10px;
+}
+.groceries{
+    padding:5px;
+    order:3;
+}
+.groceries ul{
+    list-style-type: none;
+    padding:10px;
+    background-color: rgba(16, 130, 196, 0.726);
+}
+.groceries ul li{
+    padding:10px;
+}
+@media only screen and (max-width:200px)
+{
+    .container
+    {
+    max-width:50%;
+    flex:50%
+
+    }
+}
+.footer 
+{
+    background-color: rgba(128, 128, 128, 0.322);
+    text-align:center;
+}
+
+#h1{
+    text-align:center;
+}
