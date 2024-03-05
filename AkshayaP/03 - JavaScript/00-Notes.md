@@ -78,11 +78,23 @@ Difference between arrays and objects=> array is a numbered index and object is 
 Associative arrays=> array with named indexes are called associative arrays.
 length=> method to add elements to the array.
 concatenation=>joining arrays end-to-end.
-flat()=>used to cfreate a subarray.
-aplicing and slicing=>splicing used to add the elements into the array,alicing used to remove the element from the array.
+flat()=>used to create a subarray.
+splicing and slicing=>splicing used to add the elements into the array,alicing used to remove the element from the array.
 /*Array Search
   array.indexof(),array.lastindexof().
   includes()=>check the element is present in the array or not.
   find(),findindex(),findlast(),fidLastIndex().
 */
+```
+
+## STRINGS
+```
+Template Strings=>use a ``to quote a words using this we will include both the single and double quotes into a string.
+/'=>returns '.
+/"=>returns ".
+//=>returns backslash /.
+(==)(===)=>returns boolean.
+charAt(),charCodeAt(),at()
+trim=>removes the whitespace.
+
 ```
