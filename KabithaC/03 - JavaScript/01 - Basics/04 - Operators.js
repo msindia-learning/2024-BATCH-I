@@ -60,7 +60,7 @@ task1 += "kabi";
 console.log(task1);
 
 //add string and number
-let num = 2 + 5+ "hello" ;
+let num = 2 + 5+ "hello";
 console.log(num);
 
 //increment
