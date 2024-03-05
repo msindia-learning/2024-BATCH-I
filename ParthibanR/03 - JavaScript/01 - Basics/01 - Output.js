@@ -1,2 +1,8 @@
+console.log('Hello World..!!!');
 
-doucment.getElementById("demo").innerHTML="5+6";    
+doucment.write('Welcome to My Page');
+
+window.alert(18 + 20);
+
+window.print('');
+
