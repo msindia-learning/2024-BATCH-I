@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(images/annie-spratt-xt79nQxc9Q0-unsplash.jpg);
+    background-size: cover;
+}
+.container{
+    color:black;
+    font-weight: bolder;
+    font-size:30px;
+    display:grid;
+    grid-template-rows: 20vh 5vh 75vh;
+    text-align:center;
+}
+.container >div{
+    display:grid;
+    border:1px black solid;
+}
+.header{
+    display:grid;
+    grid-template-columns: 3fr 2fr 3fr ;
+    border:1px black solid;
+    
+}
+.logo img{
+    
+    width:200px;
+    height: 130px;
+    margin:auto;
+}
+.header h1{
+    display:grid;
+    font-size:2.3rem;
+   
+}
+.date{
+    font-size:20px;
+    margin:auto;
+    
+}
+.language{
+    font-size:15px;
+    font-weight: 500;
+}
+.search{
+   margin-top:30px;
+   
+}
+.search input{
+   height:25%;
+   width:80%;
+  border:2px black solid;
+  background-color:transparent; 
+}
+.search button{
+    width:7%;
+    margin:auto;
+    height:25%;
+    cursor:pointer;
+    border:2px black solid;
+    background-color:transparent; 
+  
+}
+.search a{
+    display:inline-block;
+    text-decoration: none;
+    border : 2px black solid;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:20px;
+    padding:7px;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    font-weight: 100;
+    border-radius:5px;
+
+
+}
+.icons{
+    margin-left:50px;
+}
+.icons i{
+    font-size:20px;
+    margin-top:20px;
+   margin-right:15px;
+}
+.navbar p button{
+    border:none;
+    background-color: transparent;
+    padding:10px;
+    font-size:1rem;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+.main .news{
+    display: grid;
+    border:1px solid black;
+    font-size:25px;
+    grid-template-rows: 5% 20% 20% 20% 20% auto;
+   
+
+}
+.leftnews a{
+   
+    text-decoration:none;
+    font-size:15px;
+   color:black;
+   line-height:1;
+}
+.rightnews a{
+   
+    text-decoration:none;
+    font-size:15px;
+   color:black;
+ 
+}
+.newsmain .main p{
+    font-size:15px;
+}
+.newsmain .main h1{
+    text-align:start;
+}
+
+
+
+
+
+    
+
+
+ 
+
+    
+  
+
+
