@@ -8,3 +8,5 @@ const person = {
 info = person.age;
 console.log(info);
 console.log("the person age is  " + info);
+
+
