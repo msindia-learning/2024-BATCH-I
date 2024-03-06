@@ -98,3 +98,21 @@ charAt(),charCodeAt(),at()
 trim=>removes the whitespace.
 
 ```
+## OBJECTS
+```
+objects store the values as (name:value).
+objectName.propertyname (or) objectname["propertyName"].
+this=>refers the current object.
+```
+
+## Conditional Statements
+```
+if,elif,else.
+switch.
+```
+
+## LOOPS
+```
+=>while
+=>for(for,for in,forback)
+```

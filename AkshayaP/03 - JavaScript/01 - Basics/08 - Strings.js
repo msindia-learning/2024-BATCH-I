@@ -41,3 +41,10 @@ console.log(string10.repeat(4));
 
 let string11 = "FIRST PROGRAM";
 console.log(string11.replace("FIRST","Changed"));
+
+
+let String12 = "The Cat is Behind the Door";
+console.log(String12.lastIndexOf("Door"));
+
+let String13 = "The Cat is Behind the Door";
+console.log(String13.search("Behind"));
