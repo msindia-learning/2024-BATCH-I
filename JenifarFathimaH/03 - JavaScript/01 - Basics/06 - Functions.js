@@ -10,3 +10,15 @@ function Election(age) {
         return "You are eligible to vote!!";
     }
 }
+
+const myObject = {
+    firstName: "Jenifar",
+    lastName: "Fathima",
+    doorno: 121,
+    area: "Theni",
+    fullName: () => myObject.firstName + " " + myObject.lastName,
+    address: () => myObject.doorno + " " + myObject.area,
+}
+
+console.log(myObject.fullName()); 
+console.log(myObject.address());

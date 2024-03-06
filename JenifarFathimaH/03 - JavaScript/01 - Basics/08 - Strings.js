@@ -33,5 +33,25 @@ var s1 = "JavaScript toLowerCase Example";
 var s2 = s1.toLowerCase();
 console.log("lower case example : " + s2);  //lower case example
 
-const stringLength = s1.length; // length is 2
-console.log("String length:", stringLength); // Output: 2
+const stringLength = s1.length; 
+console.log("String length:", stringLength); 
+
+let str1 = "apple";
+let str2 = "app";
+console.log(str1.localeCompare(str2)); //
+
+function Compare()
+{
+    let num1 = 5;
+    let num2 = 2 + 3;
+    return num1 === num2;
+}
+console.log(Compare());
+
+
+
+let num1 = 5;
+let num2 = "5";
+console.log(num1 === num2);
+
+
