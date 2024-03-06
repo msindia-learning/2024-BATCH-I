@@ -34,4 +34,3 @@ function testScope() {
 
 testScope();
 console.log(a); 
-//console.log(b);  Output: ReferenceError: b is not defined
