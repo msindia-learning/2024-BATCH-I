@@ -32,6 +32,13 @@ const fruits = new Map([
     ["oranges",200]
 ]);
 console.log(fruits.get("apples"));
+console.log(fruits);
+console.log("entries");
+let value = "";
+for(const x of fruits.entries())
+{
+    value += x;
+}
 
 let texttt = "";
 fruits.forEach(function(value, key)
