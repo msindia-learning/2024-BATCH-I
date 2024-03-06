@@ -26,3 +26,24 @@ letterss.forEach(function(value)
 })
 console.log(textt);
 
+const fruits = new Map([
+    ["apples", 500],
+    ["bananas",300],
+    ["oranges",200]
+]);
+console.log(fruits.get("apples"));
+
+let texttt = "";
+fruits.forEach(function(value, key)
+{
+    texttt += key + "=" + value;
+});
+console.log(texttt);
+
+const vegtables = new Map();
+vegtables.set("tomato",200);
+vegtables.set("brinjal", 600);
+console.log(vegtables.get("brinjal"));
+console.log(vegtables.size);
+console.log(vegtables.delete("brinjal"));
+console.log(vegtables.has("apples"));
