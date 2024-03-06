@@ -4,6 +4,7 @@ for(i = 0; i < birds.length; i++)
 {
     loop += birds[i];
 }
+
 console.log(loop);*/
 
 const stmt = ["for", "while", "do-while"];
