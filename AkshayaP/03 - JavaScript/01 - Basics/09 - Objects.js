@@ -5,6 +5,7 @@ function emp(id, name, salary)
   this.name=name;
   this.salary=salary;
 
+
     this.changeSalary=changeSalary;
     function changeSalary(otherSalary)
     {
