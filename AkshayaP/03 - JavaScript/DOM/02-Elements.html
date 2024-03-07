@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>DOM Elements</title>
+</head>
+<body>
+
+    
+ <p class="intro">This is my DOM Page</p>
+ <p class="intro">I use javascript elements to design this page</p>
+    
+    
+ <p id="demo"></p>
+    <script>
+        //const x = document.getElementById("main");
+        //document.getElementById("demo").innerHTML = "its from" + x.innerHTML;
+
+        //const y = x.getElementsByTagName("p");
+        //const element = document.getElementsByTagName("p");
+        //document.getElementById("demo").innerHTML = 'This is from:' + "" + element[0].innerHTML;
+        const element = document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML = 'This is from:' + "" + element[0].innerHTML;
+
+
+    </script>
+</body>
+</html>
