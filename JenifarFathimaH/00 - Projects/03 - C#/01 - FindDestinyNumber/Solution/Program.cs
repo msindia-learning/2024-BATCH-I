@@ -2,6 +2,22 @@ using System;
 
 public class Program
 {
+    public static void Main(string[] args)
+    {
+        string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        Console.WriteLine("Enter Name:");
+        string Name = Console.ReadLine().ToUpper();
+        int[] numValue = NumValue(Alphabet, Name);
+        int[] FinalArr = MatchIndex(numValue);
+        int sum = 0;
+        foreach (int value in FinalArr)
+        {
+            sum += value;
+        }
+        Console.WriteLine("Compound Number: " + sum);
+        int destinynumber = SumDigits(sum);
+        Console.WriteLine("Destiny number: " + destinynumber);
+    }
     public static int[] NumValue(string Alphabet, string Name)
     {
         int[] result = new int[Name.Length];
@@ -29,23 +45,6 @@ public class Program
             finalIndex[i] = IndexValue[index];
         }
         return finalIndex;
-    }
-
-    public static void Main(string[] args)
-    {
-        string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        Console.WriteLine("Enter Name:");
-        string Name = Console.ReadLine().ToUpper();
-        int[] numValue = NumValue(Alphabet, Name);
-        int[] FinalArr = MatchIndex(numValue);
-        int sum = 0;
-        foreach (int value in FinalArr)
-        {
-            sum += value;
-        }
-        Console.WriteLine("Compound Number: " + sum);
-        int destinynumber = SumDigits(sum);
-        Console.WriteLine("Destiny number: " + destinynumber);
     }
 
     public static int SumDigits(int result)
