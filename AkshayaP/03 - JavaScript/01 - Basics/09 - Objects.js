@@ -24,7 +24,7 @@ const person = {
     grade: 'O',
     greeting: function()
     {
-        return "Hello, " + this.name;
+        return this;
     },
     marks: {
         OOPS: 90,
@@ -34,11 +34,15 @@ const person = {
 
 const pikachu = {
     name: "Pikachu",
-    greeting: function()
+    greeting: () =>
     {
-        return "Hello, " + this.name;
+        this.name = "Akshaya"
+
+        return this;
     }
 }
 
 console.log(person.greeting());
 console.log(pikachu.greeting());
+
+console.log(pikachu.name);

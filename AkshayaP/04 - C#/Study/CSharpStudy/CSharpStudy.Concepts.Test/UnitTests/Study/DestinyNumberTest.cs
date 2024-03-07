@@ -4,8 +4,8 @@
 public class DestinyNumberTest
 {
     [TestMethod]
-    public void Test_DestinyNumbers()
+    public void Test_CalculateDestinyNumbers()
     {
-        int nResult = DestinyNumber.FindDestinyNumber("Akshaya");
+        int nResult = CalculateDestinyNumber("Akshaya");
     }
 }

@@ -41,3 +41,16 @@ var add = new Function("num1", "num2", "return num1+num2");
 console.log(add(2, 5));
 
 
+const x1 = function(a, b) { return a * b };
+//let z = x1(4, 3);
+console.log(x1(4, 3));
+
+
+(function()
+{
+    var x = 10;
+    var y = 20;
+    console.log(x + y);
+})();
+
+

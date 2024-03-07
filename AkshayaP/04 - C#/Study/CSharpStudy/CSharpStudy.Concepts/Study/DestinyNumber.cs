@@ -1,32 +1,65 @@
-﻿using System.Xml.Linq;
+﻿using System;
 
-namespace CSharpStudy.Concepts;
-
-public class DestinyNumber
+class Program
 {
-    public static int FindDestinyNumber(string strName)
+    static void Main(string[] args)
     {
-        int nDestinyNumber = Calculatedestinynumber(strName);
 
-        return 0;
+        Console.WriteLine("Enter your name:");
+        string name = Console.ReadLine();
+
+
+        int destinyNumber = CalculateDestinyNumber(name);
+
+
+
+        Console.WriteLine("DestinyNumber: " + destinyNumber);
     }
 
-    public static int Calculatedestinynumber(String name)
+    static int CalculateDestinyNumber(string name)
     {
-        int nDestinyNumber = 0;
 
-        string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        string values = "12345835112345781234666517";
+        int[] values = {
+            // A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+               1,2,3,4,5,8,3,5,1,1,2,3,4,5,7,8,1,2,3,4,6,6,6,5,1,7
+        };
 
-        name = name.ToUpper();
+        int sum = 0;
+
 
         for(int i = 0; i < name.Length; i++)
         {
-            int nIndex = alphabet.IndexOf(name[i]);
+            char currentCharacter = name[i];
 
-            nDestinyNumber += values[nIndex] - '0'; // '1' - '0' => 49 - 48
+
+            if(Char.IsLetter(currentCharacter))
+            {
+
+                currentCharacter = Char.ToUpper(currentCharacter);
+
+
+                int index = currentCharacter - 'A';
+
+
+                sum += values[index];
+            }
         }
 
-        return nDestinyNumber;
+
+        while(sum > 9)
+        {
+            int Sum = 0;
+
+
+            while(sum > 0)
+            {
+                Sum += sum % 10;
+                sum /= 10;
+            }
+
+            sum = Sum;
+        }
+
+        return sum;
     }
 }
