@@ -77,7 +77,6 @@ console.log(text);
 // switch case use strict comparison
 
 let n = "0";
-
 switch(n)
 {
     case 0:
