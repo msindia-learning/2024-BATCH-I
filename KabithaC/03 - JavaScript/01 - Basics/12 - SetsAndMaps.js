@@ -26,6 +26,7 @@ naruto.forEach(function(value)
 console.log(vel);
 
 
+
 //values
 const js= new Set(["teddy", "parrot", "penguin"]);
 let text1 = "";
