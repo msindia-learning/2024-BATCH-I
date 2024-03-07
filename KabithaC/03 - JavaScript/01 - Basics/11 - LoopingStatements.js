@@ -161,7 +161,6 @@ console.log(Thiruthani);
 
 
 // over a set 
-
 const letters = new Set(["a", "b", "c"]);
 let alpha = "";
 for(const x of letters)
