@@ -1,4 +1,4 @@
-
+/*
 
 let i = 0;
 while(i < 3)
@@ -30,3 +30,14 @@ for(let n = 0; n < 3; n++)
    console.log(n); 
 }
 console.log(n);
+
+*/
+let person = { name: "John", age: 30, job: "engineer" };
+for (let key in person) {
+    console.log( person[key]);
+}
+
+let fruits = ["apple", "banana", "cherry"];
+for (let fruit of fruits) {
+    console.log(fruit);
+}
