@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM Cookies</title>
+</head>
+<body onload="checkcookies()">
+    <h1>JavaScript Events</h1>
+    <h2>Javascript Attributes</h2>
+    <p id="eight"></p>
+    <script>
+        function checkcookies()
+        {
+            let text = "";
+            if(navigator.cookieEnabled == true)
+            {
+                text = "cookies are enabled";
+            } else
+            {
+                text = "cookies are not enabled";
+            }
+            document.getElementById("eight").innerHTML = text;
+        }
+    </script>
+</body>
+</html>
