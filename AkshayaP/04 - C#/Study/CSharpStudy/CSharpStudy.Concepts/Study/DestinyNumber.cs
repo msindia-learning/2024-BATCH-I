@@ -1,65 +1,35 @@
-﻿using System;
+﻿namespace CSharpStudy.Concepts.Basics;
 
-class Program
+public class DestinyNumber
 {
-    static void Main(string[] args)
+    public static int CalculateDestinyNumber(string nName)
     {
-
-        Console.WriteLine("Enter your name:");
-        string name = Console.ReadLine();
-
-
-        int destinyNumber = CalculateDestinyNumber(name);
-
-
-
-        Console.WriteLine("DestinyNumber: " + destinyNumber);
-    }
-
-    static int CalculateDestinyNumber(string name)
-    {
-
-        int[] values = {
+        int[] nValues = {
             // A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
                1,2,3,4,5,8,3,5,1,1,2,3,4,5,7,8,1,2,3,4,6,6,6,5,1,7
         };
 
-        int sum = 0;
+        int nSum = 0;
 
+        nName = nName.ToUpper();
 
-        for(int i = 0; i < name.Length; i++)
+        for(int i = 0; i < nName.Length; i++)
         {
-            char currentCharacter = name[i];
+            char currentCharacter = nName[i];
+            int nIndex = currentCharacter - 'A';
 
-
-            if(Char.IsLetter(currentCharacter))
-            {
-
-                currentCharacter = Char.ToUpper(currentCharacter);
-
-
-                int index = currentCharacter - 'A';
-
-
-                sum += values[index];
-            }
+            nSum += nValues[nIndex];
         }
 
 
-        while(sum > 9)
+
+
+        if(nSum % 9 == 0)
         {
-            int Sum = 0;
-
-
-            while(sum > 0)
-            {
-                Sum += sum % 10;
-                sum /= 10;
-            }
-
-            sum = Sum;
+            return 9;
         }
 
-        return sum;
+        return nSum % 9;
     }
 }
+

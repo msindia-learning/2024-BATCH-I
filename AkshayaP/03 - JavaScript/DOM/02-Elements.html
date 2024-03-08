@@ -1,27 +1,29 @@
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>DOM Elements</title>
+    <title>HTML DOM</title>
 </head>
 <body>
 
-    
- <p class="intro">This is my DOM Page</p>
- <p class="intro">I use javascript elements to design this page</p>
-    
-    
- <p id="demo"></p>
+    <form id="frm1" action="">
+        Firstname:<input type="text" name="fname" value=""><br>
+        Lastname:<input type="text" name="lname" value="Duck"><br>
+        <input type="submit" value="submit">
+    </form>
+    <p id="first"></p>
     <script>
+        //const elements = document.querySelectorAll("p.intro");
+        //document.getElementById("first").innerHTML = 'This is from: ' + elements[0].innerHTML;
+        const x = document.forms["frm1"];
+        let text = "";
+        for(let i = 0; i < x.length; i++)
+        {
+            text += x.elements[i].value+"<br>"
+        }
+        document.getElementById("first").innerHTML = text;
 
-        //const x = document.getElementById("main");
-        //document.getElementById("demo").innerHTML = "its from" + x.innerHTML;
-
-        //const y = x.getElementsByTagName("p");
-        //const element = document.getElementsByTagName("p");
-        //document.getElementById("demo").innerHTML = 'This is from:' + "" + element[0].innerHTML;
-        const element = document.getElementsByClassName("intro");
-        document.getElementById("demo").innerHTML = 'This is from:' + "" + element[0].innerHTML;
 
 
     </script>
+
 </body>
 </html>
