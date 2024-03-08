@@ -1,3 +1,5 @@
+//typeconversion
+
 const frnds = ["jeni", "kabi", "anees", "fazal",];
 function isArray(myArray)
 {
