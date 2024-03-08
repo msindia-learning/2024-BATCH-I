@@ -23,20 +23,9 @@ public class DestinyNumberFinder
 			}
 		}
 
-		while(compoundValue != 0 && compoundValue > 9)
-		{
-			int Sum = 0;
-			int digit1 = compoundValue / 10;
-			int digit2 = compoundValue % 10;
-
-			Sum = digit1 + digit2;
-			compoundValue = Sum;
-
-		}
-
-		return compoundValue;
+		 
 	}
-
+	.
 	public static void Main(string[] args)
 	{
 		Console.WriteLine("Enter Your name");
