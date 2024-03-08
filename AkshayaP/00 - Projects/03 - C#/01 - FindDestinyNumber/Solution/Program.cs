@@ -18,7 +18,7 @@ public class DestinyNumber
             char currentCharacter = nName[i];
             int nIndex = currentCharacter - 'A';
 
-            nSum += nValues[nIndex];
+            nSum += nValues[Index];
         }
 
 
