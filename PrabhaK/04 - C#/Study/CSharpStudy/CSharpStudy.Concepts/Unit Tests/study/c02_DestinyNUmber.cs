@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 public class DestinyNumberFinder
 {
@@ -21,17 +22,16 @@ public class DestinyNumberFinder
 				
 			}
 		}
+
 		while(compoundValue != 0 && compoundValue > 9)
 		{
-			int sum = 0;
-
+			int Sum = 0;
 			int digit1 = compoundValue / 10;
-
 			int digit2 = compoundValue % 10;
 
-			sum = digit1 + digit2;
+			Sum = digit1 + digit2;
+			compoundValue = Sum;
 
-			compoundValue = sum;
 		}
 
 		return compoundValue;
@@ -44,4 +44,4 @@ public class DestinyNumberFinder
 		int destinyValue = FinddestinyNumber(userName);
 		Console.WriteLine(destinyValue);
 	}
-}000.0210..
+}
