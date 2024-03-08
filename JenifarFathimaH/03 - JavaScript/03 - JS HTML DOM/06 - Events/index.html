@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color Example</title>
+    <style>
+        .colorful-div {
+            width: 400px;
+            height: 400px;
+            background-color: lightblue;
+            border: 2px inset ;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Using events, we can change the box color</h1>
+    <div class="colorful-div"
+         onclick="changeColor()"
+         onmouseover="changeColor()"
+         onmouseout="resetColor()"
+         ondblclick="resetColor()"
+         onkeydown="changeColor()"
+         tabindex="0"
+         style="outline: none;"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
