@@ -6,7 +6,6 @@ function myfunction()
     let color = "GREEN";
     console.log(color);
 }
-
 console.log(typeof (color));
 
 //Global Scope
