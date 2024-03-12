@@ -26,3 +26,9 @@ const person = {
     }
 };
 console.log(person.demo());
+
+const a = 10;
+{
+  const  a = 2;
+}
+console.log(a);

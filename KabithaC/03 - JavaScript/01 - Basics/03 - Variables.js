@@ -101,4 +101,6 @@ console.log(cartoon);
 const house = { type: "flat", model: "5000", color: "green" };
 console.log(house);
 house.area =  "chennai";
-console.log(house.area);
+console.log(house);
+delete house.model;
+console.log(house);

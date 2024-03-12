@@ -151,4 +151,8 @@ console.log(numbers.every((item) => item > 150));
 console.log(numbers.some((item) => item <5));                   //some()
 console.log(numbers.some((item) => item > 150));
 
-
+var days = ['monday', 'tuesday', 'wednesday', 'Thursday', 'friday'];
+console.log(days.length);
+console.log(days[2]);
+days.push('saturday', 'sunday');
+console.log(days);
