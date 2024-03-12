@@ -1,22 +1,22 @@
 
-function emp(id, name, salary)
-{
+//function emp(id, name, salary)
+//{
 
-  this.id = id;
-  this.name=name;
-  this.salary=salary;
+//  this.id = id;
+//  this.name=name;
+//  this.salary=salary;
 
 
-    this.changeSalary=changeSalary;
-    function changeSalary(otherSalary)
-    {
-        this.salary = otherSalary;
-    }
-}
-e=new emp(103,"Sonoo Jaiswal",30000);
-console.log(e.id+" "+e.name+" "+e.salary);
-e.changeSalary(45000);
-console.log(e.id+" "+e.name+" "+e.salary);
+//    this.changeSalary=changeSalary;
+//    function changeSalary(otherSalary)
+//    {
+//        this.salary = otherSalary;
+//    }
+//}
+//e=new emp(103,"Sonoo Jaiswal",30000);
+//console.log(e.id+" "+e.name+" "+e.salary);
+//e.changeSalary(45000);
+//console.log(e.id+" "+e.name+" "+e.salary);
 
 const person = {
     name: "Akshaya",
@@ -42,7 +42,12 @@ const pikachu = {
     }
 }
 
-console.log(person.greeting());
+person.age = 50;
+person.interest = "2%";
+
+person = {fname:"akshu",lname:"jeni"};
+
+console.log(person);
 console.log(pikachu.greeting());
 
 console.log(pikachu.name);
