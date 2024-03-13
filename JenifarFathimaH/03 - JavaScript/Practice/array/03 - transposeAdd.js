@@ -10,15 +10,6 @@ for (let i = 0; i < arr[0].length; i++) {
         finalArr[i].push(arr[j][i]);
         add += arr[j][i];
     } finalArr[i].push(add);
-}
-
-//for (let i = 0; i < finalArr.length; i++) {
-//    let sum = 0;
-//    for (let j = 0; j < finalArr[i].length; j++) {
-//        sum += finalArr[i][j];
-//    }
-//    finalArr[i].push(sum);
-//}
-
+} 
 console.log(finalArr);
 
