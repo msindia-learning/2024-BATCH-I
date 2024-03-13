@@ -61,6 +61,7 @@
 Defn:Block of code designed to perform particulat task.
 function name(parameter1 ,parameter2){
 //code to be executed}
+functionmethods=>apply(),bind(),call(),toString().
 ```
 
 ## ARRAY
@@ -70,9 +71,48 @@ syntax:const array_name = [item1, item2, ...];
 new keyword=>(syntax:const name=new Array();)
 Array to String=>VariableName.toString();
 Arrays are Objects=> ex:const person=["johm","toe",13]=>it also accepted.
-Array Properties & Methods=>variablename.length,variablename.sort().
-Adding Array Elements=>push().
+Array Properties & Methods=>variablename.length,variablename.sort(),push(),pop(),shift(),unshift(),join(),
+Adding Array Elements=>push()=>it return the new array length and  add the element at the end.
+unshift=> it returns the value at the beginning.
 Difference between arrays and objects=> array is a numbered index and object is a named index.
 Associative arrays=> array with named indexes are called associative arrays.
+length=> method to add elements to the array.
+concatenation=>joining arrays end-to-end.
+flat()=>used to create a subarray.
+splicing and slicing=>splicing used to add the elements into the array,alicing used to remove the element from the array.
+/*Array Search
+  array.indexof(),array.lastindexof().
+  includes()=>check the element is present in the array or not.
+  find(),findindex(),findlast(),fidLastIndex().
+*/
+```
 
+## STRINGS
+```
+Template Strings=>use a ``to quote a words using this we will include both the single and double quotes into a string.
+/'=>returns '.
+/"=>returns ".
+//=>returns backslash /.
+(==)(===)=>returns boolean.
+charAt(),charCodeAt(),at()
+trim=>removes the whitespace.
+
+```
+## OBJECTS
+```
+objects store the values as (name:value).
+objectName.propertyname (or) objectname["propertyName"].
+this=>refers the current object.
+```
+
+## Conditional Statements
+```
+if,elif,else.
+switch.
+```
+
+## LOOPS
+```
+=>while
+=>for(for,for in,forback)
 ```

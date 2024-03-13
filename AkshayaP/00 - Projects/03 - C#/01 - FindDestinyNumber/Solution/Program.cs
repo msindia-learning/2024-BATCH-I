@@ -1,32 +1,35 @@
-using System;
-using System.Diagnostics.CodeAnalysis;
+namespace CSharpStudy.Concepts.Basics;
 
-class Program
+public class DestinyNumber
 {
-    static void Main()
+    public static int CalculateDestinyNumber(string nName)
     {
-        Console.WriteLine("Enter your name:");
-        string name = Console.ReadLine();
-        int destinyNumber = Calculatedestinynumber(name);
-        Console.WriteLine($"your neumerology destiny number: {destinyNumber}");
-    }
+        int[] nValues = {
+            // A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+               1,2,3,4,5,8,3,5,1,1,2,3,4,5,7,8,1,2,3,4,6,6,6,5,1,7
+        };
 
-    static int Calculatedestinynumber(String name)
-    {
-        int destinyNumber = 0;
+        int nSum = 0;
 
-        string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        string values = "12345835112345781234666517";
+        nName = nName.ToUpper();
 
-        name = name.ToUpper();
-
-        for(int i = 0; i < name.Length; i++)
+        for(int i = 0; i < nName.Length; i++)
         {
-            int nIndex = alphabet.IndexOf(name[i]);
+            char currentCharacter = nName[i];
+            int nIndex = currentCharacter - 'A';
 
-            destinyNumber += values[nIndex] - '0'; // '1' - '0' => 49 - 48
+            nSum += nValues[Index];
         }
 
-        return destinyNumber;
+
+
+
+        if(nSum % 9 == 0)
+        {
+            return 9;
+        }
+
+        return nSum % 9;
     }
 }
+

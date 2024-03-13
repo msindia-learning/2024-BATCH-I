@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Changing html element</title>
+</head>
+<body>
+    <!--
+            <h1 id="id01">Old heading</h1>
+    <script>
+        const element = document.getElementById("id01");
+        element.innerHTML = "new heading";
+    </script>
+        -->
+    <!--
+
+    <script>
+        document.getElementById("info").innerHTML = "date : " + Date();
+    </script>
+    -->
+    <!--
+                <p id="info"></p>
+        <script>
+            document.write ( Date());
+        </script>
+
+    </body>
+        -->
+    <script>
+        function validateForm()
+        {
+            let x = ["myform"]["fname"].value;
+            if(x == "")
+            {
+                alert("name must be filled");
+                return false;
+            }
+        }
+    </script>
+   <h2>Form validation</h2>
+    <form name="login-form" onsubmit="return validateform()" method="post">
+        Name : <input type="text" name="fname" />
+        <input type="submit" value="Submit"/>
+
+    </form>
+
+</html>

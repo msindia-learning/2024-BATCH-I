@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM neumericInput</title>
+</head>
+<body>
+    <form id="id1">
+
+        Number:<input type="text" name="number" value=""><br>
+        <button type="button" onclick="Click()">Submit</button>
+    </form>
+    <p id="numb"></p>
+    <script>
+        function Click()
+        {
+            
+            let x = document.getElementById("numb").value;
+            
+            
+            if(isNaN(x) )
+            {
+                alert ("Input valid");
+            }
+            else
+            {
+                alert("valid");
+            }
+            document.getElementById("numb").innerHTML = text;
+        }
+    </script>
+</body>
+</html>

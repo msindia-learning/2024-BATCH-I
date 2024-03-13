@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Reference HTML elements</title>
+</head>
+<body>
+    <h2>JAVASCRIPT HTML DOM</h2>
+    <h3 id="intro">With html elements DOM , javacsript can access  and change all the elements of an html document </h3>
+
+
+    <p id="para"></p>
+    <script>
+        const element = document.getElementById("intro");
+        document.getElementById("para").innerHTML="This is javascript:" +element.innerHTML;
+    </script>
+</body>
+</html>
