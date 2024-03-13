@@ -1,6 +1,5 @@
 let arr1 = [[1, 2, 3], [4, 5, 6]];
 let result = [];
-
 for(let i = 0; i < arr1[0].length; i++)
 {
     let row = [];
