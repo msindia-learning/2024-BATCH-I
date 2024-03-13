@@ -36,3 +36,9 @@ road.owner = "Elsa";
 console.log(road.color);
 
 
+var A = 10;
+function Test()
+{
+    var A = 11;
+}
+console.log(A);

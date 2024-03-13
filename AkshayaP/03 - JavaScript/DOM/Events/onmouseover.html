@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM ONMOUSE EVENTS</title>
+</head>
+<body>
+    <div onmouseover="over(this)" onmouseout="out(this)"
+         style="background-color:pink;width:250px;height:80px;padding:40px;">Mouse Over Me
+    </div>
+    <script>
+        function over(obj)
+        {
+            obj.innerHTML="Thank you"
+        }
+        function out(obj)
+        {
+            obj.innerHTML="Mouse Over me"
+        }
+    </script>
+</body>
+</html>
