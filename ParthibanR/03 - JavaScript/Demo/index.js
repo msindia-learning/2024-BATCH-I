@@ -8,7 +8,7 @@ console.log(person[4]);             //undefined
 
 console.log(person.length);              // 4
 console.log(typeof (person));            // object
-console.log(person.constructor);        // function:array
+console.log(person.constructor);        // function:[array]
 
 
 for (i = 0; i < person.length; i++) {
