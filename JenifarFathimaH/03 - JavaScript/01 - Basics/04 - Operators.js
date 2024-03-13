@@ -13,6 +13,6 @@ console.log(num1 >= num2);//greater then or equal to
 console.log(num1 > num2);//greater than
 console.log(num1 < num2);//greater than
 console.log(num1 != num2);//NOT equal
-console.log(num1 && num2);//AND OPERATOR
-console.log(num1 || num2);//OR OPERATOR
+console.log(num1 >num2 && num1 == num2);//AND OPERATOR
+console.log(num1 > num2 || num1 == num2);//OR OPERATOR
 
