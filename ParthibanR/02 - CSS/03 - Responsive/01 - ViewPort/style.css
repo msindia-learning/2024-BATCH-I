@@ -3,7 +3,11 @@ body{
     
     
 }
-
+.header{
+    position:sticky;
+    top:0;
+   
+}
 h1{
     text-align:center;
     color:black;
@@ -17,16 +21,21 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     font-weight:900;
+    color:grey;
 }
 
     nav ul li {
         margin-left: 30px; 
+        color:grey;
     }
 
         nav ul li a {
             text-decoration: none;
             color: #333; 
         }
+ li a:hover{
+     color:grey;
+ }
 
 p{
     font-family:Cambria;
@@ -37,10 +46,12 @@ p{
     color:black;
     font-display:revert;
     font-weight:800;
+    text-indent:190px;
 }
 
 #para{
     text-indent:190px;
+    word-spacing:9px;
 
 }
 
@@ -68,4 +79,33 @@ img{
     display:block;
     justify-content:center;
     
+}
+
+#main{
+    text-align:center;
+    background-color:grey;
+}
+
+#next {
+    text-align: center;
+    background-color: grey;
+}
+
+
+.cat{
+    width:200px;
+    height:200px;
+}
+
+#serve {
+    text-align: center;
+    background-color: grey;
+}
+
+#form{
+    text-align:center;
+    background:url('bg.jpg');
+    color:grey;
+   
+
 }
