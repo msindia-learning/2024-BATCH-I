@@ -1,8 +1,9 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 public class DestinyNumberFinder
 {
-	public static int FindDestinyNumber(string userName)
+	public static int FinddestinyNumber(string userName)
 	{
 		int compoundValue = 0;
 		char[] letters = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
@@ -10,35 +11,26 @@ public class DestinyNumberFinder
 
 		for(int i = 0; i < userName.Length; i++)
 		{
-			for(int j = 0; j < letters.Length; j++)
+
+			for(int j = 0; j < letters.Length;j++)
 			{
-				if(Char.ToUpper(userName[i]) == letters[j])
+
+				if(userName[i] == letters[j])
 				{
-					compoundValue += letterValues[j];
-					break;
+					compoundValue = compoundValue + letterValues[j];
 				}
+				
 			}
 		}
 
-		while(compoundValue > 9)
-		{
-			int sum = 0;
-			while(compoundValue > 0)
-			{
-				sum += compoundValue % 10;
-				compoundValue /= 10;
-			}
-			compoundValue = sum;
-		}
-
-		return compoundValue;
+		 
 	}
-
+	.
 	public static void Main(string[] args)
 	{
 		Console.WriteLine("Enter Your name");
 		string userName = Console.ReadLine();
-		int destinyValue = FindDestinyNumber(userName);
-		Console.WriteLine("Your Destiny Number is: " + destinyValue);
+		int destinyValue = FinddestinyNumber(userName);
+		Console.WriteLine(destinyValue);
 	}
 }
