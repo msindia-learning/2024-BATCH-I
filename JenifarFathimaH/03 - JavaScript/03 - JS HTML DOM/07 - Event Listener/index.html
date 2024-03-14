@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener Example</title>
+    <style>
+        button{
+            display:grid;
+            width:500px;
+            height:100px;padding:10px;
+            margin:20px auto;
+            background: linear-gradient(to right,black,purple);
+            color: white;
+            border:2px inset black;
+        }
+            button:active {
+                display: grid;
+                width: 500px;
+                height: 100px;
+                padding: 10px;
+                margin: 20px auto;
+                background: linear-gradient(to left,black,purple);
+                color: white;
+                border: 2px outset black;
+            }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Event Listener Example</h1>
+    <button id="myButton">Click me</button>
+    <button id="addButton">Add Event Listener</button>
+    <button id="removeButton">Remove Event Listener</button>
+    <script src="script.js"></script>
+</body>
+</html>

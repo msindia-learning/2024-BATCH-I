@@ -1,0 +1,300 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    width:100%;
+    height:100vh;
+    background: url("bg.jpg") no-repeat;
+}
+.kur{
+    color:white;
+    font-weight:bold;
+    font-family:'Footlight MT';
+    padding-left:20px;
+    padding-top:4px;
+    font-size:37px;
+}
+.header{
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content:flex-start;
+    flex-flow:row wrap;
+}
+
+.list {
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+nav ul {
+    display: flex;
+    padding-top: 33px;
+    padding-right: 17px;
+    margin: 0;
+    justify-content: flex-start;
+    
+}
+
+ul li {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: 36px;
+    margin-top:3px;
+    padding-top:1px;
+    justify-content: space-around;
+    font-size: 22px;
+}
+
+li a {
+    text-decoration: none;
+    justify-content: space-around;
+    color:white;
+   
+}
+
+.search-bar{
+    padding-top:26px;
+    padding-left:70px;
+}
+
+.main {
+    
+    
+}
+
+.man{
+    color:white;
+    padding-left:60px;
+    padding-top:80px;
+    font-size:70px;
+}
+
+.an{
+    color:black;
+    padding-left:40px;
+    padding-top:3px;
+    margin-top:20px;
+    font-size:20px;
+}
+
+.For {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    gap:12px;
+    
+}
+
+
+.an0:hover, .an1:hover, .an2:hover, .an3:hover, .an4:hover {
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+
+.collect {
+    color: white;
+    
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top:5px;
+    flex-wrap:wrap;
+   
+}
+
+.catlog{
+    color:white;
+    width:1250px;
+    height:610px;
+}
+
+.but{
+    background-color:white;
+    width:100%;
+    height:70px;
+}
+
+.news{
+    padding-top:40px;
+    padding-left:90px;
+   
+}
+
+
+.pict{
+    width:100%;
+    height:380px;
+    display:flex;
+    justify-content:flex-start;
+    justify-content:space-around;
+}
+
+.profile{
+    width:100%;
+    height:200px;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+.collection{
+    display:flex;
+    justify-content:flex-start;
+    flex-flow:row wrap;
+    justify-content:space-around;
+}
+
+.park {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url("eee.jpg") no-repeat;
+   
+}
+
+.login-container {
+    width: 350px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+        text-align: center;
+        color: #333333;
+    }
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+        display: block;
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 5px;
+    }
+
+.input-group input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+    }
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        color: #ffffff;
+        background: linear-gradient(to right, #4a90e2, #55c4ff);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+.button-container button:hover {
+            background: linear-gradient(to right, #4a90e2, #3e8ad7);
+        }
+
+
+button a{
+    text-decoration:none;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+.bg{
+    background-image:url("123.jpg");
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+ }
+
+.input-group input {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        outline: none;
+ }
+
+.input-group input:focus {
+            border-color: #007bff;
+ }
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+ 
+}
+
+.btn:hover {
+        background-color: grey;
+ }
+
+.login {
+    margin-top: 20px;
+    text-align: center;
+}
+.login a {
+        color: blue;
+        text-decoration: none;
+    }
+
+.login a:hover {
+            text-decoration: underline;
+ }
+
