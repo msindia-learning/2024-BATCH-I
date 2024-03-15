@@ -1,0 +1,43 @@
+body{
+    box-sizing:border-box;
+}
+
+:root {
+    --form-color: lightgray;
+    --background-color: f;
+    --font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --form-font-weight: 900;
+    --font-style: oblique;
+    --text-align: center;
+    --border: 2px solid black;
+    --background: url('bg.jpg') no-repeat;
+    --border-collapse: collapse;
+    --width-table: 50%;
+    --padding-table:8px;
+    --table-margin: 20px auto;
+}
+
+
+#form_container{
+    background:var(--background);
+    text-align:var(--text-align);
+    color:var(--form-color);
+    font-weight:var(--form-font-weight);    
+}
+
+table {
+    border-collapse: var(--border-collapse);
+    width: var(--width-table);
+    margin: var(--table-margin);
+}
+th, td {
+    border: var(--border);
+    text-align: var(--text-align);
+    padding: var( --padding-table);
+}
+
+th {
+    background-color: var(--form-color);
+}
+
+    
