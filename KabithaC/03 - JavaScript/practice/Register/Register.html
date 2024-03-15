@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Registration Form</h1>
+        <form id="registrationForm" onsubmit="registerUser();">
+            <label for="fname">Name:</label><br />
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required><br>
+            <label for="age">Age:</label><br />
+            <input type="number" id="age" name="age" required><br>
+            <label for="phno">Phone:</label><br />
+            <input type="tel" id="phno" name="phno" required><br><br />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <table id="results">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Phone</th>
+                <th>Action</th>
+
+            </tr>
+        </thead>
+        <tbody id="userDataBody"></tbody>
+    </table>
+    <script src="reg.js"></script>
+</body>
+</html>
