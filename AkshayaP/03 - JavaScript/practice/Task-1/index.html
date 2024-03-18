@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form name="Registration">
+        <input type="hidden" id="Key" name="Key">
+
+        <label for="Name">Name:</label><br>
+        <input type="text" id="Name" name="Name" required><br>
+
+
+
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email" required><br>
+
+
+
+        <label for="Age">Age:</label><br>
+        <input type="Number" id="Age" name="Age" required><br>
+
+
+
+        <label for="Phone">Phone:</label><br>
+        <input type="Number" id="Phone" name="Phone" required><br>
+
+        <input type="button" id="submit" value="submit" onclick="addToArray()">
+        <input type="hidden" id="rename" value="update" onclick="reEdit()">
+
+    </form><br>
+
+    <h1>User Data</h1>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Phone</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <script src="./task.js"></script>
+</body>
+</html>
+
+
+
+

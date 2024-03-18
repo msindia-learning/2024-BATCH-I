@@ -3,10 +3,12 @@
     <title>Event Listener</title>
 </head>
 <body>
-    <button id="MyBtn">Click here!</button>
+    <button id="MyBtn" onmouseleave="MyFunction()">Click here!</button>
     <script>
         var x = document.getElementById("MyBtn");
-        x.addEventListener("click", MyFunction());
+        x.addEventListener("mouseleave", function() {
+            alert("Mouse Hovered");
+        });
         x.addEventlistener("click", SomeOtherFunction());
 
         function MyFunction()
