@@ -1,0 +1,12 @@
+:root{
+	--main-bg-color:skyblue;
+	--main--text--color:blue;
+	--main-padding:35%;
+}
+body{
+	background-color:var(--main-bg-color);
+	
+}
+.table thead{
+	border-collapse:collapse;
+}
