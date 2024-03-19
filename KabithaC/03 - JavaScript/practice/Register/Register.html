@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration</title>
+    <title>Registration Form</title>
+    <style>
+        body {
+            background: url("kabi.jpg") no-repeat;
+            background-size:cover;
+         
+        }
+        #content {
+            align-content: center;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="content">
-        <h1>Registration Form</h1>
-        <form id="registrationForm" onsubmit="registerUser();">
-            <label for="fname">Name:</label><br />
-            <input type="text" id="fname" name="fname" required><br>
-            <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" required><br>
-            <label for="age">Age:</label><br />
-            <input type="number" id="age" name="age" required><br>
-            <label for="phno">Phone:</label><br />
-            <input type="tel" id="phno" name="phno" required><br><br />
-            <button type="submit">Submit</button>
-        </form>
+    <h1>REGISTRATION FORM</h1>
+    <div id="content">
+        <label for="nameInput">Name:</label><br />
+        <input type="text" id="nameInput"><br>
+        <label for="emailInput">Email:</label><br />
+        <input type="email" id="emailInput"><br>
+        <label for="ageInput">Age:</label><br />
+        <input type="number" id="ageInput"><br>
+        <label for="phoneInput">Phone:</label><br />
+        <input type="text" id="phoneInput"><br><br />
+        <button onclick="submit()">Submit</button>
     </div>
-
-
-    <table id="results">
+    <table id="content">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Age</th>
                 <th>Phone</th>
-                <th>Action</th>
-
+                <th>Actions</th>
             </tr>
         </thead>
-        <tbody id="userDataBody"></tbody>
+        <tbody id="tableBody">
+        </tbody>
     </table>
     <script src="reg.js"></script>
 </body>
