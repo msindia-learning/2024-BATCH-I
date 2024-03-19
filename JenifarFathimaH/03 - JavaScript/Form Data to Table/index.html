@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Registration Form</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Sports Registration Form</h2>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="sport">Sport Interested In:</label>
+        <input type="text" id="sport" name="sport" required placeholder="Enter the sport you're interested in">
+        <div style="display:flex;justify-content:space-between">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required placeholder="Enter your age">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+        </div>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" style="width:100%;border-radius:4px" required placeholder="Enter your address"></textarea>
+
+
+
+        <div style="display:flex;">
+            <br />
+            <label for="agree">Agree to Terms:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="agree" name="agree" required>
+
+            <label for="agree">I agree to the terms and conditions</label>
+        </div>
+        <span id="error"></span>
+        <button onclick="publishToTable()">Submit</button>
+    </form>
+</body>
+</html>

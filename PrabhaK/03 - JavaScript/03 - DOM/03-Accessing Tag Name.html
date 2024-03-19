@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Accessing Tag Name</title>
+</head>
+<body>
+    <h2>DOM model</h2>
+    <p>I love Travel</p>
+    <p>I Love Eating sweets.</p>
+
+    <p id="info"></p>
+    <script>
+        const element = document.getElementsByTagName("p");
+        document.getElementById("info").innerHTML = 'favour of Prabha : ' + element[1].innerHTML;
+    </script>
+</body>
+</html>

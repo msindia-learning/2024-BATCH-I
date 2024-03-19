@@ -59,7 +59,11 @@ console.log(numbers);
 
 //splice method
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 numbers.splice(3,1,23);
+
+numbers.splice(5,0,4,5,6,7,8);
+
 console.log(numbers);
 
 

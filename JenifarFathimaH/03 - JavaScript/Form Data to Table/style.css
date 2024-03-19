@@ -1,0 +1,64 @@
+body {
+    font-family: 'Agency FB';
+    background: radial-gradient(rgb(154, 142, 142, 0.3),#000000),url(./img/4.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background: rgb(0,0,0, 0.5);
+    background-size: cover;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: large;
+    box-shadow: 1px 1px 5px black;
+}
+
+input {
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type=""],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background: rgb(0,0,0,0.3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px inset white;
+    width: 100%;
+    margin: auto;
+}
+
+    button:hover {
+        background: rgb(255,255,255,0.8);
+        border: 2px outset black;
+        font: bold 19px 'Agency FB';
+        color: black
+    }

@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JAVASCRIPT HTML DOM</title>
+</head>
+<body>
+    <form id="form1" >
+        First Name :<input type="text" name="fname" value="Prabha" /><br />
+
+        Last Name :<input type="text" name="lname" value="*****" /><br />
+ <input type="submit" value="Submit" />
+
+    </form>
+    <p>Element in the form</p>
+    <p id="info"></p>
+    <script>
+        const data =document.forms["form1"];
+        let text=" ";
+        for(let i=0;i<data.length ; i++){
+            text = text+data.elements[i].value + "<br>";
+          
+        }
+       
+        document.getElementById("info").innerHTML = text;
+
+    </script>
+</body>
+</html>

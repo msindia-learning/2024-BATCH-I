@@ -53,7 +53,7 @@
             box-sizing: border-box;
         }
 
-        input[type="submit"] {
+        button {
             background: rgb(0,0,0,0.3);
             color: white;
             padding: 10px 20px;
@@ -65,12 +65,12 @@
             margin:auto;
         }
 
-            input[type="submit"]:hover {
+            button:hover {
                 background: rgb(255,255,255,0.8);
                 border: 2px outset black;
                 font: bold 19px 'Agency FB';
-                ;
-                color: black
+               
+                color: black;
             }
     </style>
 </head>
@@ -103,7 +103,7 @@
         <textarea id="address" name="address" style="width:100%;border-radius:4px" required placeholder="Enter your address"></textarea>
 
 
-       
+
         <div style="display:flex;">
             <br />
             <label for="agree">Agree to Terms:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -111,11 +111,7 @@
 
             <label for="agree">I agree to the terms and conditions</label>
         </div>
-
-
-
-
-        <input type="submit" value="Submit">
+        <button onclick="publishToTable()">Submit</button>
     </form>
 </body>
 </html>

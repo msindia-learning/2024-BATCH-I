@@ -209,6 +209,55 @@ Arrays are used to store multiple values in a single variable.
 var fruits = ["apple", "banana", "orange"]; 
 var numbers = [1, 2, 3, 4, 5]; 
 ```
+### Operations in array
+#### Create
+- `push()` - add item at last
+
+- `unshift()` = add item at first
+
+- `splice(start, delete, item0,item1,item2,...)` - modifies the contents of an existing array by adding, removing, or replacing elements.
+
+- `concat()` - add one array to another to form new array
+
+- `from()` - used to create a new array from various data sources.
+
+### Read
+Here are the most important methods in JavaScript for reading arrays with a 10-word description:
+
+`join(separator)`: Creates a string from elements (",join")
+
+`forEach(callback)`: Executes a function for each element (loop)
+
+`map(callback)`: Creates a new array with transformed elements (map & create)
+
+`toString()`: Returns a string representation of the array (basic string)
+
+`filter(callback)`: Creates a new array with elements passing a test (filter & keep)
+
+`slice(start, end)`: Extracts a portion of the array into a new array (extract & copy)
+
+`includes(element)`: Checks if the array contains a specific element (find & exist)
+
+`some(callback)`: Checks if at least one element passes a test (check & any)
+
+`find(callback)`: Returns the value of the first element passing a test (find & first)
+
+### update
+`push(element)`: Adds element(s) to the end (append)
+
+`pop()`: Removes and returns the last element (remove last)
+
+`shift()`: Removes and returns the first element (remove first)
+
+`unshift(element)`: Adds element(s) to the beginning (prepend)
+
+`splice(start, deleteCount, item1, ..., itemN)`: Cut/replace/insert elements (multipurpose)
+
+### DELETE
+
+- `pop()`: Remove last element (delete back)
+- `shift()`: Remove first element (delete front)
+- `splice(start, deleteCount)`: Cut elements (delete range)
 
 ## String
 Strings are sequences of characters, enclosed within single or double quotes.
@@ -216,6 +265,20 @@ Strings are sequences of characters, enclosed within single or double quotes.
 var greeting = "Hello, world!";
 var name = "John";
 ```
+### Create:
+
+- `fromCodePoint(code1, code2, ...)`: Creates a new string from a sequence of Unicode code points.
+- `fromCharCode(code1, code2, ...)`: Creates a new string from Unicode code unit values.
+### Read:
+
+Most string methods: Methods like `charAt, slice, indexOf, etc.` are used to read and access parts of the string without modifying it.
+### Update :
+
+- Concatenation methods: `concat` and the spread syntax (...) - used to create new strings by combining the original string with other strings.
+- Replacement methods: Methods like `replace and replaceAll` create new strings with replacements based on patterns in the original string.
+### Delete :
+
+Slicing methods: `slice` and `substring` can be used to extract portions of the string
 
 ## Object
 Objects are collections of key-value pairs, where each key is a string and each value can be of any data type.
