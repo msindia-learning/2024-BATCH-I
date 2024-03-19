@@ -4,21 +4,20 @@
 </head>
 <body>
     <button id="MyBtn" onmouseleave="MyFunction()">Click here!</button>
-    <script>
+    <button id="MyBtn2">Click here!</button>
+    
+  <script>
         var x = document.getElementById("MyBtn");
         x.addEventListener("mouseleave", function() {
             alert("Mouse Hovered");
         });
-        x.addEventlistener("click", SomeOtherFunction());
+      
+        x = document.getElementById("MyBtn2");
+        x.addEventListener("click", MyFunction());
 
         function MyFunction()
         {
             alert("Hello World!");
-        }
-
-        function SomeOtherFunction()
-        {
-            alert("This function was Executed!");
         }
     </script>
 </body>

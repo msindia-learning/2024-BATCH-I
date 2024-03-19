@@ -1,4 +1,4 @@
-function multiplication(m1, m2)
+/*unction multiplication(m1, m2)
 {
     return  m2 - m1;
 
@@ -15,4 +15,24 @@ function toCelsius(fahrenheit)
 
 let value = toCelsius(77);
 
-console.log(value);
+console.log(value); */
+function getsum(first, second)
+{
+    var sum = first+second;
+    console.log(sum)
+}
+
+let first = 3;
+const second = 5;
+getsum(first, second);
+
+function m()
+{
+    window.value = 100;//declaring global variable by window object  
+}
+function n()
+{
+    console.log(window.value);//accessing global variable from other function  
+}
+
+n();

@@ -32,4 +32,15 @@
     console.log(x);
 }
 
+let x = 4 + "1" + '5';
+console.log(x);
+
+let count = 0;
+console.log(count++);
+
+
+let a = ("First number?", 1);
+let b = ("Second number?", 2);
+
+console.log((a + b)); 
 
