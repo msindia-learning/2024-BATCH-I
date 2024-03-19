@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    
+</head>
+<body>
+  <!--input-container-->
+  <form>
+    <div id="container">
+        <div id="info">
+            <div>
+                <label for="data1">Your Name</label>
+                <input  id="data1" type="text"  >
+            </div>
+            <div >
+                <label for="data2">Email Id</label>
+                <input id="data2" type="email">
+            </div>
+            <div >
+                <label for="data3">Phone Number</label>
+                <input id="data3" type="text">
+            </div>
+           <div >
+                <label for="data4">Age</label>
+                <input id="data4" type="number">
+            </div>
+        </div>
+    </div>
+  </form>
+    
+<!-- save button-->
+    <div>
+        <button id="save-btn" onclick="SaveData()">Save</button>
+        <button id="save-edit-btn" style="display: none;" onclick="SaveEdit()">Update</button>
+    </div>
+<!-- Data Table-->
+    <div id="data-table">
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Email Id</th>
+                <th>Phone Number</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

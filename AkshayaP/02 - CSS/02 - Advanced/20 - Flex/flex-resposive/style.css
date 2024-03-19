@@ -10,18 +10,22 @@
 	text-align: center;
 	padding: 10px;
 }
-
+.navbar {
+	justify-content: flex-end;
+}
 .navbar ul {
 	background-color: black;
 	display: flex;
 	padding: 20px 14px;
 	margin: auto;
+	
 }
 
 .navbar a {
 	padding: 4px;
 	margin: 20px;
 	color: white;
+	
 }
 
 .aside {
@@ -44,6 +48,7 @@
 .row {
 	width: 500px;
 	padding: 20px;
+	display:flex;
 }
 
 .img1 {
@@ -78,6 +83,7 @@
 
 .img2 {
 	margin-right: 8px;
+	display:flex;
 }
 
 .img3 {

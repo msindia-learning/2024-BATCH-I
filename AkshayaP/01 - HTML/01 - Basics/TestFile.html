@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script>
+	console.log(5 + 5);
+    </script>
+
+</head>
+
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+    <p>Changing the HTML style:</p>
+
+    <H1 id="murukku">jeni</H1>
+    <p id="p1">Hello World!</p>
+    <p id="p2">Hello World!</p>
+
+    <script>
+
+	const elHeading = document.createElement("h5");
+
+    elHeading.style.color = 'skyblue';
+
+document.getElementById("p2").style.color = "blue";
+document.getElementById("p2").style.fontFamily = "Arial";
+document.getElementById("p2").style.fontSize = "larger";
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add event listener</title>
+</head>
+<body>
+    <h2 id="header">HEllo this is add events listener</h2>
+
+    <input id="inpTextBox" value="HEllo this is add events listener" />
+
+    <button id="btn">click here</button>
+    <p id="info"></p>
+    <!--
+            <script>
+        document.getElementById("btn").addEventListener("click", date);
+        function date()
+        {
+            document.getElementById("info").innerHTML = Date();
+        }
+    </script>
+        -->
+    <!--
+            <script>
+        document.getElementById("btn").addEventListener("click", hello);
+        function hello()
+        {
+            alert("HELLO WORLD");
+        }
+    </script>
+        -->
+    <!--
+            <script>
+        let x = document.getElementById("btn");
+        x.addEventListener("click", myfunction);
+        x.addEventListener("click", sefunction);
+        function myfunction()
+        {
+            alert("Helloo world");
+        }
+        function sefunction()
+        {
+            alert("This is Prabha");
+        }
+
+    </script>
+        -->
+    <script>
+        let p1 = 5;
+        let p2 = 7;
+        document.getElementById("btn").addEventListener("click", function()
+        {
+            myfunction(p1, p2);
+        });
+        function myfunction(a, b)
+        {
+            document.getElementById("info").innerHTML = a + b;
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,3 +1,22 @@
+:root {
+    --background-color: skyblue;
+    --color-green: green;
+    --color-skyblue: skyblue;
+    --color-pink: pink;
+}
+
+.section1 {
+    color: var(--color-green);
+}
+
+.section2 {
+    color: var(--color-skyblue);
+}
+
+.section3 {
+    color: var(--color-pink);
+}
+
 *{
     margin:0px;
     padding:0px;
@@ -10,7 +29,6 @@ body{
     color:white;
     z-index:-1;
     opacity:0.5px;
-   
 }
 .header{
     text-align:center;
@@ -96,13 +114,11 @@ input[type=password]{
     border-radius:15px;
 }
 
-.button{
-    background-color:white;
-    margin:20px;
-    border-radius:10px;
-    padding:8px;
-    
-
+.button {
+    background-color: var(--background-color);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 8px;
 }
 .button1{
     background-color:white;
@@ -111,10 +127,8 @@ input[type=password]{
     padding:8px;
 }
 .button:hover{
-      background-color: bisque;
+      background-color: var(--text-color);
 }
-.button1:hover{
+.button1:hover {
     background-color: bisque;
 }
-
-      

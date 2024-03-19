@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Event Listener</title>
+</head>
+<body>
+    <button id="MyBtn">Click here!</button>
+    <script>
+        var x = document.getElementById("MyBtn");
+        x.addEventListener("click", MyFunction());
+        x.addEventlistener("click", SomeOtherFunction());
+
+        function MyFunction()
+        {
+            alert("Hello World!");
+        }
+
+        function SomeOtherFunction()
+        {
+            alert("This function was Executed!");
+        }
+    </script>
+</body>
+</html>
