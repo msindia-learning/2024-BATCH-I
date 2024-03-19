@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Home content*/
+
+#home {
+    background: var(--about-background-image);
+    background-size: cover;
+    height: var(--section-size);
+    font-family: var(--font-family);
+    color: var(--heading-color);
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--heading-size);
+}
+
+
+#about {
+    background: var(--home-background-image);
+    background-size: cover;
+    height: var(--section-size);
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+
+#product {
+    background: var(--product-background-image);
+    background-size: cover;
+    height: var(--section-size);
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+
+#feedback {
+    background: var(--feedback-background-image);
+    background-size: cover;
+    height: var(--section-size);
+    font-family: var(--font-family);
+    color: var(--heading-color);
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: #00000099;
+    width: 100vw;
+}
+
+    .nav-bar ul li {
+        margin: 0.5em 2em;
+
+    }
+        .nav-bar ul li:hover {
+            margin: 0.5em 2em;
+        }
+    .nav-bar ul li a{
+        color:var(--small-text-color);
+        text-decoration:none;
+    }
+        .nav-bar ul li a:active {
+            color: var(--small-text-active-color);
+        }
+        .nav-bar ul li a:hover {
+            color: var(--small-text-hover-color);
+            
+        }
+
+/* Apply basic styling to the body */
+#product {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 5%;
+}
+
+/* Style the header */
+    #product h1 {
+       
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+/* Style the main content area */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* Style the product card */
+.product-card {
+    background-color: var(--card-color);
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+}
+
+    /* Style the product image */
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #eee;
+    }
+
+/* Style the product info */
+.product-info {
+    padding: 20px;
+}
+
+    /* Style the product title */
+    .product-info h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    /* Style the product description */
+    .product-info p {
+        margin-bottom: 10px;
+    }
+
+    /* Style the product price */
+    .product-info .price {
+        font-weight: bold;
+    }
+
+    /* Style the "Add to Cart" button */
+    .product-info button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .product-info button:hover {
+            background-color: #555;
+        }

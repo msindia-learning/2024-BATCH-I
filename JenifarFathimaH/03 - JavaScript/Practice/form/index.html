@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Form Submission</title>
     <style>
+        :root {
+            --border-color: #dddddd;
+            --header-background:#f2f2f2;
+            --cell-padding:0.5 rem;
+            --background-color:#c79999;
+        }
+
+        body {
+            background-color: var(--background-color);
+        }
+
         table {
-            
             width: 100%;
         }
 
         th, td {
-            border: 1px solid #dddddd;
+            border: 1px solid var(--border-color);
             text-align: left;
-            padding: 8px;
+            padding: var(--cell-padding);
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: var(--header-background);
         }
     </style>
 </head>
