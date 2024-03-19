@@ -24,7 +24,7 @@
                 <input id="data3" type="text">
             </div>
            <div >
-                <label for="data4">age</label>
+                <label for="data4">Age</label>
                 <input id="data4" type="number">
             </div>
         </div>
@@ -33,24 +33,23 @@
     
 <!-- save button-->
     <div>
-function update()
-        <button id="save-btn" onclick="">Save</button>
+        <button id="save-btn" onclick="SaveData()">Save</button>
+        <button id="save-edit-btn" style="display: none;" onclick="SaveEdit()">Update</button>
     </div>
 <!-- Data Table-->
     <div id="data-table">
         <table>
-           
-
-            <tbody>
-                <tr id="row-data">
-                    <td id="name"></td>
-                    <td id="email"></td>
-                    <td id="phone"></td>
-                    <td id="age"></td>
-                </tr>
+            <thead>
+                <th>Name</th>
+                <th>Email Id</th>
+                <th>Phone Number</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </thead>
+            <tbody id="table-body">
+                
             </tbody>
         </table>
-
     </div>
     <script src="script.js"></script>
 </body>
