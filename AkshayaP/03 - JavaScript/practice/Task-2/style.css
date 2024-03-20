@@ -45,6 +45,8 @@ body {
 		}
 
 .navigation-bar {
+	width:50%;
+	float:right;
 	background-color: var(--secondary-background-color);
 }
 

@@ -8,8 +8,8 @@
 
 body {
 	font-family: var(--collection-font-family);
+	
 }
-
 
 .header {
 	display: flex;
@@ -46,3 +46,22 @@ body {
 			text-decoration: none;
 			color: var(--secondary-font-color);
 		}
+
+.container .aside {
+	background-color: var(--collection-container-background-color);
+	height: 100vh;
+}
+.aside h2 {
+	font-family: var(--font-family-bold);
+	padding-top:1%;
+}
+#form2{
+	padding:1%;
+}
+.aside ul{
+	padding:2%;
+}
+.aside ul li{
+	list-style-type:none;
+	padding:1%;
+}
