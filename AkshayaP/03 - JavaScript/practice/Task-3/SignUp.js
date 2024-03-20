@@ -20,6 +20,7 @@ var obj = [];
      document.getElementById("Password").value = "";
 
 
+
     obj.push(arrObj);
     console.log(obj);
 
