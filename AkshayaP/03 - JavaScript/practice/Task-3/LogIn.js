@@ -4,7 +4,8 @@ function logIn()
     var lEmail = document.getElementById("lEmail").value;
     var lPassword = document.getElementById("lPassword").value;
 
-    
+
+
 
     for(var i = 0; i < obj.length; i++)
     {
