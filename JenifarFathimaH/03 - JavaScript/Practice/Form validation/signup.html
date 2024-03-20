@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM SIGNUP</title>
+</head>
+<body>
+    <div id="Signup">
+        <h3>Signup</h3>
+        <form id="signupForm" onsubmit="return signupUser()">
+            <input type="text" placeholder="Username" name="username" id="signupUsername"><br />
+            <input type="email" placeholder="Email" name="email" id="signupEmail"><br />
+            <input type="number" placeholder="Age" name="age" id="signupAge"><br />
+            <input type="number" placeholder="Mobile Number" name="phone" id="signupPhone"><br />
+            <input type="password" placeholder="Password" name="password" id="signupPassword"><br />
+            <input type="submit" value="Signup"><a href="login.html">Already have an account</a>
+            <p id="signupMessage"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

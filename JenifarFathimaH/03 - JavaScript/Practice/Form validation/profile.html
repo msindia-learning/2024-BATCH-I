@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <div id="userDetails">
+    </div>
+
+    <script>
+    var currentUser = JSON.parse(sessionStorage.getItem('currentUser'));
+    if (currentUser) {
+        let userDetailsHTML="";
+        userDetailsHTML += `
+        <p><strong>Username:</strong> ${currentUser.username}<p>
+        <p><strong>Username:</strong> ${currentUser.email}<p>
+        <p><strong>Username:</strong> ${currentUser.age}<p>
+        <p><strong>Username:</strong> ${currentUser.phone}<p>`
+
+        document.getElementById("userDetails").innerHTML = userDetailsHTML;
+    } else {
+        alert("no user found");
+        window.location.href = 'index.html';
+    }
+    </script>
+</body>
+</html>
