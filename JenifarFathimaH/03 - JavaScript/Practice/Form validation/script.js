@@ -1,38 +1,42 @@
-let users = [];
+var users = [];
 
 function signupUser() {
-    let username = document.getElementById("signupUsername").value;
-    let email = document.getElementById("signupEmail").value;
-    let age = document.getElementById("signupAge").value;
-    let phone = document.getElementById("signupPhone").value;
-    let password = document.getElementById("signupPassword").value;
+    var username = document.getElementById("signupUsername").value;
+    var email = document.getElementById("signupEmail").value;
+    var age = document.getElementById("signupAge").value;
+    var phone = document.getElementById("signupPhone").value;
+    var password = document.getElementById("signupPassword").value;
 
-    users.push({ username: username, email: email, age: age, phone: phone, password: password });
+    let userObj = { username: username, email: email, age: age, phone: phone, password: password };
+    users.push(userObj);
+
     document.getElementById("signupMessage").innerHTML = "User signed up successfully!";
-    alert("signup successfully");
+    document.getElementById("signupUsername").value = "";
+    document.getElementById("signupEmail").value = "";
+    document.getElementById("signupAge").value = "";
+    document.getElementById("signupPhone").value = "";
+    document.getElementById("signupPassword").value = "";
     return false;
 }
 
 function redirectToProfile(user) {
-
     sessionStorage.setItem('currentUser', JSON.stringify(user));
     window.location.href = 'profile.html';
 }
 
 function loginUser() {
-    let username = document.getElementById("loginUsername").value;
-    let password = document.getElementById("loginPassword").value;
-    let user = users.find(function (user) {
-        return user.username === username && user.password === password;
-    });
+    var username = document.getElementById("loginUsername").value;
+    var password = document.getElementById("loginPassword").value;
 
-    if (user) {
-        redirectToProfile(user);
-    } else {
-        document.getElementById("loginMessage").innerHTML = "Invalid username/password!";
+    for (var i = 0; i < users.length; i++) {
+        var currentUser = users[i];
+        if (currentUser.username === username && currentUser.password === password) {
+            redirectToProfile(currentUser);
+            return false;
+        }
     }
+
+    document.getElementById("loginMessage").innerHTML = "Invalid username/password!";
     return false;
 }
-
-document.getElementById("defaultOpen").click();
 
