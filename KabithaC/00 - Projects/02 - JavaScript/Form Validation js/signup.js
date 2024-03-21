@@ -1,4 +1,4 @@
-var BASE_URL = "C:\Users\IT\Desktop\Kabitha Git\KabithaC\03 - JavaScript\Validation using js\index.html";
+
 
 var users = [];
 function signup()
@@ -14,9 +14,9 @@ function signup()
         email: email,
         password: password,
         phone: phone
-    };   
-    
-  
+    };
+
+
     if(username === "" || email === "" || password === "" || confirmPassword === "" || phone === "")
     {
         alert("Please fill in all fields.");
@@ -46,6 +46,6 @@ function signup()
     alert("Signup successful!");
 
     console.log(users);
- 
+
 }
-location.href = BASE_URL + "signup.html";
+/*location.href = BASE_URL + "index.html";*/

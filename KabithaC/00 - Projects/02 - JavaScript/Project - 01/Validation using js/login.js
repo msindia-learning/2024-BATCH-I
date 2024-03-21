@@ -1,4 +1,4 @@
-function login()
+function logIn()
 {
   
     var email = document.getElementById("loginEmail").value;
@@ -17,13 +17,14 @@ function login()
         alert("Please enter your password.");
         return;
     }
+    var users = JSON.parse(localStorage.getItem("Users_Information"));
     // find user
     var userExists = false;
     for(var i = 0; i < users.length; i++)
     {
         if(users[i].email === email && users[i].password === password)
         {
-            userExists = users[i];
+            userExists = true;
             break;
         }
     }
@@ -37,4 +38,3 @@ function login()
         alert("Invalid email or password.");
     }
 }
-console.log(JSON.parse(localStorage.getItem("Users_Information")));
