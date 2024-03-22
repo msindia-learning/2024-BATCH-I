@@ -1,8 +1,8 @@
-const BASE_URL = "file:///C:/Users/Administrator/source/repos/msindia-learning/2024-BATCH-I/AkshayaP/03%20-%20JavaScript/practice/Task-3/";
+const BASE_URL = "file:///C:/Users/Administrator/Source/Repos/msindia-learning/2024-BATCH-I/AkshayaP/00%20-%20Projects/02%20-%20JavaScript/Formvalidation/";
 
 function logIn()
 {
-    var obj = JSON.parse(localStorage.getItem("Users_List"));
+    var obj = JSON.parse(localStorage.getItem("users"));
     var lEmail = document.getElementById("lEmail").value;
     var lPassword = document.getElementById("lPassword").value;
 
@@ -35,11 +35,13 @@ function logIn()
     }
 
     if(userFound && passwordMatch)
-    {
+    {   
+        
         location.href = BASE_URL + "Store.html";
+        
     }
 
-    console.log(JSON.parse(localStorage.getItem("Users_List")));
+    console.log(JSON.parse(localStorage.getItem("users")));
 
     document.getElementById("lEmail").value = "";
     document.getElementById("lPassword").value = "";

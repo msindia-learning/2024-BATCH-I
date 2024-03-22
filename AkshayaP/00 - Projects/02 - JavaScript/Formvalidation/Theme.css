@@ -1,7 +1,13 @@
 :root {
 	/*fonts*/
 	--font-family: "Cursive";
+	--button-font-color:black;
 	--font-color:white;
 	/*Background image*/
-	--background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('form.png');
+	--background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img.jpg');
+	--th-background-color:black;
+    /*hover*/
+	--hover-background-color:grey;
+	/*border*/
+	--table-border:2px solid white;
 }

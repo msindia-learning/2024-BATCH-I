@@ -3,7 +3,7 @@
 <head>
     <title>SignUp</title>
     <link href="Theme.css" rel="stylesheet">
-    <link href="SignUp.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <h1>SignUp</h1>
@@ -16,19 +16,16 @@
         <label for="age">Age:</label>
         <input type="number" id="Age" name="age" placeholder="Age" required /><br>
         <label for="address">Address:</label>
-        <textarea id="Address" name="address" placeholder="Address" required></textarea><br>
+        <input type="text" id="Address" name="address" placeholder="Address" required><br>
         <label for="phone">Contact:</label>
         <input type="tel" id="Phone" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required /><br>
         <label for="password">Password:</label>
         <input type="password" id="Password" name="password" placeholder="Password" required /><br>
-
+        <div class="submit">
         <input type="button" id="submit" name="submit" value="register" onclick="addToArray()">
-
+        </div>
             </fieldset>
-    </form><br>
-
-
-    
+    </form>
     <script src="./SignUp.js"></script>
 </body>
 </html>

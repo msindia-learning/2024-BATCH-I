@@ -1,7 +1,7 @@
-const BASE_URL = "file:///C:/Users/Administrator/source/repos/msindia-learning/2024-BATCH-I/AkshayaP/03%20-%20JavaScript/practice/Task-3/";
+const BASE_URL = "file:///C:/Users/Administrator/Source/Repos/msindia-learning/2024-BATCH-I/AkshayaP/00%20-%20Projects/02%20-%20JavaScript/Formvalidation/";
 
 
-var obj = [];
+/*var obj = [];*/
  function addToArray(){
     var arrObj = {};
     arrObj.Name = document.getElementById("Name").value;
@@ -22,12 +22,24 @@ var obj = [];
 
 
 
-    obj.push(arrObj);
-    console.log(obj);
+    //obj.push(arrObj);
+     //console.log(obj);
+
+
+     let users = JSON.parse(localStorage.getItem("users"));
+     if(users == null)
+     {
+         users = [arrObj];
+     }
+     else
+     {
+         users.push(arrObj);
+     }
 
 
 
-     localStorage.setItem("Users_List", JSON.stringify(obj));
+     localStorage.setItem("users", JSON.stringify(users));
+
 
      location.href = BASE_URL + "LogIn.html";
 }

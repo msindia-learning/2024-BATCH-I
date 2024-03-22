@@ -1,0 +1,81 @@
+body {
+	background: var(--background-image);
+}
+h1 {
+	text-align: center;
+	padding-top: 5%;
+	color: var(--font-color);
+}
+form {
+	padding-left: 40%;
+	height:20%;
+}
+label {
+	padding: 2%;
+	margin-top: 5%;
+	color: var(--font-color);
+	margin: 5%;
+}
+input[type="text"][type="number"] [type="password"] [type="email"]  {
+	margin-left:10%;
+}
+	input[type="text"][type="number"] [type="password"] [type="email"] :hover {
+		background-color: var(--hover-background-color);
+	}
+fieldset{
+	width:28%;
+	border-radius:5%;
+}
+input[type="button"]{
+	/*margin-right: 10%;*/
+	color: var(--button-font-color);
+	margin-left:20%;
+	margin-top:4%;
+}
+	input[type="button"]:hover {
+		background-color: var(--hover-background-color);
+	}
+
+table {
+	border-collapse:collapse;
+	color: var(--font-color);
+	width:100%;
+}
+td, th {
+	text-align: center;
+	border: var(--table-border);
+
+	
+}
+ul {
+	list-style-type:none;
+	
+}
+li a {
+	text-decoration: none;
+	color: var(--font-color);
+	
+}
+
+@media screen and (max-width: 300px) {
+	form {
+		padding-left: 0;
+	}
+
+	input[type="text"],
+	input[type="number"],
+	input[type="password"],
+	input[type="email"] {
+		margin-left: 0;
+	}
+
+	input[type="button"] {
+		margin-left: 0;
+	}
+
+	fieldset {
+		width: 80%;
+	}
+}
+
+ 
