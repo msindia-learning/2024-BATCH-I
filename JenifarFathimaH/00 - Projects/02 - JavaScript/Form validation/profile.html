@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="themes.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
     <title>User Profile</title>
 </head>
 <body class="profile">
     <h1>User Profile</h1>
-    <div id="userDetails"></div>
+    <table id="userDetails">
+        <thead>
+            <tr>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Phone No.</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     <script src="profile.js"></script>
 </body>
 </html>

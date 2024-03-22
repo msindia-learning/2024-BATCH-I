@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="themes.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +13,18 @@
 <body>
     <div class="card">
         <h1>Form Validation</h1>
-        
+
 
         <div id="Login" class="tabcontent">
             <div class="tab">
                 <button class="tablinks" onclick="openTab(event, 'Login')" id="defaultOpen">Login</button>
                 <button class="tablinks" onclick="openTab(event, 'Signup')">Signup</button>
             </div>
-            <form id="loginForm" >
+            <form id="loginForm">
                 <input type="text" placeholder="Username" name="username" id="loginUsername" required><br />
                 <input type="password" placeholder="Password" name="password" id="loginPassword" required><br />
                 <input type="button" value="Login" onclick="loginUser()">
-                <p id="loginMessage"></p>
+                <strong id="loginMessage"></strong>
             </form>
         </div>
 
@@ -39,11 +40,12 @@
                 <input type="number" placeholder="Mobile Number" name="phone" id="signupPhone" required><br />
                 <input type="password" placeholder="Password" name="password" id="signupPassword" required><br />
                 <input type="button" value="Signup" onclick="signupUser()">
-                <p id="signupMessage"></p>
+                <strong id="signupMessage"></strong>
             </form>
         </div>
     </div>
-    
+
     <script src="script.js"></script>
+    <script src="profile.js"></script>
 </body>
 </html>
