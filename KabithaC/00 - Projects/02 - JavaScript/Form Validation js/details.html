@@ -1,10 +1,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>details</title>
+    <link href="Theme.css" rel="stylesheet" />
+    <link href=" style.css" rel="stylesheet" />
 </head>
-<body>
+<body class="details">
     <h1> User Details</h1>
-    <div id="userdetails"></div>
+    <button type="button" onclick="edit()">Edit</button>
+    <!--<div id="userdetails"></div>-->
+    <table id="content">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody id="userdetails">
+        </tbody>
+    </table>
     <script src="details.js"></script>
 </body>
 </html>

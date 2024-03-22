@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+     <link href="Theme.css" rel="stylesheet" />
+     <link href=" style.css" rel="stylesheet" />
 </head>
-<body>
-    <div>
-        <h1>LOGIN</h1>
-        <form id="loginForm">
+<body class="log">
+    <h1 class="heading"> LOGIN</h1><br />
+    <div>      
+       <form id="loginForm">
             <label for="loginEmail">EMAIL:</label><br>
-            <input type="text" id="loginEmail" required><br>
+            <input type="text" id="loginEmail" required><br><br />
             <label for="loginPwd">PASSWORD:</label><br>
             <input type="password" id="loginPwd" required><br><br>
             <button type="button" onclick="logIn()">Login</button>

@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	color: blue;
+	margin-top:20px;
+
+}
+.bg{
+	background: url("index.jpg");
+	background-size:cover;
+	
+}
+.main {
+	text-align:center;
+	margin: auto;
+	font-family: var(--font-family);
+	padding-top: 10%;
+	width: 30%;
+	height: 60vh;	
+	background: url("home.png ")
+}
+a{
+	color:blue;
+	text-decoration: none;
+	margin: 10px;
+}
+.heading{
+	color:white;
+}
+.log {
+	background: url("details.jpg");
+	background-size: cover;
+}
+#loginForm {
+	text-align: center;
+	margin: auto;
+	padding-top: 10%;
+	width: 40%;
+	height: 50vh;
+	background: url("log.jpg ");
+	background-size:cover;
+	color:white;
+}
+.head{
+	color:black;
+}
+.sign{
+	background: url("sign.jpg");
+	background-size: cover;
+}
+#signupForm {
+	text-align: center;
+	margin: auto;
+	padding-top: 10%;
+	width: 40%;
+	height: 50vh;
+	background: url("signform.jpg ");
+	background-size: cover;
+	color:white;
+}
+.details {
+	background: url("loginindex.jpg ");
+	background-size: cover;
+}
+
+#content {
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	height: 50vh;
+	background:rgba(0,0,0,0.5);
+	color:white;
+}

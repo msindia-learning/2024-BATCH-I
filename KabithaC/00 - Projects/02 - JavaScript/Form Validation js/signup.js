@@ -1,6 +1,3 @@
-
-
-var users = [];
 function signup()
 {
     var username = document.getElementById("signupUsername").value;
@@ -28,7 +25,10 @@ function signup()
         alert("Passwords do not match.");
         return;
     }
-    //  email is already registered
+
+
+    let users = JSON.parse(localStorage.getItem("Users_Information"));
+
     for(var i = 0; i < users.length; i++)
     {
         if(users[i].email === email)
@@ -38,14 +38,20 @@ function signup()
         }
     }
 
-    users.push(newUser);
+    if(users == null)
+    {
+        users = [newUser];
+    }
+    else
+    {
+        users.push(newUser);
+    }
     localStorage.setItem("Users_Information", JSON.stringify(users));
-
     document.getElementById("signupForm").reset();
 
     alert("Signup successful!");
-
+   
     console.log(users);
+    location.href = "login.html";
 
 }
-/*location.href = BASE_URL + "index.html";*/
