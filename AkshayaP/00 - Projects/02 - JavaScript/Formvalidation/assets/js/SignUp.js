@@ -3,7 +3,8 @@ const BASE_URL = "file:///C:/Users/Administrator/Source/Repos/msindia-learning/2
 
 /*var obj = [];*/
  function addToArray(){
-    var arrObj = {};
+     var arrObj = {};
+     arrObj.Key = document.getElementById("Email").value;
     arrObj.Name = document.getElementById("Name").value;
     arrObj.Email = document.getElementById("Email").value;
     arrObj.Age = document.getElementById("Age").value;
@@ -11,7 +12,7 @@ const BASE_URL = "file:///C:/Users/Administrator/Source/Repos/msindia-learning/2
     arrObj.Contact = document.getElementById("Phone").value;
     arrObj.Password = document.getElementById("Password").value;
      
-
+    /* updateTable();*/
 
      document.getElementById("Name").value = "";
      document.getElementById("Email").value = "";

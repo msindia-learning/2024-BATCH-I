@@ -31,10 +31,12 @@ input[type="button"]{
 	color: var(--button-font-color);
 	margin-left:20%;
 	margin-top:4%;
+	
 }
 	input[type="button"]:hover {
 		background-color: var(--hover-background-color);
 	}
+
 
 table {
 	border-collapse:collapse;
@@ -46,6 +48,9 @@ td, th {
 	border: var(--table-border);
 
 	
+}
+th {
+	background-color: var(--th-background-color);
 }
 ul {
 	list-style-type:none;
@@ -77,5 +82,9 @@ li a {
 		width: 80%;
 	}
 }
-
+button {
+	/*color: var(--font-color);*/
+	text-decoration: none;
+	margin-right: 40%;
+}
  
