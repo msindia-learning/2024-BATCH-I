@@ -1,5 +1,5 @@
 let BASE_URL = "file:///C:/Users/ArunthandavanMullain/Desktop/jenifar-github/JenifarFathimaH/00%20-%20Projects/02%20-%20JavaScript/Form%20validation/"; 
-let currentUser = JSON.parse(localStorage.getItem('users'));
+let currentUser = JSON.parse(localStorage.getItem('currentUser'));
 if (currentUser) {
         let tableContent = document.querySelector("#userDetails tbody");
         tableContent.innerHTML = "";
@@ -43,16 +43,13 @@ if (currentUser) {
 
 
 function deleteEntry(data) {
-    let index = currentUser.indexOf(data);
-
-    currentUser.splice(index, 1);
+    currentUser.splice(data, 1);
+    localStorage.setItem("uploadDetails", JSON.stringify(currentUser)); 
     update();
    
 }
 
 function update() {
-    let BASE_URL = "file:///C:/Users/ArunthandavanMullain/Desktop/jenifar-github/JenifarFathimaH/00%20-%20Projects/02%20-%20JavaScript/Form%20validation/";
-    let currentUser = JSON.parse(localStorage.getItem('users'));
     if (currentUser) {
         let tableContent = document.querySelector("#userDetails tbody");
         tableContent.innerHTML = "";

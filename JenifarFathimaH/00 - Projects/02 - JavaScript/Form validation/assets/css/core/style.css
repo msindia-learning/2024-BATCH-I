@@ -109,3 +109,13 @@ input[type="button"] {
         padding: 3px;
         border:1px solid white;
     }
+
+.detail-card {
+
+    padding: 20px;
+    background: var(--tab-bg-color);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+    width: 30%;
+    margin: auto;
+    color: var(--main-text-color);
+}
