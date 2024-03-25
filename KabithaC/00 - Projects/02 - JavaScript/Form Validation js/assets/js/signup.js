@@ -1,5 +1,4 @@
-function signup()
-{
+function signup() {
     var username = document.getElementById("signupUsername").value;
     var email = document.getElementById("signupEmail").value;
     var password = document.getElementById("signupPwd").value;
@@ -13,39 +12,30 @@ function signup()
         phone: phone
     };
 
-
-    if(username === "" || email === "" || password === "" || confirmPassword === "" || phone === "")
-    {
+    if (username === "" || email === "" || password === "" || confirmPassword === "" || phone === "") {
         alert("Please fill in all fields.");
         return;
     }
 
-    if(password !== confirmPassword) 
-    {
+    if (password !== confirmPassword) {
         alert("Passwords do not match.");
         return;
     }
 
-
     let users = JSON.parse(localStorage.getItem("Users_Information"));
 
-    for(var i = 0; i < users.length; i++)
-    {
-        if(users[i].email === email)
-        {
+    if (!users) {
+        users = [];
+    }
+
+    for (var i = 0; i < users.length; i++) {
+        if (users[i].email === email) {
             alert("Email already registered.");
             return;
         }
     }
 
-    if(users == null)
-    {
-        users = [newUser];
-    }
-    else
-    {
-        users.push(newUser);
-    }
+    users.push(newUser);
     localStorage.setItem("Users_Information", JSON.stringify(users));
     document.getElementById("signupForm").reset();
 
@@ -53,5 +43,5 @@ function signup()
    
     console.log(users);
     location.href = "login.html";
-
 }
+

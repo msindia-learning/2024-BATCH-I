@@ -1,4 +1,4 @@
-/*var BASE_URL = "file:///C:/Users/IT/Desktop/Kabitha%20Git/KabithaC/00%20-%20Projects/02%20-%20JavaScript/Form%20Validation%20js/";*/
+
 
 function logIn()
 {
@@ -34,7 +34,7 @@ function logIn()
     if(userExists)
     {   
         alert("Login successful!");
-        location.href ="details.html";
+        location.href ="adddetails.html";
        
     }
     else
