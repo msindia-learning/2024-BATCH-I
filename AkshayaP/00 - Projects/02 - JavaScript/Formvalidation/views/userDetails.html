@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>User Saved Data</title>
-    <link href="Theme.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="../assets/css/theme/Theme.css" rel="stylesheet">
+    <link href="../assets/css/core/style.css" rel="stylesheet">
 </head>
 <body>
     <h1>UserDetails</h1>
@@ -22,9 +22,10 @@
             <div class="submit">
                 <!--<input type="button" id="submit" name="submit" value="register" onclick="addToArray()">-->
                 <input type="button" id="submit" name="submit" value="register" onclick="updateTable()">
+                <input type="hidden" id="update" name="update" value="edit" onclick="update_user_records()">
             </div>
         </fieldset>
     </form>
-    <script src="./userDetails.js"></script>
+    <script src="../assets/js/userDetails.js"></script>
 </body>
 </html>
