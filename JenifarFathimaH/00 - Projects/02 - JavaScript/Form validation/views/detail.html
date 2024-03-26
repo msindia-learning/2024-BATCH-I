@@ -1,7 +1,7 @@
 <html>
 <head>
-    <link href="themes.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="../assets/css/themes/main.css" rel="stylesheet" />
+    <link href="../assets/css/core/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap" rel="stylesheet">
     <title>Detail update</title>
 </head>
@@ -13,11 +13,12 @@
             <input type="email" placeholder="Email" name="demail" id="dEmail" required><br />
             <input type="number" placeholder="Age" name="dage" id="dAge" required><br />
             <input type="number" placeholder="Mobile Number" name="dphone" id="dPhone" required><br />
-            <input type="button" value="Submit" onclick="updateTable()">
+            <input id ="submit" type="button" value="Submit" onclick="updateTable()">
+            <input id ="update" type="hidden" value="Update" onclick="updateItem()">
             <strong id="dMessage"></strong>
         </form>
     </div>
-    <script src="script.js"></script>
-    <script src="profile.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <!--<script src="../assets/js/detail.js"></script>-->
 </body>
 </html>

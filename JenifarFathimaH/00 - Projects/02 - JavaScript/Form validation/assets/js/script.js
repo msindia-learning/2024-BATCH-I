@@ -1,4 +1,7 @@
-let BASE_URL = "file:///C:/Users/ArunthandavanMullain/Desktop/jenifar-github/JenifarFathimaH/00%20-%20Projects/02%20-%20JavaScript/Form%20validation/";
+let BASE_URL = "file:///C:/Users/ArunthandavanMullain/Desktop/jenifar-github/JenifarFathimaH/00%20-%20Projects/02%20-%20JavaScript/Form%20validation/views/";
+
+let currentUser = JSON.parse(localStorage.getItem("currentUser"));
+let users_data = JSON.parse(localStorage.getItem("users_data"));
 
 function signupUser() {
     let username = document.getElementById("signupUsername").value;
@@ -76,9 +79,8 @@ if (defaultOpen) {
 }
 
 function updateTable() {
-    let currentUser = JSON.parse(localStorage.getItem("currentUser"));
-    let users_data = JSON.parse(localStorage.getItem("users_data"));
-
+    document.getElementById("submit").type = "hidden";
+    document.getElementById("update").type = "button";
     let user = {
         Name: document.getElementById("dUsername").value,
         Email: document.getElementById("dEmail").value,
@@ -98,51 +100,28 @@ function updateTable() {
     }
 
     localStorage.setItem("users_data", JSON.stringify(users_data));
-    let tableContent = document.querySelector("#userDetails tbody");
-    tableContent.innerHTML = document.getElementById("userDetails");
-
-        for (let i = 0; i < users_data[currentUser].length; i++) {
-            let assignuser = users_data[currentUser][i];
-            tableContent.innerHTML += `
-              <tr>
-                 <td>${assignuser.username}</td>
-                 <td>${assignuser.email}</td>
-                 <td>${assignuser.age}</td>
-                 <td>${assignuser.phone}</td>
-                 <td><button onclick = edit(${i})>Edit</button></td>
-                 <td><button onclick = deleteEntry(${i})>Delete</button></td>
-             </tr>`;
-        }
-    window.location.href = 'profile.html';
+    location.href = 'profile.html';
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    editValue();
+});
 
-function Delete(index) {
-    users.splice(index, 1);
-    localStorage.setItem("users", JSON.stringify(users));
+function editValue() {
 
-    updateTable();
-}
+    let currentUser = JSON.parse(localStorage.getItem("currentUser"));
+    let users_data = JSON.parse(localStorage.getItem("users_data"));
+    let editIndex = parseInt(localStorage.getItem("editIndex"));
 
-function update() {
-    if (currentUser) {
-        let tableContent = document.querySelector("#userDetails tbody");
-        tableContent.innerHTML = "";
+    //document.getElementById("submit").type = "hidden";
+    //document.getElementById("update").type = "button";
+    let edit = users_data[currentUser.username][editIndex];
 
-        for (let i = 0; i < currentUser.length; i++) {
-            let assignuser = currentUser[i];
-            tableContent.innerHTML += `
-              <tr>
-                 <td>${assignuser.username}</td>
-                 <td>${assignuser.email}</td>
-                 <td>${assignuser.age}</td>
-                 <td>${assignuser.phone}</td>
-                 <td><button onclick = edit(${i})>Edit</button></td>
-                 <td><button onclick = deleteEntry(${i})>Delete</button></td>
-             </tr>`;
-        }
-    } else {
-        alert("No user found. Redirecting to login/signup page.");
-        location.href = BASE_URL + 'index.html';
+    if (edit) {
+        document.getElementById("dUsername").value = edit.Name;
+        document.getElementById("dEmail").value = edit.Email;
+        document.getElementById("dAge").value = edit.Age;
+        document.getElementById("dPhone").value = edit.Phone;
+        localStorage.removeItem("editIndex");
     }
 }
