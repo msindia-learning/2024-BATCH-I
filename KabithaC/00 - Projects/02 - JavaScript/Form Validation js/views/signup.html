@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="../assets/css/themes/Themes.css" rel="stylesheet" />
+    <link href="../assets/css/core/style.css" rel="stylesheet" />
+</head>
+<body class="sign">
+    <div>
+        <h1 class="head"> SIGN UP </h1>
+        <form id="signupForm">
+            <label for="signupUsername">USER NAME:</label><br>
+            <input type="text" id="signupUsername" required><br>
+            <label for="signupEmail">EMAIL:</label><br>
+            <input type="text" id="signupEmail" required><br>
+            <label for="signupPwd">PASSWORD:</label><br>
+            <input type="password" id="signupPwd" required><br>
+            <label for="signupConfirmPwd">CONFIRM PASSWORD:</label><br>
+            <input type="password" id="signupConfirmPwd" required><br>
+            <label for="signupPho">MOBILE NUMBER:</label><br>
+            <input type="tel" id="signupPho" required><br><br>
+            <button type="button" onclick="signup()">Submit</button>
+        </form>
+    </div>
+    <script src="../assets/js/signup.js"></script>
+</body>
+</html>
