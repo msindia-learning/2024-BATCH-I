@@ -25,6 +25,7 @@ function logIn()
     {
         if(users[i].email === email && users[i].password === password)
         {
+            localStorage.setItem("currentUser", JSON.stringify(users[i]));
             userExists = true;
             break;
         }

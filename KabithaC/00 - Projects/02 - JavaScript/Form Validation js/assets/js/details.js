@@ -1,67 +1,54 @@
-//let users = JSON.parse(localStorage.getItem("Users_Information"));
-//let userdetailsDiv = document.getElementById("userdetails");
-function displayUserDetails()
+
+function updateTable()
 {
-    let current_user = JSON.parse(localStorage.getItem("current_user"));
-    let users_info = JSON.parse(localStorage.getItem("user_info"));
+    let currentUser = JSON.parse(localStorage.getItem("currentUser"));
+    let users_data = JSON.parse(localStorage.getItem("users_data"));
+    
+    let details = {
+        Name: document.getElementById("addUsername").value,
+        Email: document.getElementById("addEmail").value,
+        Phone: document.getElementById("addPhoneno").value
+    };
 
-    if(current_user && current_user.length > 0)
+    if(users_data == null)
     {
-        users_info.innerHTML = " ";
+        users_data = {};
+    }
 
-        for(var i = 0; i < current_user.length; i++)
+    if(users_data[currentUser.email] == null)
+    {
+        users_data[currentUser.email] = [details];
+    }
+    else
+    {
+        users_data[currentUser.email].push(details);
+    }
+
+    localStorage.setItem("users_data", JSON.stringify(users_data));
+    location.href = 'details.html';
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+    let users_data = JSON.parse(localStorage.getItem("users_data"));
+    
+    if(users_data)
+    {     
+        let currentUser = JSON.parse(localStorage.getItem("currentUser"));
+        let current_user_records = users_data[currentUser.email];
+
+        let tableContent = document.getElementById("userdetails");
+
+        for(let record in current_user_records)
         {
-            var user = current_user[i];
-            users_info.innerHTML += "<td>" + user.username + "</td>" +
-                "<td> " + user.email + "</td>" +
-                "<td>  " + user.phone + "</td>" +
-                "<td><button onclick ='Edit(\"" + i + "\")'>Edit</button></td>" +
-                "<td><button onclick='Delete(\"" + i + "\")'>Delete</button></td>";
-
-            users_info.innerHTML += "</tr>"
+            tableContent.innerHTML += `
+                    <tr>
+                        <td>${current_user_records[record].Name}</td>
+                        <td>${current_user_records[record].Email}</td>
+                        <td>${current_user_records[record].Phone}</td>
+                        <td><button onclick="Edit('${current_user_records[record]}', ${record})">Edit</button></td>
+                        <td><button onclick="Delete('${current_user_records[record]}', ${record})">Delete</button></td>
+                    </tr>`;
         }
-    }     
-  }
+    }
+})
 
-const BASE_URL = "file:///C:/Users/IT/Desktop/Kabitha%20Git/KabithaC/00%20-%20Projects/02%20-%20JavaScript/Form%20Validation%20js/"
-function Delete(index)
-{ 
-    localStorage.setItem("Users_Information", JSON.stringify(users));
-    users.splice(index, 1);
-  /*  displayUserDetails();*/
-    updateTable();
-}
-
-//function updateTable()
-//{
-//    let current_user = JSON.parse(localStorage.getItem("current_user"));
-//    let users_info = JSON.parse(localStorage.getItem("user_info"));
-
-//    let details = {
-//        username: document.getElementById("username").value,
-//        email: document.getElementById("email").value,
-//        phone: document.getElementById("phone").value
-//    };
-
-
-//    if(users_info == null)
-//    {
-//        users_info = {};
-
-//    }
-
-//    if(users_info[current_user.email] == null)
-//    {
-//        users_info[current_user.email] = [details];
-//    }
-
-//    else
-//    {
-//        user_info[current_user.email].push(details);
-//    }
-
-    localStorage.setItem("users_info", JSON.stringify(users_info));
-
-    window.location.href = 'details.html';
-
-}

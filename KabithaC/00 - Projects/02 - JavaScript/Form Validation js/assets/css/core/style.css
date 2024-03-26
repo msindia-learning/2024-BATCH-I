@@ -9,7 +9,7 @@ h1 {
 
 }
 .bg{
-	background: url("index.jpg");
+	/*background: url("index.jpg");*/
 	background-size:cover;
 	
 }
@@ -20,7 +20,7 @@ h1 {
 	padding-top: 10%;
 	width: 30%;
 	height: 60vh;	
-	background: url("home.png ")
+	/*background: url("home.png ")*/
 }
 a{
 	color:blue;
@@ -31,7 +31,7 @@ a{
 	color:white;
 }
 .log {
-	background: url("details.jpg");
+/*	background: url("details.jpg");*/
 	background-size: cover;
 }
 #loginForm {
@@ -40,7 +40,7 @@ a{
 	padding-top: 10%;
 	width: 40%;
 	height: 50vh;
-	background: url("log.jpg ");
+	/*background: url("log.jpg ");*/
 	background-size:cover;
 	color:white;
 }
