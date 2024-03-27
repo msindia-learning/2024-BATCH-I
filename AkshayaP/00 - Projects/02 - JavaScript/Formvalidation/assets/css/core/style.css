@@ -1,5 +1,6 @@
 body {
 	background: var(--background-image);
+	background-repeat:repeat;
 }
 h1 {
 	text-align: center;
@@ -59,7 +60,6 @@ ul {
 li a {
 	text-decoration: none;
 	color: var(--font-color);
-	
 }
 
 @media screen and (max-width: 300px) {
