@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+       padding:0;
+       
+   }
+   body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(file:///C:/Users/Administrator/Desktop/Florist/assets/images/img12.jpg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+}
+    
+
+.whole-data{
+    margin:3rem 0 3rem 0;
+    border:white;
+    border-style: solid;
+    border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.587);
+  opacity: 0.8;
+  width:40rem; 
+  height: 40rem;
+}
+h2{
+    margin : 3rem   7rem ;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}  
+
+input{
+        background-color:transparent;
+        border-color: white;
+        border-radius: 2rem;
+        height: 3rem;
+        width:20rem;
+       border-style: solid;
+       color:white;
+       font-size:1.2rem;
+       margin-bottom: 2rem;
+    }
+    label{
+        font-size: 2rem;
+    }
+    button{
+        border:0.1rem;
+        background-color: rgb(236, 228, 228);
+    
+    width:10rem;
+    height: 3rem;
+    justify-content: center;
+        color:rgba(0, 0, 0, 0.804);
+    
+         border-radius:0.8rem;
+       font-size:1rem;
+    
+       text-decoration:none;
+    }
+
+

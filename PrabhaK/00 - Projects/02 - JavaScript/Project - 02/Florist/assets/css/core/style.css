@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Love+Light&display=swap');
+
+
+*{
+ box-sizing:border-box;
+ margin:0;
+    padding:0;
+    
+}
+body{
+    display:grid;
+  
+
+  
+}
+header{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh;
+}
+.heading{
+    float:left;
+    color:black;
+    text-align: center;
+    padding:1rem;
+    font-size:2rem;
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.nav-right{
+    float:right;
+    padding:2rem;
+   }
+   .active{
+    text-decoration: none;
+    border:0.1rem;
+   
+   
+    background-color: #ff6666;
+  
+    padding:0.5rem 1rem;
+    border-radius:0.8rem;
+  
+}
+.nav-right a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding:0.5rem 1rem;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    background-image: url(file:///C:/Users/Administrator/Desktop/Florist/assets/images/img12.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 70vh;
+}
+main div{
+    color: white;
+    text-align: center;
+ 
+
+   
+}
+main h1{
+    font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding-top:11rem;
+}
+
+    
+
+main div p{
+    padding:1rem;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5rem;
+    margin-bottom: 2.5rem;
+    
+}
+main a{
+    border:0.1rem;
+text-decoration: none;
+ background-color: white;
+   color:rgb(0, 0, 0);
+    padding:0.7rem 2rem;
+    border-radius:0.8rem;
+  font-size:1rem;
+ 
+
+  font-family: "Instrument Sans", sans-serif;
+   
+    font-weight: 400;
+    font-style: normal;
+  }
+  section{
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ section h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: #ff6666;
+    font-family: "Bellefair", serif;
+  font-weight: 6 00;
+  font-style: normal;
+  font-size: 2.5rem;
+grid-column-start: 1;
+grid-column-end: 4;
+padding:1rem;
+ 
+ }
+ .box{
+    text-align: center;
+    margin-top:2rem;
+ }
+ .box .step{
+   
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1rem;
+    color: #000000;
+   
+ }
+ .box h3{
+    font-size:1.5rem;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  color: #ff6666;
+ }
+ #slide{
+    width:25rem;
+    height: 20rem;
+ }
+
+
+
+
