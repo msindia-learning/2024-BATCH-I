@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Order</title>
+      <link rel="stylesheet" href="C:\Users\Administrator\Desktop\Florist\assets\css\core\order.css">
+   </head>
+   <body>
+
+    
+    <div class="whole-data">
+        <h1>Order Details</h1>
+        <div class="contact-details">
+           <h2 class="contact-h2">Contact Information</h2>
+           <div class="contact" >
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="input">
+           </div>
+           <div class="contact"> 
+              <label for="number">Phone Number</label>
+              <input type="number" class="input" id="number">
+           </div>
+           <div class="contact">
+              <label for="email">Email Address</label>
+              <input type="email"  class="input" id="email">
+           </div>
+        </div>
+
+
+
+        <div class="step1">
+           <h2 class="step1-h2">Step 1 </h2>
+           <div >
+              <h2 class="step1-details">Type Of Bouquet</h2>
+              <div class="step1-details">
+                 <h3>1.Type of Flower</h3>
+                 <input type="checkbox" id="roses" name="flower" value="roses">
+                 <label for="roses">Roses</label>
+                 <input type="checkbox"id="dahlias" name="flower" value="dahlias">
+                 <label for="dahlias">dahlias</label>
+                 <input type="checkbox" id="calla-lilies" name="flower" value="calla-lilies">
+                 <label for="calla-lilies">calla lilies</label>
+                 <input type="checkbox" id="tulips"name="flower" value="tulips">
+                 <label for="tulips">tulips</label><br>
+                 <input type="checkbox"id="gerbera-daisies" name="flower">
+                 <label for="gerbera-daisies">gerbera daisies</label>
+                 <input type="checkbox"id="pin-cushion-flowers" name="flower" value="pin-cushion-flowers">
+                 <label for="pin-cushion-flowers">pin-cushion-flowers</label>
+                 <input type="checkbox" id="carnations"name="flower" value="carnations">
+                 <label for="carnations">carnations</label>
+                 <input type="checkbox" id="Gerbera"name="flower" value="Gerbera" >
+                 <label for="Gerbera">Gerbera</label>
+              </div>
+              <div class="step1-details">
+                 <h3>   2.Color preferences</h3>
+                 <input type="text" class="input" id="color">
+              </div>
+              <div class="step1-details">
+                 <h3>3.Bouquet Size</h3>
+                 <input type="radio" id="small" name="bouquet_size" value="Small">
+                 <label for="small"> Small</label>
+                 <input type="radio"id="medium" name="bouquet_size" value="Medium">
+                 <label for="medium"> Medium</label>
+                 <input type="radio" id="large" name="bouquet_size" value="Large">
+                 <label for="large"> Large</label>
+              </div>
+           </div>
+        </div>
+
+
+        <div class="step2">
+         <h2  class="step2-h2">Step 2</h2>
+           <div class="step2-details">
+              <h3>4.Occasion for the Bouquet</h3>
+              <input type="radio" id="birthday" name="Occasion"value="BirthDay">
+              <label for="birthday">BirthDay</label>
+              <input type="radio" id="anniversary" name="Occasion" value="Anniversary">
+              <label for="anniversary"> Anniversary</label>
+              <input type="radio" id="congratulations"   name="Occasion" value="Congratulations">
+              <label for="congratulations"> Congratulations</label>
+              <input type="radio" id="sympathy" name="Occasion"  value=" Sympathy">
+              <label for="sympathy"> Sympathy</label>
+              <input type="radio" id="other" name="Occasion" value="Other">
+              <label  for="other">Other</label>
+           </div>
+           <div class="step2-details">
+              <h3>5.Bouquet Range</h3>
+              <input type="radio" name="Bouquet_Range" value="$5" id="1-5">
+              <label for="1-5">$1 - $5</label>
+              <input type="radio" value="$10" name="Bouquet_Range" id="6-10">
+              <label for="6-10"> $6 - $10</label>
+              <input type="radio" name="Bouquet_Range" value="$15" id="11-15">
+              <label for="11-15"> $11 - $15</label>
+              <input type="radio" name="Bouquet_Range" value="$20" id="16-20">
+              <label for="16-20">$16 - $20</label>
+           </div>
+        </div>
+
+
+
+        <div>
+           <h2 class="step3 step3-h2">Stpe 3 </h2>
+          
+           <div class="step3-details">
+              <label for="delivery_address">
+                 <h3>7.Delivery Address</h3>
+              </label>
+              <textarea id="delivery_address" cols="50" rows="8" > </textarea>
+           </div>
+           <div class="step3-details">
+              <label for="message">
+                 <h3>8.Message Card</h3>
+              </label>
+              <textarea id="message"  cols="50" rows="8"  > </textarea>
+           </div>
+        </div >
+   <a href="updatedata.html" id="done" onclick="updateData()">UPDATE</a>
+    </div> 
+    <script src="C:\Users\Administrator\Desktop\Florist\assets\js\edit.js"> </script>
+
+      
+   </body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Love+Light&display=swap');
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+       padding:0;
+       
+   }
+   body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(file:///C:/Users/Administrator/Desktop/Florist/assets/images/img12.jpg);
+    background-size:cover;
+    color:rgb(255, 255, 255);
+}
+.whole-data{
+    margin:3rem 0 3rem 0;
+    border:white;
+    border-style: solid;
+    border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.587);
+  opacity: 0.8;
+  width:50rem; 
+}
+
+h1{
+    
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.contact-h2{
+    font-size:1.8rem;
+  
+}
+.contact-details{
+    margin-top:1rem;
+   
+}
+.contact{
+   padding-top:1rem;
+   font-size:1.3rem;
+   
+
+}
+.step1,.step2,.step3{
+    margin-top : 1rem;
+}
+.step1-details,.step2-details,.step3-details{
+  margin-top:1rem;
+  font-size:1.3rem;
+  
+}
+.step1 h3{
+    padding-bottom:1rem;
+}
+
+.step2 h3{
+      padding-bottom:1rem;
+}
+.step3 h3{
+    padding-bottom:1rem;
+}
+.contact-h2,.step1-h2,.step2-h2,.step3-h2{
+    background-color: rgba(237, 207, 207, 0.461);
+   
+    
+    padding:0.3rem;
+
+   
+}
+ .whole-data #done{
+    border:0.1rem;
+    background-color: rgb(236, 228, 228);
+ display: flex;
+width:10rem;
+justify-content: center;
+    color:rgba(0, 0, 0, 0.804);
+     padding:0.7rem 4rem;
+     border-radius:0.8rem;
+   font-size:1rem;
+   margin:2rem 0 2rem 20rem;
+   text-decoration:none;
+}
+textarea{
+    background-color:transparent;
+    border-color: white;
+    border-radius: 2rem;
+    border-style: solid;
+    color:white;
+    font-size:1.2rem;
+}
+.input{
+    background-color:transparent;
+    border-color: white;
+    border-radius: 2rem;
+    height: 2rem;
+    width:20rem;
+   border-style: solid;
+   color:white;
+   font-size:1.2rem;
+}
+
+
+
+
+  
+
