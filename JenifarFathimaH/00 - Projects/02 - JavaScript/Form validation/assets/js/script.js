@@ -2,6 +2,7 @@ let BASE_URL = "file:///C:/Users/ArunthandavanMullain/Desktop/jenifar-github/Jen
 
 let currentUser = JSON.parse(localStorage.getItem("currentUser"));
 let users_data = JSON.parse(localStorage.getItem("users_data"));
+let editIndex = parseInt(localStorage.getItem("editIndex"));
 
 function signupUser() {
     let username = document.getElementById("signupUsername").value;
@@ -108,13 +109,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function editValue() {
-
+    //document.getElementById("submit").type = "hidden";
+    //document.getElementById("update").type = "button";
     let currentUser = JSON.parse(localStorage.getItem("currentUser"));
     let users_data = JSON.parse(localStorage.getItem("users_data"));
     let editIndex = parseInt(localStorage.getItem("editIndex"));
 
-    //document.getElementById("submit").type = "hidden";
-    //document.getElementById("update").type = "button";
+   
     let edit = users_data[currentUser.username][editIndex];
 
     if (edit) {
