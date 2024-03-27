@@ -1,0 +1,14 @@
+:root {
+    /* Colors */
+    --primary-color: skyblue;
+    --button-color: pink;
+}
+
+
+.color-pink {
+    color: pink !important;
+}
+
+.font-large {
+    font-size: 4rem !important; 
+}

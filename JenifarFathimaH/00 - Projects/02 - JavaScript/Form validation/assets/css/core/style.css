@@ -1,0 +1,121 @@
+.tab {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.tablinks {
+    display: inline-block;
+    background-color: inherit;
+    color: var(--main-text-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+    .tablinks:hover {
+        background-color: var(--hover-color);
+    }
+   
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background: var(--tab-bg-color);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+    width: 30%;
+    margin: auto;
+    
+    color: var(--main-text-color);
+}
+
+.active {
+    background-color: var(--hover-color);
+}
+
+body {
+    background: var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
+    font-family: var(--main-font);
+    text-shadow: 0 0 3px black;
+    margin-top: 5%;
+}
+h1 {
+    text-align: center;
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    
+}
+p {
+    font-family: var(--main-font);
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px inset black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+    input[type="submit"]:hover,
+    input[type="button"]:hover {
+        background-color: var(--hover-button-color);
+        color: var(--hover-button-text-color);
+        border: 1px outset black;
+    }
+
+    input[type="submit"]:disabled,
+    input[type="button"]:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+.profile {
+    background: var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
+    font-family: var(--main-font);
+}
+#userDetails {
+    padding: 20px;
+    background: var(--tab-bg-color);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+    margin: auto;
+    color: var(--main-text-color);
+
+}
+
+    #userDetails td {
+        padding: 3px;
+        border:1px solid white;
+    }
+
+.detail-card {
+
+    padding: 20px;
+    background: var(--tab-bg-color);
+    box-shadow: 1px 1px 10px var(--shadow-color);
+    width: 30%;
+    margin: auto;
+    color: var(--main-text-color);
+}

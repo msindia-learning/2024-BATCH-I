@@ -1,0 +1,16 @@
+:root {
+    --home-background-image: radial-gradient(#000000bf,#963b3b99),url("./img/home.jpg") no-repeat;
+    --about-background-image: radial-gradient(#000000bf,#963b3b99), url("./img/about.jpg") no-repeat;
+    --feedback-background-image: radial-gradient(#000000bf,#963b3b99), url("./img/feedback.jpg") no-repeat;
+    --product-background-image: radial-gradient(#000000bf,#963b3b99), url("./img/product.jpg") no-repeat;
+    --section-size: 100vh;
+    --font-family: 'Pacifico', cursive;
+    --heading-color: white;
+    --heading-size: 3em;
+    --title-size: 2em;
+    --small-text-color: #ffffff99;
+    --small-text-hover-color: #ffffff;
+    --small-text-active-color: #fa6060;
+    --card-color: #000000cc;
+    --card-color-hover: #963b3b99;
+}

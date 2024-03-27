@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/themes/main.css" rel="stylesheet" />
+    <link href="../assets/css/core/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap" rel="stylesheet">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Form Validation</h1>
+        <div id="Login" class="tabcontent">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Login')" id="defaultOpen">Login</button>
+                <button class="tablinks" onclick="openTab(event, 'Signup')">Signup</button>
+            </div>
+            <form id="loginForm">
+                <input type="text" placeholder="Username" name="username" id="loginUsername" required><br />
+                <input type="password" placeholder="Password" name="password" id="loginPassword" required><br />
+                <input type="button" value="Login" onclick="loginUser()">
+                <strong id="loginMessage"></strong>
+            </form>
+        </div>
+
+        <div id="Signup" class="tabcontent">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Login')" id="defaultOpen">Login</button>
+                <button class="tablinks" onclick="openTab(event, 'Signup')">Signup</button>
+            </div>
+            <form id="signupForm" autocomplete="off">
+                <input type="text" placeholder="Username" name="username" id="signupUsername" required><br />
+                <input type="email" placeholder="Email" name="email" id="signupEmail" required><br />
+                <input type="number" placeholder="Age" name="age" id="signupAge" required><br />
+                <input type="number" placeholder="Mobile Number" name="phone" id="signupPhone" required><br />
+                <input type="password" placeholder="Password" name="password" id="signupPassword" required><br />
+                <input type="button" value="Signup" onclick="signupUser()">
+                <strong id="signupMessage"></strong>
+            </form>
+        </div>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/profile.js"></script>
+</body>
+</html>
+

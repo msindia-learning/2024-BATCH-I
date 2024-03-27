@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Login</title>
+    <style>
+    .tabs {
+        overflow:hidden;
+      }
+
+    .tablinks {
+        background-color: #f2f2f2;
+        float: left;
+        border: 1px solid #ccc;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 15px;
+    }
+
+    .tablinks:hover {
+        background-color: #ddd;
+    }
+
+    .tabcontent {
+        display: none;
+        padding: 20px;
+    }
+
+    #signup {
+        display: block;
+    }
+
+</style>
+</head>
+<body>
+    <div>
+        <div class="tabs">
+             <button class="tablinks" onclick="openTab(event, 'signup')">Signup</button>
+             <button class="tablinks" onclick="openTab(event, 'login')">Login</button>
+             <button class="tablinks" onclick="openTab(event, 'admin')">Admin Login</button>
+        </div>
+    
+        <div id="signup" class="tabcontent">
+             <h2>Signup</h2>
+             <form>
+                 <label for="fname">First name:</label>
+                 <input type="text" id="fname" name="fname"><br>
+                 <label for="lname">Last name:</label>
+                 <input type="text" id="lname" name="lname"><br>
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email"><br>
+                 <label for="pwd">Password:</label>
+                 <input type="password" id="pwd" name="pwd"><br>
+                 <label for="pwd1">Re-enter Password:</label>
+                 <input type="password" id="pwd1" name="pwd1"><br>
+                 <input type="checkbox" id="chk" name="chk">
+                 <label for="chk">I assure that the above content is true</label><br>
+
+                 <button type="submit">Signup</button>
+             </form>
+        </div>
+    
+    <div id="login" class="tabcontent">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div id="admin" class="tabcontent">
+        <h2>Admin Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    </div>
+    
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+    </script>
+</body>
+</html>
