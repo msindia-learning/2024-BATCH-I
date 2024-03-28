@@ -1,0 +1,26 @@
+:root {
+	--font-family: "Source sans",sans-serif;
+	--font-family-semibold: "cursive","Source Sans SemiBold",sans-serif;
+	--font-family-bold: "Cursive";
+	/*font-size*/
+	--font-size-small: 12px;
+	--font-size-small: 14px;
+	--font-size-large: 18px;
+	--font-size-larger: 24px;
+	/*font-color*/
+	--font-color: white;
+	--secondary-font-color: black;
+	/*Background-color*/
+	--background-color: skyblue;
+	--background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Background.jpg');
+	/*background colors*/
+	--primary-background-color: #999999;
+	--secondary-background-color: #e2e9e9;
+	--list-background-color: #ffe6cc;
+	/*border*/
+	--border: 2px solid white;
+	/*collection file*/
+	/*font*/
+	--collection-font-family: Arial, sans-serif;
+	--collection-container-background-color: #ffffcc;
+}
