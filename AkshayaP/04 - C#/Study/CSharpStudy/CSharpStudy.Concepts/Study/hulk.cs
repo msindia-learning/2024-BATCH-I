@@ -1,4 +1,4 @@
-﻿using systems;
+﻿using System;
 
 class Hulk
 {
@@ -7,8 +7,8 @@ class Hulk
         Console.WriteLine("Enter the Number of Layers:");
         int n = Convert.ToInt32(Console.ReadLine());
 
-        string hulkFeeling = "I hate it";
-        for(int = 0; i <= n; int++)
+        string hulkFeeling = "I hate";
+        for(int i = 0; i <= n; i++)
         {
             if(i % 2 == 0)
             {
@@ -21,6 +21,6 @@ class Hulk
             }
         }
         hulkFeeling += "it";
-        Console.WriteLine(feeling);
+        Console.WriteLine(hulkFeeling);
     }
 }
